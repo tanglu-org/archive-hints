@@ -1,0 +1,247 @@
+#
+# There's a list of general packages at the bottom of this file, add
+# things there unless it makes sense for them to be in blocks.
+# This file was branched from Ubuntu, it contains Tanglu-specific adjustments!
+
+# These packages currently fail to autosync
+# NONE
+
+# benc: we do our own kernel
+bluez-firmware
+fglrx-driver
+firmware-nonfree
+linux-patch-debianlogo
+kernel-patch-grsecurity2
+linux
+linux-2.6
+linux-kbuild
+linux-kbuild-2.6
+linux-latest
+linux-patch-grsecurity2
+linux-patch-tuxonice
+linux-tools
+nvidia-graphics-drivers
+nvidia-graphics-drivers-legacy-71xx
+nvidia-graphics-drivers-legacy-96xx
+nvidia-graphics-drivers-legacy-173xx
+nvidia-graphics-modules
+nvidia-xconfig
+zd1211-firmware
+kernel-patch-viewos
+
+# Mozilla stuff
+# Also see new rapid release maintenance: LP: #816377
+icedove # we call it thunderbird
+icedove-l10n
+iceweasel # Debian going to name firefox this
+iceweasel-linky
+firefox # Debian will probably make this transitional to iceweasel
+iceape # we call it mozilla
+iceowl-l10n # we call it sunbird
+edbrowse
+
+nvidia-support # vorlon, different package provenance in Debian and Ubuntu
+
+aboot # cjwatson, no alpha in Ubuntu
+freebsd-libs # vorlon, no freebsd port in Ubuntu
+kfreebsd-8 # vorlon, no freebsd port in Ubuntu
+kfreebsd-9 # cjwatson, no freebsd port in Ubuntu
+kfreebsd-defaults # geser, no freebsd port in Ubuntu
+app-install-data # mvo, wrong!
+
+imagezoom # dead upstream, does not work with ffox 3.0/3.5, LP#455836
+
+# unsupportable Mozilla extensions, see https://wiki.ubuntu.com/DesktopTeam/Specs/Lucid/FirefoxNewSupportModel/extension-list
+adblock-plus
+adblock-plus-element-hiding-helper
+all-in-one-sidebar
+autofill-forms
+automatic-save-folder
+bidiui
+biofox
+cacheviewer
+certificatepatrol
+compactheader
+cookie-monster
+custom-tab-width
+dactyl
+debianbuttons
+diggler
+downloadstatusbar
+downthemall
+firebug
+firecookie
+firegestures
+firetray
+firexpath
+fission
+flashblock
+flashgot
+foxyproxy
+fullscreen-extension
+gcontactsync
+google-bookmarks
+google-gadgets
+greasemonkey
+https-everywhere
+iceweasel-linky
+imap-acl-extension
+itsalltext
+kazehakase
+linky
+livehttpheaders
+mozgest
+mozilla-dom-inspector
+mozilla-noscript
+mozzemberek
+nosquint
+nostalgy
+notify-extension
+nukeimage
+openinbrowser
+paros
+personasplus
+perspectives-extension
+pwdhash
+quickproxy
+quotecolors
+refcontrol
+reloadevery
+requestpolicy
+sage-extension
+scrapbook
+searchload-options
+sieve-extension
+status-4-evar
+stumbleupon
+syncplaces
+tabmixplus
+toggle-proxy
+torbutton
+tree-style-tab
+ubiquity-extension
+uppity
+useragentswitcher
+venkman
+videolink
+vimperator
+weave
+webdeveloper
+wot
+xul-ext-monkeysphere
+xul-ext-zotero
+zarafa-drag-n-drop
+
+# debian-edu is redundant, etc, etc #569959
+debian-edu-archive-keyring
+debian-edu-artwork
+debian-edu-config
+debian-edu-doc
+debian-edu-install
+
+ubiquity # Debian might soon get a completely unrelated package
+
+# didrocks, 2011-06-10
+# Mozilla maintainance policy as per (LP: #795450)
+instantbird
+libgtk2-mozembed-perl
+libjdic-java
+sugar-hulahop
+
+# cjwatson, 2011-09-02
+proll # only buildable/useful on sparc (LP: #836956)
+
+# doko, 2011-09-06
+meta-gnome2 # pitti, Debian metapackage, we use GNOME 3 now, #828537
+
+# pitti: obsolete GNOME panel applets which have not been ported to GNOME 3
+bubblemon
+byzanz
+ddccontrol
+ddccontrol-db
+file-browser-applet
+glunarclock
+gnome-main-menu
+hardware-monitor
+hdate-applet
+hspell-gui
+imhangul-status-applet
+link-monitor-applet
+pomodoro-applet
+fbxkb
+
+# doko, 2011-09-08
+openbios-sparc # FTBFS, sparc only, LP: #756100'
+
+# cjwatson, 2011-09-08
+debian-installer-netboot-images # Debian-specific; impractical to maintain for Ubuntu
+
+tasks # pitti, unmaintained, rdepends of libhildonmime
+
+libdbd-informix-perl # pitti, cannot be autobuilt, requires non-free library, LP#749059
+
+# doko, 2011-09-14
+g15daemon-audacious #  FTBFS in oneiric, see LP: #749068, Debian #620917, removed in testing, remove and black-list
+
+mplayer-blue # pitti, superseded by mplayer-skins, LP#825065
+
+# doko, 2011-09-16
+asterisk-chan-capi # FTBFS in oneiric, see LP: #831124, Debian #625020, remove and black-list
+audacious-dumb # FTBFS in oneiric, see LP: #749141, Debian #620919, remove and black-list
+
+# doko, 2011-09-17
+pycg # FTBFS in oneiric, see LP: #755990, orphaned in Debian, see #634208, blacklisting
+dssi-vst # FTBFS in oneiric, see LP: #770884, removed from Debian testing, black-listing
+
+# doko, 2011-09-19
+serna-free # FTBFS in oneiric, see LP: #756202, Debian #599995, #568910, not in stable and testing, remove and black-list
+
+# doko, 2011-09-29
+gnumach # FTBFS in oneiric, see LP: #174851, GNU Mach specific
+mig
+
+kipi-plugins # pitti, superseded by digikam, LP#857689
+
+ia32-libs # Obsolete package
+
+# doko, 2011-12-06
+squid # Remove and blacklist source, lp #900741
+
+# renamed from ttf-* to fonts-*
+ttf-lao
+
+# cjwatson, 2011-12-13
+zope-quotafolder # reused orig version with epoch
+
+# doko, 2012-01-02, remove and blacklist packages provided by python2.7, lp #910409
+argparse
+importlib
+
+# doko, 2012-01-31, libjpeg8 replaced by libjpeg8-empty and libjpeg-turbo
+libjpeg8
+
+telepathy-butterfly # pitti, unmaintained, superseded by telepathy-haze
+papyon # pitti, unmaintained, superseded by telepathy-haze, no rdepends, LP#953061
+telepathy-farsight # pitti, superseded by telepathy-farstream
+gok # pitti, uses old and dropped at-spi 1 stack, LP#972101
+
+mysql-5.1 # jdstrand, superseded by mysql-5.5, LP: #894377
+facturlinex2 # jdstrand, does not currently support mysql-5.5. LP: #894377
+python2.6 # pitti, we only want to support 2.7 in LTS, LP#979923
+zope2.12 # pitti, incompatible with python2.7, LP#979923
+openoffice.org # pitti, transitional package for <= precise
+
+at-spi # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
+gnome-mag # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
+pyspi # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
+
+gnat-4.4 # micahg, unused; LP: #986096
+
+libdbd-oracle-perl # stefanor, unbuildable due to build-dep on proprietary package; LP: #638882
+ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-perl; LP: #638879
+
+# doko, 2012-11-08
+python3.2 # removed in raring
+
+# ScottK, 2013-03-18
+calligra-transitional # Ubuntu did transition before 12.04
