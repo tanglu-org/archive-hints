@@ -6,6 +6,8 @@
 # These packages currently fail to autosync
 # NONE
 
+base-files
+
 # benc: we do our own kernel
 bluez-firmware
 fglrx-driver
