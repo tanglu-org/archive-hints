@@ -241,6 +241,3 @@ gnat-4.4 # micahg, unused; LP: #986096
 
 libdbd-oracle-perl # stefanor, unbuildable due to build-dep on proprietary package; LP: #638882
 ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-perl; LP: #638879
-
-# ScottK, 2013-03-18
-calligra-transitional # Ubuntu did transition before 12.04
