@@ -45,10 +45,7 @@ edbrowse
 nvidia-support # vorlon, different package provenance in Debian and Ubuntu
 
 aboot # cjwatson, no alpha in Ubuntu
-freebsd-libs # vorlon, no freebsd port in Ubuntu
-kfreebsd-8 # vorlon, no freebsd port in Ubuntu
-kfreebsd-9 # cjwatson, no freebsd port in Ubuntu
-kfreebsd-defaults # geser, no freebsd port in Ubuntu
+
 app-install-data # mvo, wrong!
 
 imagezoom # dead upstream, does not work with ffox 3.0/3.5, LP#455836
@@ -245,3 +242,14 @@ ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-
 # Hurd
 hurd
 hurd-libfuse
+
+# FreeBSD
+freebsd-libs # vorlon, no freebsd port in Ubuntu
+kfreebsd-8 # vorlon, no freebsd port in Ubuntu
+kfreebsd-9 # cjwatson, no freebsd port in Ubuntu
+kfreebsd-defaults # geser, no freebsd port in Ubuntu
+kfreebsd-downloader
+freebsd-smbfs
+freebsd-utils
+freebsd-quota
+fuse4bsd
