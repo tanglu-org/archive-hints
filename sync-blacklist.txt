@@ -132,6 +132,11 @@ xul-ext-zotero
 zarafa-drag-n-drop
 
 colo # ximion, cannot be imported due to Sha1-Checksum issue, and is MIPS-only
+arcload
+sparc-utils # ximion, we don't build for Sparc (also checksum issue)
+pbbuttonsd # ximion, for old Apple computers (unsupported, and powerpc-only)
+lsadb
+powerpc-ibm-utils
 
 # debian-edu is redundant, etc, etc #569959
 debian-edu-archive-keyring
