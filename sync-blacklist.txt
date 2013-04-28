@@ -131,10 +131,12 @@ xul-ext-monkeysphere
 xul-ext-zotero
 zarafa-drag-n-drop
 
+# old GCC versions which we don't need
 gcc-3.3
 gcc-4.4
 gcc-4.5
 gcc-4.6
+gcc-4.7
 
 colo # ximion, cannot be imported due to Sha1-Checksum issue, and is MIPS-only
 arcload
