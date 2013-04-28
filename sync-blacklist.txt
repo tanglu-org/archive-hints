@@ -131,6 +131,8 @@ xul-ext-monkeysphere
 xul-ext-zotero
 zarafa-drag-n-drop
 
+colo # ximion, cannot be imported due to Sha1-Checksum issue, and is MIPS-only
+
 # debian-edu is redundant, etc, etc #569959
 debian-edu-archive-keyring
 debian-edu-artwork
@@ -243,13 +245,15 @@ ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-
 hurd
 hurd-libfuse
 
-# FreeBSD
+# FreeBSD stuff
 freebsd-libs # vorlon, no freebsd port in Ubuntu
 kfreebsd-8 # vorlon, no freebsd port in Ubuntu
 kfreebsd-9 # cjwatson, no freebsd port in Ubuntu
 kfreebsd-defaults # geser, no freebsd port in Ubuntu
 kfreebsd-downloader
+kfreebsd-kernel-headers
 freebsd-smbfs
 freebsd-utils
 freebsd-quota
 fuse4bsd
+openbgpd
