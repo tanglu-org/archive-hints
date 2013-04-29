@@ -137,6 +137,10 @@ gcc-4.4
 gcc-4.5
 #gcc-4.6 # unfortunately, some packages still need old gcc-4.6 to build
 gcc-4.7
+gcj-4.7
+
+# udev is packaged via systemd
+udev
 
 colo # ximion, cannot be imported due to Sha1-Checksum issue, and is MIPS-only
 arcload
