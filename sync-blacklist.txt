@@ -273,3 +273,5 @@ freebsd-utils
 freebsd-quota
 fuse4bsd
 openbgpd
+cuse4bsd
+
