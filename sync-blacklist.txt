@@ -135,8 +135,9 @@ zarafa-drag-n-drop
 gcc-3.3
 gcc-4.4
 gcc-4.5
-#gcc-4.6 # unfortunately, some packages still need old gcc-4.6 to build
+gcc-4.6
 gcc-4.7
+
 gcj-4.6
 
 # udev is packaged via systemd
