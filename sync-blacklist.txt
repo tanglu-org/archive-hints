@@ -276,3 +276,5 @@ fuse4bsd
 openbgpd
 cuse4bsd
 
+# Other
+postgresql-8.4
