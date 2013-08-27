@@ -8,11 +8,8 @@
 
 base-files
 
-# benc: we do our own kernel
+# don't sync kernel bits which we do on our own
 bluez-firmware
-fglrx-driver
-firmware-nonfree
-linux-patch-debianlogo
 kernel-patch-grsecurity2
 linux
 linux-2.6
@@ -21,13 +18,6 @@ linux-kbuild-2.6
 linux-latest
 linux-patch-grsecurity2
 linux-patch-tuxonice
-linux-tools
-nvidia-graphics-drivers
-nvidia-graphics-drivers-legacy-71xx
-nvidia-graphics-drivers-legacy-96xx
-nvidia-graphics-drivers-legacy-173xx
-nvidia-graphics-modules
-nvidia-xconfig
 zd1211-firmware
 kernel-patch-viewos
 
@@ -41,8 +31,6 @@ firefox # Debian will probably make this transitional to iceweasel
 iceape # we call it mozilla
 iceowl-l10n # we call it sunbird
 edbrowse
-
-nvidia-support # vorlon, different package provenance in Debian and Ubuntu
 
 aboot # cjwatson, no alpha in Ubuntu
 
@@ -281,3 +269,4 @@ postgresql-8.4
 
 # usupported architectures
 openbios-ppc
+
