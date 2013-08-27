@@ -16,6 +16,7 @@ linux-2.6
 linux-kbuild
 linux-kbuild-2.6
 linux-latest
+linux-patch-debianlogo
 linux-patch-grsecurity2
 linux-patch-tuxonice
 zd1211-firmware
