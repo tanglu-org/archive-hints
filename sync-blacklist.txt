@@ -269,6 +269,8 @@ freebsd-quota
 fuse4bsd
 openbgpd
 cuse4bsd
+freebsd-glue
+freebsd-buildutils
 
 # Other
 postgresql-8.4
