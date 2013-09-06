@@ -6,6 +6,11 @@
 # These packages currently fail to autosync
 # NONE
 
+# temporary
+webkit # superseded by webkitgtk
+
+##
+
 base-files
 
 # don't sync kernel bits which we do on our own
