@@ -277,4 +277,4 @@ postgresql-8.4
 
 # usupported architectures
 openbios-ppc
-
+slof
