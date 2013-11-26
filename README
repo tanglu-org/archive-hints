@@ -1,0 +1,10 @@
+== The Tanglu Archive Control Files ==
+Tanglu Archive Admins and automatic services can control stuff which enters the archive
+and gets deleted from it by using britney hints files, or by blocking the import of
+certain packages from Debian.
+It is also possible to advise the janitor not to remove a certain package, even if he thinks
+that the package is cruft.
+
+Please be VERY careful when making changes to these files! There is a high chance that you
+might break something.
+Only Tanglu archive admins and assistants should have access to this repository.
