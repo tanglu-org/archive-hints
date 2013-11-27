@@ -1,0 +1,10 @@
+# Download Sources and
+# Packages for listed architectures into current directory.
+
+mirror = "http://archive.tanglu.org/tanglu";
+suite = "aequorea";
+areas = [ "main"; "contrib"; "non-free" ];
+
+architectures = [
+    "amd64"; "i386"
+];
