@@ -1,10 +1,8 @@
 title = "Haskell";
-
-architectures = [ "amd64" ];
-
+architectures = [ "amd64"; "i386" ];
 is_affected = .source ~ /ghc/
             | .build-depends ~ /ghc/
             | .build-depends ~ /haskell-devscripts/
             | .depends ~ /libghc-/;
-is_good = !.uninstallable ~ /yes/;
-is_bad = .uninstallable ~ /yes/;
+is_good = !.debcheck ~ /uninstallable/;
+is_bad = .debcheck ~ /uninstallable/;
