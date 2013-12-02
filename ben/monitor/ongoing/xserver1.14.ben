@@ -1,0 +1,4 @@
+title = "xorg-server 1.14";
+is_affected = .build-depends ~ /xserver-xorg-dev/;
+is_bad = .depends ~ /xorg-input-abi-16|xorg-video-abi-12/;
+is_good = .depends ~ /xorg-input-abi-19|xorg-video-abi-14/;
