@@ -32,3 +32,6 @@ force linux-tools/3.11-3tanglu1
 
 # KDE 4.11 helper
 force kde-workspace/4:4.11.3-2tanglu3
+
+# VLC 2.1
+force vlc/2.1.1-1
