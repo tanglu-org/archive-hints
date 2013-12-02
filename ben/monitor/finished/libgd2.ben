@@ -1,0 +1,5 @@
+title = "libgd3";
+is_affected = .build-depends ~ /libgd2|libgdchart-gd2/;
+is_good = .depends ~ /libgd3/;
+is_bad = .depends ~ /libgd2-(noxpm|xpm)\s/;
+notes = "#706828";

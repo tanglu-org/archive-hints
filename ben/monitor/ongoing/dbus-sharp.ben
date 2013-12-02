@@ -1,0 +1,4 @@
+title = "dbus-sharp";
+is_affected = .depends ~ /libdbus1.0-cil|libdbus-glib1.0-cil/ | .depends ~ /libdbus2.0-cil|libdbus-glib2.0-cil/;
+is_good = .depends ~ /libdbus2.0-cil|libdbus-glib2.0-cil/;
+is_bad = .depends ~ /libdbus1.0-cil|libdbus-glib1.0-cil/;

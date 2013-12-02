@@ -1,0 +1,5 @@
+title = "libpqxx";
+is_affected = .build-depends ~ /libpqxx/;
+is_good = .depends ~ "libpqxx-4.0";
+is_bad = .depends ~ "libpqxx-3.1";
+notes = "#710176";

@@ -1,0 +1,5 @@
+title = "motif";
+is_affected = .build-depends ~ /lesstif2-dev/ | .build-depends ~ /libmotif-dev/;
+is_good = .depends ~ /libxm4/ | .depends ~ /libmrm4/ | .depends ~ /libuil4/;
+is_bad = .depends ~ /lesstif2/;
+notes = "#708462";

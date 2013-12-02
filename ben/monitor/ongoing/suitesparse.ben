@@ -1,0 +1,5 @@
+title = "suitesparse";
+is_affected = .build-depends ~ /libsuitesparse-dev/;
+is_good = .depends ~ /lib(amd2.3.1|camd2.3.1|btf1.2.0|colamd2.8.0|ccolamd2.8.0|cholmod2.1.2|csparse3.1.2|cxsparse3.1.2|klu1.2.1|ldl2.1.0|umfpack5.6.2|spqr1.3.1)/;
+is_bad = .depends ~ /lib(amd2.2.0|camd2.2.0|btf1.1.0|colamd2.7.1|ccolamd2.7.1|cholmod1.7.1|csparse2.2.3|cxsparse2.2.3|klu1.1.0|ldl2.0.1|umfpack5.4.0)/;
+notes = "#708401";

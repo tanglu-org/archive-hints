@@ -1,0 +1,5 @@
+title = "libav 9";
+is_affected = .build-depends ~ /lib(avcodec|avformat|avutil)-dev/;
+is_good = .depends ~ /lib(avcodec54|avformat54|avutil52)/;
+is_bad = .depends ~ /lib(avcodec53|avformat53|avutil51)/;
+notes = "#706798";
