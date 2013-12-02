@@ -1,0 +1,4 @@
+title = "kde 4.11";
+is_affected = .build-depends ~ /kde(base)?-workspace-dev|libkipi-dev|libokular-dev|libkdegames-dev|libmarble-dev|libanalitza-dev/;
+is_bad = .depends ~ /lib(kdecorations4abi1|kwineffects1abi4|kwinglutils1abi1|plasmaclock4abi3|solidcontrol4abi2|solidcontrolifaces4abi2|taskmanager4abi3 |okularcore2|kipi10|marblewidget15|kdecorations4abi1|kwinglutils1abi1|analitza4abi2|analitzagui4abi1|analitzaplot4|kdegames6\b|kasten2okteta1controllers1\b)/;
+is_good = .depends ~ /lib(kdecorations4abi2|kwineffects1abi5|kwinglutils1abi2|plasmaclock4abi4|taskmanager4abi4|okularcore3|kipi11|marblewidget16|kdecorations4abi2|kwinglutils1abi2|analitza5|analitzagui5|analitzaplot5|kdegames6abi1|kasten2okteta1controllers1abi1)/;

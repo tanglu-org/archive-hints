@@ -1,0 +1,5 @@
+title = "packagekit 0.8";
+is_affected = .build-depends ~ /libpackagekit/;
+is_good = .depends ~ "libpackagekit-glib2-16" | .depends ~ "libpackagekit-qt2-6";
+is_bad = .depends ~ "libpackagekit-glib2-14" | .depends ~ "libpackagekit-qt2-2";
+notes = "Debian bug#705692";

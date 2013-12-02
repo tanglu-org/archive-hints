@@ -1,0 +1,4 @@
+title = "libudev";
+is_affected = .depends ~ "libudev0" | .depends ~ "libudev1";
+is_good = .depends ~ "libudev1";
+is_bad = .depends ~ "libudev0";
