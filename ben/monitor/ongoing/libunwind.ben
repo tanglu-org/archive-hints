@@ -1,0 +1,4 @@
+title = "libunwind";
+is_affected = .build-depends ~ /libunwind.?-dev/;
+is_good = .depends ~ "libunwind8";
+is_bad = .depends ~ "libunwind7";
