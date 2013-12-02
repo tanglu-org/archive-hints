@@ -1,0 +1,5 @@
+title = "libaudit1";
+is_affected = .build-depends ~ "libaudit-dev";
+is_good = .depends ~ /libaudit1|libauparse0/;
+is_bad = .depends ~ "libaudit0";
+notes = "Debian bug#706973";

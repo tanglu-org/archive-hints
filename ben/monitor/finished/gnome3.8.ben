@@ -1,0 +1,5 @@
+title = "GNOME 3.8: gnome-desktop (and all the rest)";
+is_affected = .depends ~ "libgnome-desktop-3-2" | .depends ~ "libgnome-desktop-3-7" | .depends ~ "libmutter0" | .depends ~ "libmutter0b";
+is_good = .depends ~ /lib(gnome-desktop-3-7|mutter0b)/;
+is_bad = .depends ~ /lib(gnome-desktop-3-2|mutter0\b)/;
+notes = "Tanglu Transition to GNOME 3.8";
