@@ -26,8 +26,8 @@ force perl/5.18.1-4
 force digikam/4:3.4.0-1tanglu1
 
 # Linux 3.11
-force linux/3.11.6-2tanglu1
-force linux-latest/53tanglu1
+force linux/3.11.10-1tanglu1
+force linux-latest/53tanglu3
 force linux-tools/3.11-3tanglu1
 
 # KDE 4.11 helper
