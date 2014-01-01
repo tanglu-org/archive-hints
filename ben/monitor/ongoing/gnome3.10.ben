@@ -1,0 +1,5 @@
+title = "GNOME 3.10: gnome-desktop";
+is_affected = .build-depends ~ /libgnome-desktop-3-dev/;
+is_good = .depends ~ /libgnome-desktop-3-8/;
+is_bad = .depends ~ /libgnome-desktop-3-7/;
+notes = "Tanglu Transition to GNOME 3.10";
