@@ -1,0 +1,5 @@
+title = "icu 52";
+is_affected = .depends ~ /libicu/;
+is_good = .depends ~ /libicu52/;
+is_bad = .depends ~ /libicu48/;
+notes = "Debian bug#729531";

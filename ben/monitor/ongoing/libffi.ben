@@ -1,0 +1,5 @@
+title = "libffi";
+is_affected = .build-depends ~ /lib(n?32|64|)ffi-dev/ | .depends ~ /libffi/;
+is_bad = .depends ~ /lib(n?32|64|)ffi5/;
+is_good = .depends ~ /lib(n?32|64|)ffi6/;
+notes = "Debian bug#667906";
