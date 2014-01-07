@@ -1,0 +1,5 @@
+title = "opencv 2.4";
+is_affected = .build-depends ~ /(libhighgui|libcv(aux)?|libopencv(-(calib3d|contrib|core|features2d|flann|gpu|highgui|imgproc|legacy|ml|objdetect|photo|stitching|superres|ts|video(stab)?))?)-dev/;
+is_bad = .depends ~ /libhighgui2.3|libcv(aux)?2.3|libopencv-(calib3d|contrib|core|features2d|flann|gpu|highgui|imgproc|legacy|ml|objdetect|video)2.3/;
+is_good = .depends ~ /libhighgui2.4|libcv(aux)?2.4|libopencv-(calib3d|contrib|core|features2d|flann|gpu|highgui|imgproc|legacy|ml|objdetect|photo|stitching|superres|ts|video(stab)?)2.4/;
+notes = "Tanglu Transition. Reference: Debian bug#721895";

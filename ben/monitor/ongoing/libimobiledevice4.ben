@@ -1,0 +1,4 @@
+title = "libimobiledevice4";
+is_affected = .build-depends ~ /libimobiledevice-dev/;
+is_bad = .depends ~ /libimobiledevice2/;
+is_good = .depends ~ /libimobiledevice4/;
