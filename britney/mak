@@ -10,12 +10,6 @@ remove bluez-hcidump/2.5-1
 # we migrated to webkitgtk
 block webkit
 
-# GNOME-3.8 migration hints
-force gjs/1.37.6-0tanglu1 gnome-shell/3.8.4-1tanglu1
-force gnome-desktop3/3.8.3-1
-force gnome-settings-daemon/3.8.4-2
-force cogl/1.14.0-3
-
 # rebuild, we want this in aequorea!
 force libpeas/1.8.1-1build1
 
