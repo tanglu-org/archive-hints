@@ -1,0 +1,5 @@
+title = "libharfbuzz0b";
+is_affected = .build-depends ~ /libharfbuzz/;
+is_good = .depends ~ "libharfbuzz0b" | .depends ~ "libharfbuzz-gobject0";
+is_bad = .depends ~ "libharfbuzz0a";
+notes = "Tanglu Transition. Related Debian bug: #726385";
