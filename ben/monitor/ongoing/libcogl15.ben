@@ -1,0 +1,5 @@
+title = "libcogl15";
+is_affected = .depends ~ /libcogl(12|15)|libcogl-pango(12|15)/ & ! .source ~ "cogl";
+is_good = .depends ~ /libcogl15|libcogl-pango15/;
+is_bad = .depends ~ /libcogl12|libcogl-pango12/;
+notes = "Tanglu Cogl 1.16 transition";
