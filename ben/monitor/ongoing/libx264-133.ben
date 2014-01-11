@@ -1,0 +1,5 @@
+title = "x264";
+is_affected = .build-depends ~ "libx264-dev";
+is_good = .depends ~ "libx264-133";
+is_bad = .depends ~ "libx264-123";
+notes = "Tanglu Transition. Debian bug (for reference): #709039";
