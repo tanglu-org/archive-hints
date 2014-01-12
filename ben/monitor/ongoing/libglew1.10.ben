@@ -1,0 +1,5 @@
+title = "libglew1.10";
+is_affected = .build-depends ~ /libglew(mx)?-dev/;
+is_good = .depends ~ "libglew1.10" | .depends ~ "libglewmx1.10";
+is_bad = .depends ~ "libglew1.7" | .depends ~ "libglewmx1.7" | .depends ~ "libglew1.9" | .depends ~ "libglewmx1.9";
+notes = "Tanglu transition. Reference: Debian bug#714040";
