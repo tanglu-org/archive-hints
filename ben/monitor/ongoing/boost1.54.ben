@@ -1,5 +1,5 @@
 title = "boost 1.54";
 is_affected = .build-depends ~ /libboost[0-9\.a-z-]*-dev/;
-is_good = .depends ~ /libboost[a-z-]*1\.54/;
+is_good = .depends ~ /libboost[a-z-]*1\.5[4-6]/;
 is_bad = .depends ~ /libboost[a-z-]*1\.(4[6-9]|5[0-3])/;
 notes = "Debian bug#704032";
