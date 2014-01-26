@@ -1,7 +1,7 @@
 #
 # There's a list of general packages at the bottom of this file, add
 # things there unless it makes sense for them to be in blocks.
-# This file was branched from Ubuntu, it contains Tanglu-specific adjustments!
+# This file was branched from Ubuntu, it contains Tanglu-specific adjustments.
 
 # These packages currently fail to autosync
 # NONE
@@ -28,14 +28,14 @@ zd1211-firmware
 kernel-patch-viewos
 
 # Mozilla stuff
-# Also see new rapid release maintenance: LP: #816377
-icedove # we call it thunderbird
-icedove-l10n
-iceweasel # Debian going to name firefox this
+# FIXME: Right now, we want icedove in Tanglu
+#icedove # we call it thunderbird
+#icedove-l10n
+#iceowl-l10n # we call it sunbird
+iceweasel # We package Firefox separately (as Firefox)
 iceweasel-linky
 firefox # Debian will probably make this transitional to iceweasel
 iceape # we call it mozilla
-iceowl-l10n # we call it sunbird
 edbrowse
 
 aboot # cjwatson, no alpha in Ubuntu
@@ -125,7 +125,7 @@ xul-ext-monkeysphere
 xul-ext-zotero
 zarafa-drag-n-drop
 
-# old GCC versions which we don't need
+# old GCC versions which we don't support
 gcc-3.3
 gcc-4.4
 gcc-4.5
