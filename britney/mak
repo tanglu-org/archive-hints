@@ -10,20 +10,14 @@ remove bluez-hcidump/2.5-1
 # we migrated to webkitgtk
 block webkit
 
-# rebuild, we want this in aequorea!
-force libpeas/1.8.1-1build1
-
 # Perl 5.18 migration
 force perl/5.18.1-4
-
-# DigiKam
-force digikam/4:3.4.0-1tanglu1
 
 # Linux 3.11
 force-hint linux/3.11.10-1tanglu1 linux-latest/53tanglu3 linux-tools/3.11-3tanglu1
 
-# KDE 4.11 helper
-force kde-workspace/4:4.11.3-2tanglu3
-
 # VLC 2.1
 force vlc/2.1.1-1
+
+# Package removed from Debian Testing/Unstable
+remove denyhosts/2.6-10+deb7u3b1
