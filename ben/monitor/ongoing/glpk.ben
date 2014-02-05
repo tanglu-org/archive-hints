@@ -1,0 +1,5 @@
+title = "glpk";
+is_affected = .build-depends ~ "libglpk-dev";
+is_good = .depends ~ "libglpk36";
+is_bad = .depends ~ "libglpk0";
+notes = "Tanglu Transition. Debian bug (for reference): #714398";
