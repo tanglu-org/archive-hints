@@ -1,0 +1,5 @@
+title = "libass";
+is_affected = .build-depends ~ "libass-dev";
+is_good = .depends ~ "libass5";
+is_bad = .depends ~ "libass4";
+notes = "Tanglu Transition for libass5";
