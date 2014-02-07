@@ -21,3 +21,6 @@ force vlc/2.1.1-1
 
 # Package removed from Debian Testing/Unstable
 remove denyhosts/2.6-10+deb7u3b1
+
+# BSH
+force bsh/2.0b4-16b1
