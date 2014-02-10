@@ -229,9 +229,6 @@ zope-quotafolder # reused orig version with epoch
 argparse
 importlib
 
-# doko, 2012-01-31, libjpeg8 replaced by libjpeg8-empty and libjpeg-turbo
-libjpeg8
-
 telepathy-butterfly # pitti, unmaintained, superseded by telepathy-haze
 papyon # pitti, unmaintained, superseded by telepathy-haze, no rdepends, LP#953061
 telepathy-farsight # pitti, superseded by telepathy-farstream
