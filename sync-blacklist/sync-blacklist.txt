@@ -10,14 +10,7 @@
 
 base-files
 
-# don't sync kernel bits which we do on our own
-bluez-firmware
-linux
-linux-latest
 linux-patch-debianlogo
-linux-patch-grsecurity2
-zd1211-firmware
-kernel-patch-viewos
 
 # Mozilla stuff
 # FIXME: Right now, we want icedove/iceowl in Tanglu
@@ -27,10 +20,6 @@ kernel-patch-viewos
 #iceowl-l10n
 iceweasel # We package Firefox separately (as Firefox)
 firefox # Debian will probably make this transitional to iceweasel
-
-aboot # cjwatson, no alpha in Ubuntu
-
-app-install-data # mvo, wrong!
 
 # unsupportable Mozilla extensions, see https://wiki.ubuntu.com/DesktopTeam/Specs/Lucid/FirefoxNewSupportModel/extension-list
 adblock-plus
@@ -150,8 +139,6 @@ debian-edu-config
 debian-edu-doc
 debian-edu-install
 
-ubiquity # Debian might soon get a completely unrelated package
-
 # cjwatson, 2011-09-02
 proll # only buildable/useful on sparc (LP: #836956)
 
@@ -178,12 +165,6 @@ audacious-dumb # FTBFS in oneiric, see LP: #749141, Debian #620919, remove and b
 
 # doko, 2011-09-19
 serna-free # FTBFS in oneiric, see LP: #756202, Debian #599995, #568910, not in stable and testing, remove and black-list
-
-# doko, 2011-12-06
-squid # Remove and blacklist source, lp #900741
-
-# cjwatson, 2011-12-13
-zope-quotafolder # reused orig version with epoch
 
 facturlinex2 # jdstrand, does not currently support mysql-5.5. LP: #894377
 
