@@ -123,16 +123,6 @@ gnat-4.6
 # udev is packaged via systemd
 udev
 
-colo # ximion, cannot be imported due to Sha1-Checksum issue, and is MIPS-only
-arcload
-sparc-utils # ximion, we don't build for Sparc (also checksum issue)
-pbbuttonsd # ximion, for old Apple computers (unsupported, and powerpc-only)
-lsadb
-powerpc-ibm-utils
-
-# cjwatson, 2011-09-02
-proll # only buildable/useful on sparc (LP: #836956)
-
 # pitti: obsolete GNOME panel applets which have not been ported to GNOME 3
 byzanz
 ddccontrol
@@ -141,9 +131,6 @@ hdate-applet
 hspell-gui
 link-monitor-applet
 fbxkb
-
-# doko, 2011-09-08
-openbios-sparc # FTBFS, sparc only, LP: #756100'
 
 mplayer-blue # pitti, superseded by mplayer-skins, LP#825065
 
@@ -205,6 +192,14 @@ ufsutils
 freebsd-glue
 freebsd-buildutils
 
-# usupported architectures
+# Non-amd64/i386 arch specific stuff
+openbios-sparc
 openbios-ppc
+proll
 slof
+colo
+arcload
+sparc-utils
+pbbuttonsd
+lsadb
+powerpc-ibm-utils
