@@ -6,24 +6,16 @@
 # These packages currently fail to autosync
 # NONE
 
-# temporary
-webkit # superseded by webkitgtk
-
 ##
 
 base-files
 
 # don't sync kernel bits which we do on our own
 bluez-firmware
-kernel-patch-grsecurity2
 linux
-linux-2.6
-linux-kbuild
-linux-kbuild-2.6
 linux-latest
 linux-patch-debianlogo
 linux-patch-grsecurity2
-linux-patch-tuxonice
 zd1211-firmware
 kernel-patch-viewos
 
@@ -39,8 +31,6 @@ firefox # Debian will probably make this transitional to iceweasel
 aboot # cjwatson, no alpha in Ubuntu
 
 app-install-data # mvo, wrong!
-
-imagezoom # dead upstream, does not work with ffox 3.0/3.5, LP#455836
 
 # unsupportable Mozilla extensions, see https://wiki.ubuntu.com/DesktopTeam/Specs/Lucid/FirefoxNewSupportModel/extension-list
 adblock-plus
@@ -162,33 +152,16 @@ debian-edu-install
 
 ubiquity # Debian might soon get a completely unrelated package
 
-# didrocks, 2011-06-10
-# Mozilla maintainance policy as per (LP: #795450)
-instantbird
-libgtk2-mozembed-perl
-libjdic-java
-sugar-hulahop
-
 # cjwatson, 2011-09-02
 proll # only buildable/useful on sparc (LP: #836956)
 
-# doko, 2011-09-06
-meta-gnome2 # pitti, Debian metapackage, we use GNOME 3 now, #828537
-
 # pitti: obsolete GNOME panel applets which have not been ported to GNOME 3
-bubblemon
 byzanz
 ddccontrol
 ddccontrol-db
-file-browser-applet
-glunarclock
-gnome-main-menu
-hardware-monitor
 hdate-applet
 hspell-gui
-imhangul-status-applet
 link-monitor-applet
-pomodoro-applet
 fbxkb
 
 # doko, 2011-09-08
@@ -197,57 +170,22 @@ openbios-sparc # FTBFS, sparc only, LP: #756100'
 # cjwatson, 2011-09-08
 debian-installer-netboot-images # Debian-specific; impractical to maintain for Ubuntu
 
-tasks # pitti, unmaintained, rdepends of libhildonmime
-
-libdbd-informix-perl # pitti, cannot be autobuilt, requires non-free library, LP#749059
-
-# doko, 2011-09-14
-g15daemon-audacious #  FTBFS in oneiric, see LP: #749068, Debian #620917, removed in testing, remove and black-list
-
 mplayer-blue # pitti, superseded by mplayer-skins, LP#825065
 
 # doko, 2011-09-16
 asterisk-chan-capi # FTBFS in oneiric, see LP: #831124, Debian #625020, remove and black-list
 audacious-dumb # FTBFS in oneiric, see LP: #749141, Debian #620919, remove and black-list
 
-# doko, 2011-09-17
-pycg # FTBFS in oneiric, see LP: #755990, orphaned in Debian, see #634208, blacklisting
-dssi-vst # FTBFS in oneiric, see LP: #770884, removed from Debian testing, black-listing
-
 # doko, 2011-09-19
 serna-free # FTBFS in oneiric, see LP: #756202, Debian #599995, #568910, not in stable and testing, remove and black-list
-
-kipi-plugins # pitti, superseded by digikam, LP#857689
-
-ia32-libs # Obsolete package
 
 # doko, 2011-12-06
 squid # Remove and blacklist source, lp #900741
 
-# renamed from ttf-* to fonts-*
-ttf-lao
-
 # cjwatson, 2011-12-13
 zope-quotafolder # reused orig version with epoch
 
-# doko, 2012-01-02, remove and blacklist packages provided by python2.7, lp #910409
-argparse
-importlib
-
-telepathy-butterfly # pitti, unmaintained, superseded by telepathy-haze
-papyon # pitti, unmaintained, superseded by telepathy-haze, no rdepends, LP#953061
-telepathy-farsight # pitti, superseded by telepathy-farstream
-gok # pitti, uses old and dropped at-spi 1 stack, LP#972101
-
-mysql-5.1 # jdstrand, superseded by mysql-5.5, LP: #894377
 facturlinex2 # jdstrand, does not currently support mysql-5.5. LP: #894377
-python2.6 # pitti, we only want to support 2.7 in LTS, LP#979923
-zope2.12 # pitti, incompatible with python2.7, LP#979923
-openoffice.org # pitti, transitional package for <= precise
-
-at-spi # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
-gnome-mag # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
-pyspi # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
 
 libdbd-oracle-perl # stefanor, unbuildable due to build-dep on proprietary package; LP: #638882
 ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-perl; LP: #638879
@@ -280,9 +218,6 @@ cuse4bsd
 ufsutils
 freebsd-glue
 freebsd-buildutils
-
-# Other
-postgresql-8.4
 
 # usupported architectures
 openbios-ppc
