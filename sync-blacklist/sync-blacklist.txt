@@ -28,15 +28,13 @@ zd1211-firmware
 kernel-patch-viewos
 
 # Mozilla stuff
-# FIXME: Right now, we want icedove in Tanglu
-#icedove # we call it thunderbird
+# FIXME: Right now, we want icedove/iceowl in Tanglu
+#icedove
 #icedove-l10n
-#iceowl-l10n # we call it sunbird
+#iceowl
+#iceowl-l10n
 iceweasel # We package Firefox separately (as Firefox)
-iceweasel-linky
 firefox # Debian will probably make this transitional to iceweasel
-iceape # we call it mozilla
-edbrowse
 
 aboot # cjwatson, no alpha in Ubuntu
 
