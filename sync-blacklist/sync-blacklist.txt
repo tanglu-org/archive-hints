@@ -217,10 +217,6 @@ dssi-vst # FTBFS in oneiric, see LP: #770884, removed from Debian testing, black
 # doko, 2011-09-19
 serna-free # FTBFS in oneiric, see LP: #756202, Debian #599995, #568910, not in stable and testing, remove and black-list
 
-# doko, 2011-09-29
-gnumach # FTBFS in oneiric, see LP: #174851, GNU Mach specific
-mig
-
 kipi-plugins # pitti, superseded by digikam, LP#857689
 
 ia32-libs # Obsolete package
@@ -256,23 +252,32 @@ pyspi # pitti, not maintained upstream any more, superseded with at-spi2 stack; 
 libdbd-oracle-perl # stefanor, unbuildable due to build-dep on proprietary package; LP: #638882
 ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-perl; LP: #638879
 
-# Hurd
+# Hurd stuff
 hurd
 hurd-libfuse
+gnumach
+mig
 
-# FreeBSD stuff
-freebsd-libs # vorlon, no freebsd port in Ubuntu
-kfreebsd-8 # vorlon, no freebsd port in Ubuntu
-kfreebsd-9 # cjwatson, no freebsd port in Ubuntu
-kfreebsd-defaults # geser, no freebsd port in Ubuntu
+# kFreeBSD stuff
+kfreebsd-8
+kfreebsd-9
+kfreebsd-10
+kfreebsd-11
+kfreebsd-defaults
 kfreebsd-downloader
+kfreebsd-downloader-10
+kfreebsd-kernel-di-amd64
+kfreebsd-kernel-di-i386
 kfreebsd-kernel-headers
+freebsd-manpages
+freebsd-libs
 freebsd-smbfs
 freebsd-utils
 freebsd-quota
 fuse4bsd
 openbgpd
 cuse4bsd
+ufsutils
 freebsd-glue
 freebsd-buildutils
 
