@@ -10,8 +10,6 @@
 
 base-files
 
-linux-patch-debianlogo
-
 # Mozilla stuff
 # FIXME: Right now, we want icedove/iceowl in Tanglu
 #icedove
@@ -132,13 +130,6 @@ pbbuttonsd # ximion, for old Apple computers (unsupported, and powerpc-only)
 lsadb
 powerpc-ibm-utils
 
-# debian-edu is redundant, etc, etc #569959
-debian-edu-archive-keyring
-debian-edu-artwork
-debian-edu-config
-debian-edu-doc
-debian-edu-install
-
 # cjwatson, 2011-09-02
 proll # only buildable/useful on sparc (LP: #836956)
 
@@ -154,9 +145,6 @@ fbxkb
 # doko, 2011-09-08
 openbios-sparc # FTBFS, sparc only, LP: #756100'
 
-# cjwatson, 2011-09-08
-debian-installer-netboot-images # Debian-specific; impractical to maintain for Ubuntu
-
 mplayer-blue # pitti, superseded by mplayer-skins, LP#825065
 
 # doko, 2011-09-16
@@ -170,6 +158,23 @@ facturlinex2 # jdstrand, does not currently support mysql-5.5. LP: #894377
 
 libdbd-oracle-perl # stefanor, unbuildable due to build-dep on proprietary package; LP: #638882
 ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-perl; LP: #638879
+
+# Debian specific stuff
+debian-faq
+debian-zh-faq
+debian-history
+debian-ports-archive-keyring
+debian-installer-netboot-images
+linux-patch-debianlogo
+doc-debian
+doc-debian-fr
+debian-edu
+debian-edu-archive-keyring
+debian-edu-artwork
+debian-edu-config
+debian-edu-doc
+debian-edu-install
+moodle-debian-edu-theme
 
 # Hurd stuff
 hurd
