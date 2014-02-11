@@ -126,11 +126,22 @@ zarafa-drag-n-drop
 # old GCC versions which we don't support
 gcc-3.3
 gcc-4.4
-gcc-4.5
 gcc-4.6
 gcc-4.7
 
+gcc-4.4-doc-non-dfsg
+gcc-4.6-doc
+gcc-4.7-doc
+
+gdc-4.4
+gdc-4.6
+
+gcj-4.4
 gcj-4.6
+gcj-4.7
+
+gnat-4.4
+gnat-4.6
 
 # udev is packaged via systemd
 udev
@@ -241,8 +252,6 @@ openoffice.org # pitti, transitional package for <= precise
 at-spi # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
 gnome-mag # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
 pyspi # pitti, not maintained upstream any more, superseded with at-spi2 stack; LP#998478
-
-gnat-4.4 # micahg, unused; LP: #986096
 
 libdbd-oracle-perl # stefanor, unbuildable due to build-dep on proprietary package; LP: #638882
 ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-perl; LP: #638879
