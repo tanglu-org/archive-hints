@@ -1,0 +1,5 @@
+title = "libstatgrab (auto)";
+is_affected = .depends ~ /libstatgrab9|libstatgrab6/;
+is_good = .depends ~ /libstatgrab9/;
+is_bad = .depends ~ /libstatgrab6/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

@@ -1,0 +1,5 @@
+title = "libtiff5";
+is_affected = .build-depends ~ /libtiff/;
+is_good = .depends ~ /libtiff5/;
+is_bad = .depends ~ /libtiff4[^-]/;
+notes = "Debian bug#717923";

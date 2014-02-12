@@ -1,0 +1,5 @@
+title = "aubio (auto)";
+is_affected = .depends ~ /libaubio4|libaubio2|pd-aubio/;
+is_good = .depends ~ /libaubio4/;
+is_bad = .depends ~ /libaubio2|pd-aubio/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

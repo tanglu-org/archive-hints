@@ -1,0 +1,4 @@
+title = "xorg-server 1.15 ";
+is_affected = .provides ~ /xorg-driver/;
+is_good = .depends ~ /xorg-video-abi-15|xorg-input-abi-20/;
+is_bad = .depends ~ /xorg-video-abi-14|xorg-input-abi-19/;

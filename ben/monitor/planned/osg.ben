@@ -1,0 +1,5 @@
+title = "libopenscenegraph100";
+is_affected = .build-depends ~ /libopenscenegraph-dev/;
+is_good = .depends ~ "libopenscenegraph99";
+is_bad = .depends ~ "libopenscenegraph80";
+notes = "Debian bug#729289";

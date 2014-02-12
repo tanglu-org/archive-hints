@@ -1,0 +1,5 @@
+title = "openimageio (auto) ";
+is_affected = .depends ~ /libopenimageio1.3|libopenimageio1.2/;
+is_good = .depends ~ /libopenimageio1.3/;
+is_bad = .depends ~ /libopenimageio1.2/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";
