@@ -2,4 +2,4 @@ title = "openmpi 1.6";
 is_affected = .build-depends ~ /libopenmpi|mpi-default-dev|libhdf5-mpi-dev/ | .depends ~ /libopenmpi/;
 is_good = .depends ~ "libopenmpi1.6";
 is_bad = .depends ~ "libopenmpi1.3";
-notes = "Tanglu Transition";
+notes = "Debian bug #711943";
