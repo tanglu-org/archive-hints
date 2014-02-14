@@ -1,8 +1,14 @@
+# Tanglu synchrotron blacklist
 #
-# There's a list of general packages at the bottom of this file, add
-# things there unless it makes sense for them to be in blocks.
-# This file was branched from Ubuntu, it contains Tanglu-specific adjustments.
+# This list contains packages which should not be synced from Debian automatically,
+# be it because they are obsolete, we don't support then or they are just Debian or
+# architecture-specific.
+#
 
+# These packages currently fail to autosync
+# NONE
+
+#
 base-files
 
 # Mozilla stuff
