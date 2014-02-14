@@ -115,9 +115,6 @@ gcj-4.7
 gnat-4.4
 gnat-4.6
 
-# udev is packaged via systemd
-udev
-
 # Debian specific stuff
 debian-faq
 debian-zh-faq
@@ -161,17 +158,60 @@ fuse4bsd
 openbgpd
 cuse4bsd
 ufsutils
+zfsutils
 freebsd-glue
 freebsd-buildutils
 
 # Non-amd64/i386 arch specific stuff
 openbios-sparc
 openbios-ppc
-proll
-slof
 colo
 arcload
+proll
 sparc-utils
 pbbuttonsd
+slof
 lsadb
+kboot-utils
+mac-fdisk
+yaboot
+yaboot-installer
 powerpc-ibm-utils
+powerpc-utils
+ps3-utils
+s390-dasd
+s390-netdevice
+s390-sysconfig-writer
+s390-tools
+xf86-video-msm
+xf86-video-omap
+xserver-xorg-video-sunffb
+
+# jonno: 2014-02-10
+# For old versions of sugar, only 0.96+ is in Tanglu
+sugar-artwork-0.84
+sugar-artwork-0.88
+sugar-base-0.84
+sugar-base-0.88
+sugar-chat-activity-0.84
+sugar-datastore-0.84
+sugar-datastore-0.88
+sugar-log-activity-0.86
+sugar-moon-activity
+sugar-presence-service-0.84
+sugar-presence-service-0.88
+sugar-toolkit-0.84
+sugar-toolkit-0.88
+
+# jonno: 2014-02-10
+udev # udev is packaged via systemd
+upstart # No upstart in Tanglu
+systemd-shim # No upstart in Tanglu
+uclibc # We don't want this mess in Tanglu
+console-tools # Superseeded by kbd
+iproute # Superseeded by iproute2
+makejvf # Subsumed into texlive-binaries
+mendexk # Subsumed into texlive-binaries
+libgd-gd2-noxpm-perl # Superseeded, Tanglu completed its transition before Debian
+libgd-gd2-perl # Superseeded, Tanglu completed its transition before Debian
+boost1.49 # Superseeded, Tanglu completed its transition before Debian
