@@ -3,11 +3,6 @@
 # things there unless it makes sense for them to be in blocks.
 # This file was branched from Ubuntu, it contains Tanglu-specific adjustments.
 
-# These packages currently fail to autosync
-# NONE
-
-##
-
 base-files
 
 # Mozilla stuff
@@ -122,29 +117,6 @@ gnat-4.6
 
 # udev is packaged via systemd
 udev
-
-# pitti: obsolete GNOME panel applets which have not been ported to GNOME 3
-byzanz
-ddccontrol
-ddccontrol-db
-hdate-applet
-hspell-gui
-link-monitor-applet
-fbxkb
-
-mplayer-blue # pitti, superseded by mplayer-skins, LP#825065
-
-# doko, 2011-09-16
-asterisk-chan-capi # FTBFS in oneiric, see LP: #831124, Debian #625020, remove and black-list
-audacious-dumb # FTBFS in oneiric, see LP: #749141, Debian #620919, remove and black-list
-
-# doko, 2011-09-19
-serna-free # FTBFS in oneiric, see LP: #756202, Debian #599995, #568910, not in stable and testing, remove and black-list
-
-facturlinex2 # jdstrand, does not currently support mysql-5.5. LP: #894377
-
-libdbd-oracle-perl # stefanor, unbuildable due to build-dep on proprietary package; LP: #638882
-ora2pg # stefanor, uninstallable due to dependency on unbuildable libdbd-oracle-perl; LP: #638879
 
 # Debian specific stuff
 debian-faq
