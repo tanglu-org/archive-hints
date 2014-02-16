@@ -130,6 +130,8 @@ debian-installer-netboot-images
 linux-patch-debianlogo
 doc-debian
 doc-debian-fr
+debiancontributors
+fedmsg-meta-debian
 debian-edu
 debian-edu-archive-keyring
 debian-edu-artwork
@@ -171,7 +173,10 @@ freebsd-buildutils
 # Non-amd64/i386 arch specific stuff
 openbios-sparc
 openbios-ppc
+aboot
 colo
+arcboot
+arcboot-installer
 arcload
 proll
 sparc-utils
@@ -221,3 +226,6 @@ mendexk # Subsumed into texlive-binaries
 libgd-gd2-noxpm-perl # Superseeded, Tanglu completed its transition before Debian
 libgd-gd2-perl # Superseeded, Tanglu completed its transition before Debian
 boost1.49 # Superseeded, Tanglu completed its transition before Debian
+
+# jonno: 2014-02-16
+init-select # We only support systemd anyway.
