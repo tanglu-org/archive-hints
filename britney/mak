@@ -21,3 +21,6 @@ force vlc/2.1.1-1
 
 # RoQA kdenetwork
 remove kdenetwork/4:4.10.5-3
+
+# Broken in Debian/Tanglu
+remove telepathy-ring/2.1.0-1
