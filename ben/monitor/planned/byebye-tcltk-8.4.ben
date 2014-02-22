@@ -1,0 +1,5 @@
+title = "removing tcl8.4, tk8.4";
+is_affected = .build-depends ~ /\bt(cl|k)(|8\.[456])\b/ | .build-depends ~ /\b(tcl|wi)sh\b/ | .depends ~ /\bt(cl|k)(|8\.[456])\b/ | .depends ~ /\b(tcl|wi)sh\b/;
+is_good = .build-depends ~ /\bt(cl|k)(|8\.[56])\b/ | .build-depends ~ /\b(tcl|wi)sh\b/ | .depends ~ /\bt(cl|k)(|8\.[56])\b/ | .depends ~ /\b(tcl|wi)sh\b/;
+is_bad = !(.build-depends ~ /\bt(cl|k)(|8\.[56])\b/ | .build-depends ~ /\b(tcl|wi)sh\b/ | .depends ~ /\bt(cl|k)(|8\.[56])\b/ | .depends ~ /\b(tcl|wi)sh\b/) & (.build-depends ~ /\bt(cl|k)8\.4\b/ | .depends ~ /\bt(cl|k)8\.4\b/);
+notes = "Debian bug#726709 https://wiki.debian.org/Teams/DebianTclTk/TclTk84Removal";

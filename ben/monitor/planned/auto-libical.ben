@@ -1,0 +1,5 @@
+title = "libical (auto)";
+is_affected = .depends ~ /libical1|libical0/;
+is_good = .depends ~ /libical1/;
+is_bad = .depends ~ /libical0/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

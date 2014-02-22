@@ -1,0 +1,5 @@
+title = "oce";
+is_affected = .build-depends ~ /liboce-.*-dev/;
+is_good = .depends ~ /liboce-foundation8/;
+is_bad = .depends ~ /liboce-foundation6/;
+notes = "Debian bug#731491";

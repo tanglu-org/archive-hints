@@ -1,0 +1,5 @@
+title = "octave 3.8";
+is_affected = (.depends ~ "liboctave1") | (.depends ~ "liboctave2");
+is_good = .depends ~ /liboctave2/;
+is_bad = .depends ~ /liboctave1/;
+notes = "Debian bug#735557"
