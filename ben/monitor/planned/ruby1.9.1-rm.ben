@@ -1,0 +1,5 @@
+title = "ruby1.9.1 removal";
+is_affected = .depends ~ /ruby/ | .build-depends ~ /ruby/;
+is_good = !(.depends ~ /ruby1.9.1/ | .build-depends ~ /ruby1.9.1/);
+is_bad = .depends ~ /ruby1.9.1/ | .build-depends ~ /ruby1.9.1/;
+notes = "Debian bug#739611";

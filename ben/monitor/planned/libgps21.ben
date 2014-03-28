@@ -1,0 +1,5 @@
+title = "gpsd";
+is_affected = .build-depends ~ "libgps-dev";
+is_good = .depends ~ /lib(gps|qgpsmm)21/;
+is_bad = .depends ~ /lib(gps|qgpsmm)20/;
+notes = "Debian bug#732218";

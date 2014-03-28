@@ -1,0 +1,5 @@
+title = "libspatialite5";
+is_affected = .build-depends ~ "libspatialite-dev";
+is_good = .depends ~ "libspatialite5";
+is_bad = .depends ~ "libspatialite3";
+notes = "Debian bug#731402";

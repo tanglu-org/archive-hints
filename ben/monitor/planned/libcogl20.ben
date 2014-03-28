@@ -1,0 +1,5 @@
+title = "libcogl20";
+is_affected = .build-depends ~ /libcogl/ | .depends ~ /libcogl/;
+is_good = .depends ~ /libcogl20|libcogl-pango20|libcogl-gles2-20|libcogl-path20/;
+is_bad = .depends ~ /libcogl12|libcogl-pango12|libcogl-gles2-12/;
+notes = "Debian bug#741119";

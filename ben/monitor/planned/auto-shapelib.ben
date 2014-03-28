@@ -1,0 +1,5 @@
+title = "shapelib (auto)";
+is_affected = .depends ~ /libshp2|libshp1/;
+is_good = .depends ~ /libshp2/;
+is_bad = .depends ~ /libshp1/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

@@ -1,0 +1,5 @@
+title = "librasterlite2";
+is_affected = .build-depends ~ "librasterlite-dev";
+is_good = .depends ~ "librasterlite2";
+is_bad = .depends ~ "librasterlite1";
+notes = "Debian bug#731403";

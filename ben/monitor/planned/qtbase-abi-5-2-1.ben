@@ -1,0 +1,5 @@
+title = "qtbase-opensource-src";
+is_affected = (.build-depends ~ "qtbase5-private-dev") | .depends ~ /qtbase-abi-5/;
+is_good = .depends ~ "qtbase-abi-5-2-1";
+is_bad = .depends ~ "qtbase-abi-5-2-0";
+notes = "Debian bug#739844";

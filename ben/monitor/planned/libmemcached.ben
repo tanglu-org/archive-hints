@@ -1,0 +1,5 @@
+title = "libmemcached 1.0.17";
+is_affected = .build-depends ~ /libmemcached/;
+is_good = .depends ~ "libmemcached11";
+is_bad = .depends ~ "libmemcached10";
+notes = "Debian bug#724722";

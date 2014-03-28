@@ -1,0 +1,5 @@
+title = "mpich (auto)";
+is_affected = .depends ~ /libmpich12|libmpich10/;
+is_good = .depends ~ /libmpich12/;
+is_bad = .depends ~ /libmpich10/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";
