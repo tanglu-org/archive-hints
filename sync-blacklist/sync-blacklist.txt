@@ -218,7 +218,6 @@ sugar-toolkit-0.88
 udev # udev is packaged via systemd
 upstart # No upstart in Tanglu
 systemd-shim # No upstart in Tanglu
-mountall # No upstart in Tanglu
 uclibc # We don't want this mess in Tanglu
 console-tools # Superseeded by kbd
 iproute # Superseeded by iproute2
@@ -230,3 +229,7 @@ boost1.49 # Superseeded, Tanglu completed its transition before Debian
 
 # jonno: 2014-02-16
 init-select # We only support systemd anyway.
+
+# jonno: 2014-04-24
+mountall # No upstart in Tanglu
+libdbd-oracle-perl # Does not auto-build

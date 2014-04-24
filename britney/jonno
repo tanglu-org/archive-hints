@@ -16,3 +16,6 @@ remove gcc-4.6/4.6.4-4tanglu2 gcc-4.7/4.7.3-5 gcc-4.4-doc-non-dfsg/4.4.7-4 gcc-4
 
 # Upstart specific
 remove mountall/2.52
+
+# Does not auto-build
+remove libdbd-oracle-perl/1.66-1 libdbd-oracle-perl/1.66-1b1
