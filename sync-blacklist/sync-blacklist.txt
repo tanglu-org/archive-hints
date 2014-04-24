@@ -218,6 +218,7 @@ sugar-toolkit-0.88
 udev # udev is packaged via systemd
 upstart # No upstart in Tanglu
 systemd-shim # No upstart in Tanglu
+mountall # No upstart in Tanglu
 uclibc # We don't want this mess in Tanglu
 console-tools # Superseeded by kbd
 iproute # Superseeded by iproute2

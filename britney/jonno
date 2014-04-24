@@ -13,3 +13,6 @@ remove cvs2html/1.98-3 guacd/0.6.0-1 libfcgi-ruby/0.8.8-1 libfusioninventory-age
 
 # Old GCC versions we want gone for bartholomea
 remove gcc-4.6/4.6.4-4tanglu2 gcc-4.7/4.7.3-5 gcc-4.4-doc-non-dfsg/4.4.7-4 gcc-4.6-doc/4.6.4-2 gcc-4.7-doc/4.7.3-2 gnat-4.6/4.6.4-0tanglu2
+
+# Upstart specific
+remove mountall/2.52
