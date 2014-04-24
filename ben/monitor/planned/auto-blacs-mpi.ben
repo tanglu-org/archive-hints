@@ -1,0 +1,5 @@
+title = "blacs-mpi (auto)";
+is_affected = .depends ~ /libblacs-mpich1|libblacs-openmpi1|libblacs-mpi1/;
+is_good = .depends ~ /libblacs-mpich1|libblacs-openmpi1/;
+is_bad = .depends ~ /libblacs-mpi1/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

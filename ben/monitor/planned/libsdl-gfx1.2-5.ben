@@ -1,0 +1,5 @@
+title = "libsdl-gfx1.2-5";
+is_affected = .build-depends ~ /libsdl-gfx1.2/;
+is_good = .depends ~ "libsdl-gfx1.2-5";
+is_bad = .depends ~ "libsdl-gfx1.2-4";
+notes = "Debian bug#734588";

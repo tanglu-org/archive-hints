@@ -1,0 +1,5 @@
+title = "poppler 0.24";
+is_affected = .build-depends ~ "libpoppler-private-dev";
+is_good = .depends ~ "libpoppler44";
+is_bad = .depends ~ "libpoppler37";
+notes = "Debian bug#740375";

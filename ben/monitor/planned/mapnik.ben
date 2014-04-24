@@ -3,4 +3,4 @@ is_affected = .depends ~ /libmapnik/;
 is_good = .depends ~ /libmapnik \(>= 2.0.1\)/;
 #is_bad = .depends ~ /libmapnik2|libmapnik,|libmapnik$/;
 is_bad = .depends ~ /libmapnik2|libmapnik/;
-notes = "#674587";
+notes = "Debian bug#674587";

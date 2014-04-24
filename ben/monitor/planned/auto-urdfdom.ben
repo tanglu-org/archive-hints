@@ -1,0 +1,5 @@
+title = "urdfdom (auto)";
+is_affected = .depends ~ /liburdfdom-model-state0.3|liburdfdom-model0.3|liburdfdom-sensor0.3|liburdfdom-world0.3|liburdfdom0.3-dbg|liburdfdom-model-state0.2|liburdfdom-model0.2|liburdfdom-sensor0.2|liburdfdom-world0.2|liburdfdom0.2-dbg/;
+is_good = .depends ~ /liburdfdom-model-state0.3|liburdfdom-model0.3|liburdfdom-sensor0.3|liburdfdom-world0.3|liburdfdom0.3-dbg/;
+is_bad =     .depends ~ /liburdfdom-model-state0.2|liburdfdom-model0.2|liburdfdom-sensor0.2|liburdfdom-world0.2|liburdfdom0.2-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";
