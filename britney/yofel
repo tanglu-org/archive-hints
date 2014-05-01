@@ -1,6 +1,3 @@
 ##
 # Britney hints file for Philip Muškovac
 ##
-
-block make-dfsg
-unblock make-dfsg/3.81-8.2
