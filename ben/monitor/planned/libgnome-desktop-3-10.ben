@@ -1,0 +1,5 @@
+title = "gnome-desktop3";
+is_affected = .build-depends ~ /libgnome-desktop/;
+is_good = .depends ~ "libgnome-desktop-3-10";
+is_bad = .depends ~ "libgnome-desktop-3-7";
+notes = "Debian bug#740137";

@@ -1,0 +1,5 @@
+title = "gnome-online-accounts";
+is_affected = .build-depends ~ "libgoa-1.0-dev";
+is_good = .depends ~ /libgoa-1.0-0b|libgoa-backend-1.0-1/;
+is_bad = .depends ~ "libgoa-1.0-0";
+notes = "Debian bug#743587";
