@@ -237,3 +237,5 @@ libdbd-oracle-perl # Does not auto-build
 # jonno: 2014-05-08
 bootchart # Use systemd-bootchart
 bootchart2 # Use systemd-bootchart
+gnome-desktop # Gnome 2.x is dead
+gnome-desktop-sharp2 # Gnome 2.x is dead

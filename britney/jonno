@@ -22,3 +22,6 @@ remove libdbd-oracle-perl/1.66-1 libdbd-oracle-perl/1.66-1b1
 
 # Use systemd-bootchart
 remove bootchart/0.10~svn407-4.1 bootchart2/0.14.4-3
+
+# Gnome 2.x is dead
+remove gnome-desktop/2.32.1-2 gnome-desktop-sharp2/2.26.0-8
