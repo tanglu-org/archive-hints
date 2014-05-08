@@ -233,3 +233,7 @@ init-select # We only support systemd anyway.
 # jonno: 2014-04-24
 mountall # No upstart in Tanglu
 libdbd-oracle-perl # Does not auto-build
+
+# jonno: 2014-05-08
+bootchart # Use systemd-bootchart
+bootchart2 # Use systemd-bootchart
