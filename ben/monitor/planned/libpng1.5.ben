@@ -1,0 +1,5 @@
+title = "libpng";
+is_affected = .depends ~ /libpng1/;
+is_good = .depends ~ /libpng15/;
+is_bad = .depends ~ /libpng12-0/;
+notes = "Debian bug#650601";

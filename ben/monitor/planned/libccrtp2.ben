@@ -1,0 +1,5 @@
+title = "libccrtp";
+is_affected = (.depends ~ "libccrtp0") | (.depends ~ "libccrtp2");
+is_good = .depends ~ "libccrtp2";
+is_bad = .depends ~ "libccrtp0";
+notes = "Debian bug#745273";

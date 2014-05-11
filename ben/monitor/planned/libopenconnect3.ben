@@ -1,0 +1,5 @@
+title = "libopenconnect3";
+is_affected = .build-depends ~ /libopenconnect/;
+is_good = .depends ~ "libopenconnect3";
+is_bad = .depends ~ "libopenconnect2";
+notes = "Debian bug#740993";

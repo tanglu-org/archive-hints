@@ -1,0 +1,5 @@
+title = "php5";
+is_affected = .depends ~ /phpapi-20121212.*/ | .depends ~ /phpapi-20131226.*/;
+is_good = .depends ~ /phpapi-20131226.*/;
+is_bad = .depends ~ /phpapi-20121212.*/;
+notes = "Debian bug#745603";

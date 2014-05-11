@@ -1,0 +1,5 @@
+title = "exiv2";
+is_affected = .build-depends ~ /libexiv2-dev/;
+is_good = .depends ~ "libexiv2-13";
+is_bad = .depends ~ "libexiv2-12";
+notes = "Debian bug#732957";

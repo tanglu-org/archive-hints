@@ -1,0 +1,5 @@
+title = "sip-api-11.0";
+is_affected = .depends ~ /sip-api/ | .depends ~ /sip-py3api/;
+is_good = .depends ~ /sip-(py3)?api-11.0/;
+is_bad = .depends ~ /sip-(py3)?api-10/;
+notes = "Debian bug#744377";

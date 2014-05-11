@@ -1,0 +1,5 @@
+title = "tracker 1.0";
+is_affected = .build-depends ~ /libtracker/;
+is_good = .depends ~ "libtracker-sparql-1.0-0";
+is_bad = .depends ~ "libtracker-sparql-0.16-0";
+notes = "Debian bug#742630";

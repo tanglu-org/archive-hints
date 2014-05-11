@@ -1,0 +1,5 @@
+title = "gnustep";
+is_affected = .build-depends ~ /libgnustep-(base|gui)-dev/ | .depends ~ /libobjc[34]/;
+is_good = .depends ~ /libobjc4|libgnustep-base1.24|libgnustep-gui0.22/;
+is_bad = .depends ~ /libobjc3|libgnustep-base1.22|libgnustep-gui0.20/;
+notes = "Debian bug#673538";

@@ -1,0 +1,5 @@
+title = "kde4.12 ";
+is_affected = (.depends ~ "libkdcraw22") | (.depends ~ "libmarblewidget16") | (.depends ~ "libkdcraw23") | (.depends ~ "libmarblewidget17");
+is_good = (.depends ~ "libkdcraw23") | (.depends ~ "libmarblewidget17");
+is_bad = (.depends ~ "libkdcraw22") | (.depends ~ "libmarblewidget16");
+notes = "Debian bug#745079";

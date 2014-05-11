@@ -1,0 +1,5 @@
+title = "libgnokii7";
+is_affected = .build-depends ~ /libgnokii/;
+is_good = .depends ~ "libgnokii7";
+is_bad = .depends ~ "libgnokii6";
+notes = "Debian bug#677800";

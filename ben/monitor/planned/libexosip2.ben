@@ -1,0 +1,5 @@
+title = "libexosip2";
+is_affected = (.depends ~ "libexosip2-10") | (.depends ~ "libexosip2-11");
+is_good = .depends ~ "libexosip2-11";
+is_bad = .depends ~ "libexosip2-10";
+notes = "Debian bug#736150";

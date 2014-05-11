@@ -1,0 +1,5 @@
+title = "gloox";
+is_affected = (.depends ~ "libgloox11") | (.depends ~ "libgloox12");
+is_good = .depends ~ "libgloox12";
+is_bad = .depends ~ "libgloox11";
+notes = "Debian bug#745209";

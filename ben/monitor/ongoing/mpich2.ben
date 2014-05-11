@@ -1,0 +1,5 @@
+title = "mpich2";
+is_affected = (.depends ~ "libmpich2-3") | (.depends ~ "libmpich12");
+is_good = .depends ~ "libmpich12";
+is_bad = .depends ~ "libmpich2-3";
+notes = "Debian bug#742853";
