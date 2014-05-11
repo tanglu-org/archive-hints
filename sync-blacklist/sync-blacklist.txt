@@ -6,7 +6,7 @@
 #
 
 # These packages currently fail to autosync
-# NONE
+scsh-install-lib # crashes dak, missing checksums
 
 #
 base-files
