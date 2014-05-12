@@ -1,5 +1,0 @@
-title = "abiword (auto)";
-is_affected = .depends ~ /libabiword-3.0|libabiword-3.0-dev|libabiword-2.9|libabiword-2.9-dev/;
-is_good = .depends ~ /libabiword-3.0|libabiword-3.0-dev/;
-is_bad = .depends ~ /libabiword-2.9|libabiword-2.9-dev/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

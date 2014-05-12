@@ -1,5 +1,5 @@
 title = "polarssl (auto)";
-is_affected = .depends ~ /libpolarssl6|libpolarssl5/;
+is_affected = .depends ~ /libpolarssl[0-6]/;
 is_good = .depends ~ /libpolarssl6/;
-is_bad = .depends ~ /libpolarssl5/;
+is_bad = .depends ~ /libpolarssl[0-5]/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

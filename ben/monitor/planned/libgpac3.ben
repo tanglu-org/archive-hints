@@ -1,5 +1,0 @@
-title = "libgpac3";
-is_affected = .build-depends ~ "libgpac-dev";
-is_good = .depends ~ "libgpac3";
-is_bad = .depends ~ "libgpac2";
-notes = "Debian bug#740210";
