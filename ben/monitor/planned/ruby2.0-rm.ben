@@ -1,0 +1,5 @@
+title = "ruby2.0 removal";
+is_affected = .depends ~ /ruby/ | .build-depends ~ /ruby/;
+is_good = !.depends ~ /ruby2.0/ & !.build-depends ~ /ruby2.0/;
+is_bad = .depends ~ /ruby2.0/ | .build-depends ~ /ruby2.0/;
+notes = "Debian bug#747609";
