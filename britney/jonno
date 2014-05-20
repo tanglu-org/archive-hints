@@ -25,3 +25,6 @@ remove bootchart/0.10~svn407-4.1 bootchart2/0.14.4-3
 
 # Gnome 2.x is dead
 remove gnome-desktop/2.32.1-2 gnome-desktop-sharp2/2.26.0-8
+
+# GTK+ 3.12 forces client side decorations that doesn't honour window manager settings when run outside GNOME 3.12
+block gtk+3.0
