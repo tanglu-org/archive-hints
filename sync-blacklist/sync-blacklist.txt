@@ -139,6 +139,7 @@ debian-edu-config
 debian-edu-doc
 debian-edu-install
 moodle-debian-edu-theme
+debian-security-support
 
 # Hurd stuff
 hurd
