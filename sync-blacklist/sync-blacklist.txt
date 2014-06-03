@@ -198,6 +198,16 @@ s390-tools
 xf86-video-msm
 xf86-video-omap
 xserver-xorg-video-sunffb
+fso-common
+fso-datad
+fso-deviced
+fso-frameworkd
+fso-gpsd
+fso-gsm0710muxd
+fso-gsmd
+fso-specs
+fso-usaged
+libfso-glib
 
 # jonno: 2014-02-10
 # For old versions of sugar, only 0.96+ is in Tanglu
