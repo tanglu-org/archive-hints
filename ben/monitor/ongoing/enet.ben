@@ -1,0 +1,5 @@
+title = "enet";
+is_affected = .build-depends ~ "libenet-dev";
+is_good = .depends ~ "libenet2a";
+is_bad = .depends ~ "libenet7";
+notes = "";

@@ -1,0 +1,5 @@
+title = "marble18okular4";
+is_affected = .depends ~ /libmarblewidget18/ | .depends ~ /libmarblewidget17/ | .build-depends ~ /libmarble-dev/ | .depends ~ /libokularcore4/ | .depends ~ /libokularcore3/ | .build-depends ~ /okular-dev/;
+is_good = .depends ~ /libmarblewidget18/ | .depends ~ /libokularcore4/;
+is_bad = .depends ~ /libmarblewidget17/ | .depends ~ /libokularcore3/;
+notes = "Debian bug#749880";

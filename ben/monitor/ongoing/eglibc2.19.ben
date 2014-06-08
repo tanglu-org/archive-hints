@@ -1,0 +1,5 @@
+title = "eglibc";
+is_affected = .depends ~ /libc[0-9.]* \(<</;
+is_good = .depends ~ /libc[0-9.]* \(<< 2.20\)/;
+is_bad = .depends ~ /libc[0-9.]* \(<< 2.19\)/;
+notes = "Debian bug#750020";

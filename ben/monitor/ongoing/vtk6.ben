@@ -1,0 +1,5 @@
+title = "vtk6";
+is_affected = (.depends ~ "libvtk5.8") | (.depends ~ "libvtk6");
+is_good = .depends ~ "libvtk6";
+is_bad = .depends ~ "libvtk5.8";
+notes = "Debian bug#749395";

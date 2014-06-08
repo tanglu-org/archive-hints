@@ -1,0 +1,5 @@
+title = "libcmis";
+is_affected = .build-depends ~ "libcmis-dev";
+is_good = .depends ~ "libcmis-0.4-4";
+is_bad = .depends ~ "libcmis-0.3-3";
+notes = "";

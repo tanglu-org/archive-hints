@@ -1,0 +1,5 @@
+title = "colord";
+is_affected = (.depends ~ "libcolord1") | (.depends ~ "libcolorhug1") | (.depends ~ "libcolord2") | (.depends ~ "libcolorhug2");
+is_good = (.depends ~ "libcolord2") | (.depends ~ "libcolorhug2");
+is_bad = (.depends ~ "libcolord1") | (.depends ~ "libcolorhug1");
+notes = "Debian bug#747923";
