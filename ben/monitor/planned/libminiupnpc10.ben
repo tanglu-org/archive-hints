@@ -1,0 +1,5 @@
+title = "miniupnpc";
+is_affected = (.depends ~ "libminiupnpc8") | (.depends ~ "libminiupnpc10");
+is_good = .depends ~ "libminiupnpc10";
+is_bad = .depends ~ "libminiupnpc8";
+notes = "Debian bug#749560";

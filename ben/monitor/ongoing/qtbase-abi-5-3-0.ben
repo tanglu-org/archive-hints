@@ -1,0 +1,5 @@
+title = "qtbase-opensource-src";
+is_affected = .build-depends ~ /qt(base|declarative)5-private-dev/ | .depends ~ /qt(base|declarative)-abi-5/;
+is_good = .depends ~ /qt(base|declarative)-abi-5-3-0/;
+is_bad = .depends ~ /qt(base|declarative)-abi-5-2-[01]/;
+notes = "Debian bug#750026";

@@ -1,0 +1,5 @@
+title = "wxsqlite3";
+is_affected = (.depends ~ "libwxsqlite3-2.8-0") | (.depends ~ "libwxsqlite3-3.0-0");
+is_good = .depends ~ "libwxsqlite3-3.0-0";
+is_bad = .depends ~ "libwxsqlite3-2.8-0";
+notes = "Debian bug#750619";

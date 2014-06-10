@@ -1,0 +1,5 @@
+title = "analitza5abi1";
+is_affected = .depends ~ /libanalitza(|plot|gui)5/ | .build-depends ~ /libanalitza-dev/;
+is_good = .depends ~ /(libanalitza5|libanalitzagui5|libanalitzaplot5)abi1/;
+is_bad = .depends ~ /lib(analitza5|libanalitzagui5|libanalitzaplot5)([^a]|$)/;
+notes = "Debian bug#748738";
