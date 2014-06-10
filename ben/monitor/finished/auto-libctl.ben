@@ -1,5 +1,0 @@
-title = "libctl (auto)";
-is_affected = .depends ~ /libctl5|libctl3/;
-is_good = .depends ~ /libctl5/;
-is_bad = .depends ~ /libctl3/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

@@ -1,5 +1,0 @@
-title = "gexiv2 (auto)";
-is_affected = .depends ~ /gir1.2-gexiv2-0.10|gir1.2-gexiv2-0.4/;
-is_good = .depends ~ /gir1.2-gexiv2-0.10/;
-is_bad = .depends ~ /gir1.2-gexiv2-0.4/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";
