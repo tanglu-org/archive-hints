@@ -1,0 +1,5 @@
+title = "KDE SC 4.13";
+is_affected = .depends ~ /libkdcraw(22|23)/ | .depends ~ /libmarblewidget(16|17|18)/ | .depends ~ /libokularcore(3|4)/;
+is_good = .depends ~ /libkdcraw23/ | .depends ~ /libmarblewidget18/ | .depends ~ /libokularcore4/;
+is_bad = .depends ~ /libkdcraw22/ | .depends ~ /libmarblewidget(16|17)/ | .depends ~ /libokularcore3/;
+notes = "Debian bugs #745079 and #749880;
