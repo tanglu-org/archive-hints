@@ -1,0 +1,5 @@
+title = "libgnat";
+is_affected = .build-depends ~ /gnat/;
+is_good = .depends ~ /libgnat-4.[89]/;
+is_bad = .depends ~ /libgnat-4.[0-7]/;
+notes = "Debian bug";
