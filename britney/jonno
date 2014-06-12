@@ -25,3 +25,9 @@ block gtk+3.0
 
 # Drop freesmartphone.org software stack for ARM smartphones
 remove fso-common/0.1-1 fso-datad/0.12.0-1 fso-deviced/0.12.0-1 fso-frameworkd/0.9.5.9+git20110512-4 fso-gpsd/0.8-3.1 fso-gsm0710muxd/0.9.3.1-3 fso-gsmd/0.12.0-1 fso-specs/2012.07.27.2-1 fso-usaged/0.12.0-1 libfso-glib/2012.07.27.2-2
+
+# Force-migrate Ruby 2.0/2.1 to bartholomea
+force-hint ruby2.0/2.0.0.484+really457-3 ruby2.1/2.1.2-2b1 ruby-defaults/1:2.1.0.1
+
+# Force-migrate Python 3.4 to bartholomea
+force-hint python3.4/3.4.1-4 python3-defaults/3.4.1-1
