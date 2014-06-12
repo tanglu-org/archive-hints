@@ -31,3 +31,6 @@ force-hint ruby2.0/2.0.0.484+really457-3 ruby2.1/2.1.2-2b1 ruby-defaults/1:2.1.0
 
 # Force-migrate Python 3.4 to bartholomea
 force-hint python3.4/3.4.1-4 python3-defaults/3.4.1-1
+
+# Removed from Debian but not considered by janitor
+remove dbs/0.47tanglu1 dehydra/0.9.hg20120525-1 gedit-valencia-plugin/0.4.0-0tanglu1 hal/0.5.14-8 hal-info/20091130-1 haskell-comonads-fd/3.0.1-2b6 haskell-groupoids/3.0.1.1-3b3 haskell-profunctor-extras/3.3-2b6 haskell-representable-tries/3.0.2-2build6 haskell-semigroupoid-extras/3.0.1-2b7 libmodule-packaged-perl/0.86-3build1 scilab-overload/1.3.3-3 scilab-scimax/2.1.4-2 valatoys/0.12.1-3tanglu1 xerces-c2/2.8.0+deb1-4 xine-lib/1.1.21-1.2 xsmc-calc/1.0.0-6.1 
