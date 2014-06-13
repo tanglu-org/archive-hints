@@ -37,3 +37,6 @@ remove dbs/0.47tanglu1 dehydra/0.9.hg20120525-1 gedit-valencia-plugin/0.4.0-0tan
 
 # Moment 22 between removal of ecore and migration of efl...
 force-hint efl/1.8.6-2
+
+# Force-migrate Linux 3.14 to bartholomea
+force-hint linux/3.14.4-1tanglu1 linux-latest/57tanglu1 linux-tools/3.14-1b1

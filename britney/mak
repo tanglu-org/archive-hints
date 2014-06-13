@@ -13,9 +13,6 @@ block webkit
 # Perl 5.18 migration
 force perl/5.18.1-4
 
-# Linux 3.11
-force-hint linux/3.11.10-1tanglu1 linux-latest/53tanglu3 linux-tools/3.11-3tanglu1
-
 # VLC 2.1
 force vlc/2.1.1-1
 
