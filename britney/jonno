@@ -20,9 +20,6 @@ remove bootchart/0.10~svn407-4.1 bootchart2/0.14.4-3
 # Gnome 2.x is dead
 remove gnome-desktop/2.32.1-2 gnome-desktop-sharp2/2.26.0-8
 
-# GTK+ 3.12 forces client side decorations that doesn't honour window manager settings when run outside GNOME 3.12
-block gtk+3.0
-
 # Drop freesmartphone.org software stack for ARM smartphones
 remove fso-common/0.1-1 fso-datad/0.12.0-1 fso-deviced/0.12.0-1 fso-frameworkd/0.9.5.9+git20110512-4 fso-gpsd/0.8-3.1 fso-gsm0710muxd/0.9.3.1-3 fso-gsmd/0.12.0-1 fso-specs/2012.07.27.2-1 fso-usaged/0.12.0-1 libfso-glib/2012.07.27.2-2 phonefsod/0.1+git20121018-1
 
