@@ -1,5 +1,0 @@
-title = "qhull (auto)";
-is_affected = .depends ~ /libqhull6|libqhull5/;
-is_good = .depends ~ /libqhull6/;
-is_bad = .depends ~ /libqhull5/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";

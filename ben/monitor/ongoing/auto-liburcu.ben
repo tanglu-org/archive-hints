@@ -1,5 +1,0 @@
-title = "liburcu (auto)";
-is_affected = .depends ~ /liburcu2|liburcu1/;
-is_good = .depends ~ /liburcu2/;
-is_bad = .depends ~ /liburcu1/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";
