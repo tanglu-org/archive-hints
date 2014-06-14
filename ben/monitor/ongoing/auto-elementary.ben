@@ -1,5 +1,0 @@
-title = "elementary (auto)";
-is_affected = .depends ~ /libelementary2|libelementary1/;
-is_good = .depends ~ /libelementary2/;
-is_bad = .depends ~ /libelementary1/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";
