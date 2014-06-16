@@ -154,7 +154,7 @@ remove glpi/0.84.3+dfsg.1-1
 remove gnade/1.6.2-9
 remove gnome-blog/0.9.1-5.1
 remove gnome-do/0.9-1
-remove gnome-do-plugins/0.8.4-5
+remove gnome-do-plugins/0.8.5-2
 remove gnome-dvb-daemon/1:0.2.10-1
 remove gnome-ppp/0.3.23-1.2
 remove gnu-fdisk/1.2.5-2
@@ -425,3 +425,15 @@ remove z88dk/1.8.ds1-10
 remove zeroc-icee/1.2.0-6.1
 remove zeroc-icee-translators/1.2.0-6
 remove zoneminder/1.26.5-3
+remove chef-server-webui/10.12.0+dfsg-1
+remove grr/2.2~dfsg2-1
+remove fusioninventory-for-glpi/2.4.0-1
+remove liblemonldap-ng-cli-perl/0.1-1build1
+remove gasic/0.0.r18-1
+remove pyowncloud/0.3.1-1
+remove osmosis-plugin-borderextract/1.3-1
+remove pacemaker-mgmt/2.0.0+hg1141-2.3
+remove libpdl-linearalgebra-perl/0.08-1
+remove turses/0.2.20-1
+remove django-oauth-plus/2.2.4-2
+remove libstoragemgmt/0.0.20-2
