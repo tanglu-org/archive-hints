@@ -420,3 +420,4 @@ remove libpdl-linearalgebra-perl/0.08-1
 remove turses/0.2.20-1
 remove django-oauth-plus/2.2.4-2
 remove libstoragemgmt/0.0.20-2
+remove rbbr/0.6.0-7b1
