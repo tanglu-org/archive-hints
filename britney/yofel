@@ -1,3 +1,6 @@
 ##
 # Britney hints file for Philip Muškovac
 ##
+
+# fast-forward d-i fix
+force acl/2.2.52-1tanglu1
