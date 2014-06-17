@@ -4,3 +4,4 @@
 
 # fast-forward d-i fix
 force acl/2.2.52-1tanglu1
+force-hint acl/2.2.52-1tanglu1
