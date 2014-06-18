@@ -2,6 +2,5 @@
 # Britney hints file for Philip Muškovac
 ##
 
-# fast-forward d-i fix
-force acl/2.2.52-1tanglu1
-force-hint acl/2.2.52-1tanglu1
+# d-i fixes
+urgent tasksel/3.20tanglu3 apt-setup/1:0.89tanglu1
