@@ -208,9 +208,13 @@ fso-gsmd
 fso-specs
 fso-usaged
 libfso-glib
+libphone-ui
+libphone-ui-shr
 phonefsod
 phoneuid
 phoneui-apps
+openbmap-logger
+xf86-video-glamo
 
 # jonno: 2014-02-10
 # For old versions of sugar, only 0.96+ is in Tanglu
