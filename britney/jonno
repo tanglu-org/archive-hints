@@ -15,6 +15,10 @@ remove phonefsod/0.1+git20121018-1 phoneuid/0.1+git20130505-1 phoneui-apps/0.1+g
 remove openbmap-logger/0.4.0-6
 remove xf86-video-glamo/0.0.0+20110719.gitcb9ed170-1
 
+# non-free, ftbfs, blocks tcl/tk 8.4 removal
+remove fsl/4.1.9-7 fsl/4.1.9-7.2
+remove ngspice/24-1 ngspice/24-1.1
+
 # Dropped from Debian jessie, but still in Debian sid, so not considered by janitor
 remove ruby1.8/1.8.7.358-13 ruby1.9.1/1.9.3.484-1
 remove libjavascript-packer-perl/1.006003-1
