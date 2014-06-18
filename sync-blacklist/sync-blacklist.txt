@@ -168,8 +168,6 @@ openbgpd
 cuse4bsd
 ufsutils
 zfsutils
-freebsd-glue
-freebsd-buildutils
 
 # Non-amd64/i386 arch specific stuff
 openbios-sparc
