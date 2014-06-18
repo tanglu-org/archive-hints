@@ -22,3 +22,5 @@ remove slepc/3.4.2.dfsg-1b1
 remove tcl8.4/8.4.20-7
 remove tk8.4/8.4.20-7
 remove yui/2.9.0.dfsg.0.1-0.1
+remove getdp/2.4.2-1b2 getdp/2.4.2-1b3
+remove feel++/1:0.95.0-final-2b1 feel++/1:0.98.0-final-1b1
