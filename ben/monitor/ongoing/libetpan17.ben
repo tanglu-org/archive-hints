@@ -1,5 +1,5 @@
 title = "libetpan17";
 is_affected = .build-depends ~ "libetpan-dev";
 is_good = .depends ~ "libetpan17";
-is_bad = .depends ~ "libetpan15";
+is_bad = .depends ~ /libetpan1[56]/;
 notes = "";
