@@ -214,6 +214,15 @@ phoneui-apps
 openbmap-logger
 xf86-video-glamo
 
+# We only support systemd, and tolerate sysv-rc.
+# All other init systems are banned by executive decree.
+systemd-shim
+init-select
+openrc
+file-rc
+upstart
+mountall
+
 # jonno: 2014-02-10
 # For old versions of sugar, only 0.96+ is in Tanglu
 sugar-artwork-0.84
@@ -232,8 +241,6 @@ sugar-toolkit-0.88
 
 # jonno: 2014-02-10
 udev # udev is packaged via systemd
-upstart # No upstart in Tanglu
-systemd-shim # No upstart in Tanglu
 uclibc # We don't want this mess in Tanglu
 console-tools # Superseeded by kbd
 iproute # Superseeded by iproute2
@@ -243,11 +250,7 @@ libgd-gd2-noxpm-perl # Superseeded, Tanglu completed its transition before Debia
 libgd-gd2-perl # Superseeded, Tanglu completed its transition before Debian
 boost1.49 # Superseeded, Tanglu completed its transition before Debian
 
-# jonno: 2014-02-16
-init-select # We only support systemd anyway.
-
 # jonno: 2014-04-24
-mountall # No upstart in Tanglu
 libdbd-oracle-perl # Does not auto-build
 
 # jonno: 2014-05-08

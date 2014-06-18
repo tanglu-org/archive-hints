@@ -19,6 +19,11 @@ remove xf86-video-glamo/0.0.0+20110719.gitcb9ed170-1
 remove fsl/4.1.9-7 fsl/4.1.9-7.2
 remove ngspice/24-1 ngspice/24-1.1
 
+# We only support systemd, and tolerate sysv-rc.
+# All other init systems are banned by executive decree.
+remove file-rc/0.8.16
+remove openrc/0.12.4+20131230-9
+
 # Dropped from Debian jessie, but still in Debian sid, so not considered by janitor
 remove ruby1.8/1.8.7.358-13 ruby1.9.1/1.9.3.484-1
 remove libjavascript-packer-perl/1.006003-1
