@@ -57,3 +57,5 @@ remove mozart-stdlib/20060615-6
 remove ogre/1.7.4+dfsg1-7
 remove openbve/1.4.0.9-1
 remove valabind/0.7.4-4
+remove libsbml/5.6.0-1b1 libsbml/5.8.0-2b1
+remove dlr-languages/20090805+git.e6b28d27+dfsg-4 dlr-languages/20090805+git.e6b28d27+dfsg-4b1
