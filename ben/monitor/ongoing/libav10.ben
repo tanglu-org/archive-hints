@@ -1,0 +1,5 @@
+title = "libav";
+is_affected = .depends ~ /lib(avcodec|avformat|avutil|device|filter)-dev/
+is_good = .depends ~ /lib(avcodec55|avformat55|avutil53|device54|filter4)/
+is_bad = .depends ~ /lib(avcodec54|avformat54|avutil52|device53|filter3)/
+notes = "Debian bug#739079";
