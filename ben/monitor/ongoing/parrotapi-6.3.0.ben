@@ -1,0 +1,5 @@
+title = "Parrot 6.3";
+is_affected = .build-depends ~ /parrot-devel/ | .depends ~ /parrotapi-/;
+is_good = .depends ~ /parrotapi-6\.3\.0/;
+is_bad = .depends ~ /parrotapi-(5\.0|5\.9|6\.0)/;
+notes = "";
