@@ -1,5 +1,5 @@
 title = "libgnutls-deb0-28";
 is_affected = .depends ~ /libgnutls28/ | .depends ~ /libgnutls-deb0-28/;
 is_good = .depends ~ /libgnutls-deb0-28/;
-is_bad = .depends ~ /libgnutls28/;
+is_bad = .depends ~ /libgnutls28($|[^-])/;
 notes = "Debian bug#748535";
