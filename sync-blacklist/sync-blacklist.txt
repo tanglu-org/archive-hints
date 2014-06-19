@@ -159,7 +159,6 @@ kfreebsd-kernel-di-amd64
 kfreebsd-kernel-di-i386
 kfreebsd-kernel-headers
 freebsd-manpages
-freebsd-libs
 freebsd-smbfs
 freebsd-utils
 freebsd-quota
