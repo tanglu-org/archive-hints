@@ -10,14 +10,12 @@ remove bluez-hcidump/2.5-1
 # we migrated to webkitgtk
 block webkit
 
-# Perl 5.18 migration
-force perl/5.18.1-4
-
-# VLC 2.1
-force vlc/2.1.1-1
-
 # RoQA kdenetwork
 remove kdenetwork/4:4.10.5-3
 
 # Broken in Debian/Tanglu
 remove telepathy-ring/2.1.0-1
+
+# Protobuf is required by many packages, hint
+# it for inclusion (and deal with the fallout later)
+force-hint protobuf/2.5.0-9
