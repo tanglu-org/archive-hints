@@ -179,6 +179,7 @@ yaboot-installer
 powerpc-ibm-utils
 powerpc-utils
 ps3-utils
+librtas
 s390-dasd
 s390-netdevice
 s390-sysconfig-writer
