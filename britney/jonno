@@ -2,6 +2,9 @@
 # Britney hints file for Jon Severinsson
 ##
 
+# Half of staging is waiting for it...
+urgent glibc/2.19-3experimental0
+
 # Remove GCC 4.7, barthomomea will only ship with 4.6, 4.8 and 4.9
 remove gcc-4.7/4.7.3-5 gcc-4.7-doc/4.7.3-2 dragonegg/3.3-2
 
