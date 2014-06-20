@@ -53,6 +53,7 @@ google-bookmarks
 google-gadgets
 greasemonkey
 https-everywhere
+https-finder
 iceweasel-linky
 imap-acl-extension
 itsalltext
@@ -62,6 +63,7 @@ livehttpheaders
 mozgest
 mozilla-dom-inspector
 mozilla-noscript
+mozvoikko
 mozzemberek
 nosquint
 nostalgy
@@ -83,6 +85,7 @@ searchload-options
 sieve-extension
 status-4-evar
 stumbleupon
+stylish
 syncplaces
 tabmixplus
 toggle-proxy
@@ -99,6 +102,7 @@ webdeveloper
 wot
 xul-ext-monkeysphere
 xul-ext-zotero
+y-u-no-validate
 zarafa-drag-n-drop
 
 # old GCC versions which we don't support
