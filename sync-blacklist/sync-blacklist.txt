@@ -158,6 +158,8 @@ openbgpd
 cuse4bsd
 ufsutils
 zfsutils
+partman-ufs
+partman-zfs
 
 # Non-amd64/i386 arch specific stuff
 openbios-sparc

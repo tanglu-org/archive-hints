@@ -28,6 +28,9 @@ remove openrc/0.12.4+20131230-9
 # New versions only build on ppc
 remove librtas/1.3.6-1
 
+# Only for kfreebsd
+remove ufsutils/8.2-3 partman-ufs/17b1
+
 # Dropped from Debian jessie, but still in Debian sid, so not considered by janitor
 remove ruby1.8/1.8.7.358-13 ruby1.9.1/1.9.3.484-1
 remove libjavascript-packer-perl/1.006003-1
