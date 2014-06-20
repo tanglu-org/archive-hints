@@ -1,5 +1,0 @@
-title = "protobuf 2.5.0";
-is_affected = .build-depends ~ /protobuf/;
-is_good = .depends ~ /libprotobuf8|libprotobuf-lite8|libprotoc8/;
-is_bad = .depends ~ /obuf7|libprotobuf-lite7|libprotoc7/;
-notes = "Debian bug#726165";
