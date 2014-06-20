@@ -40,6 +40,9 @@ remove https-finder/091-1
 remove stylish/1.4.2-1tanglu1
 remove mozvoikko/2.0.1-1
 
+# debian-specific
+remove debian-security-support/2014.05.24
+
 # Dropped from Debian jessie, but still in Debian sid, so not considered by janitor
 remove ruby1.8/1.8.7.358-13 ruby1.9.1/1.9.3.484-1
 remove libjavascript-packer-perl/1.006003-1
