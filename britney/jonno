@@ -2,8 +2,8 @@
 # Britney hints file for Jon Severinsson
 ##
 
-# Old GCC versions we want gone for bartholomea
-remove gcc-4.6/4.6.4-4tanglu2 gcc-4.7/4.7.3-5 gcc-4.4-doc-non-dfsg/4.4.7-4 gcc-4.6-doc/4.6.4-2 gcc-4.7-doc/4.7.3-2 gnat-4.6/4.6.4-0tanglu2
+# Remove GCC 4.7, barthomomea will only ship with 4.6, 4.8 and 4.9
+remove gcc-4.7/4.7.3-5 gcc-4.7-doc/4.7.3-2 dragonegg/3.3-2
 
 # Gnome 2.x is dead
 remove basenji/1.0.1-3 padevchooser/0.9.4-1.1 icewm/1.3.7-5
