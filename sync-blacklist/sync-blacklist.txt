@@ -203,6 +203,7 @@ fso-gsmd
 fso-specs
 fso-usaged
 libfso-glib
+libfsoframework
 libphone-ui
 libphone-ui-shr
 phonefsod
