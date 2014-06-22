@@ -5,3 +5,6 @@
 # d-i fixes
 urgent tasksel/3.20tanglu3 apt-setup/1:0.89tanglu2
 urgent user-setup/1.56tanglu1
+
+# get the libraw transition done
+urgent freeimage/3.15.4-3b1 evas-loaders/1.8.1-2b1
