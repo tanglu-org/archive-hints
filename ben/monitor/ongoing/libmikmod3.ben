@@ -1,5 +1,0 @@
-title = "libmikmod";
-is_affected = .build-depends ~ /libmikmod/;
-is_good = .depends ~ "libmikmod3";
-is_bad = .depends ~ "libmikmod2";
-notes = "Debian bug#732219";
