@@ -1,5 +1,5 @@
 title = "db-defaults 5.3";
-is_affected = .build-depends ~ /libdb-dev/;
+is_affected = .build-depends ~ /libdb(\+\+)?-dev/;
 is_good = .depends ~ /libdb5.3/;
 is_bad = .depends ~ /libdb5.1/;
 notes = "Debian bug#658829";
