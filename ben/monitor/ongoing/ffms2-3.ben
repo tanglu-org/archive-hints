@@ -1,0 +1,5 @@
+title = "ffms 2.19";
+is_affected = .build-depends ~ /libffms2-dev/;
+is_good = .depends ~ /libffms2-3/;
+is_bad = .depends ~ /libffms2-2/;
+notes = "";

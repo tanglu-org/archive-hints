@@ -1,0 +1,5 @@
+title = "qgis 2.2";
+is_affected = .build-depends ~ /libqgis-dev/;
+is_good = .depends ~ /libqgis[a-z-]*2\.2/;
+is_bad = .depends ~ /libqgis[a-z-]*2\.0/;
+notes = "";

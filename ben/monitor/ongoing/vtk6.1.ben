@@ -1,0 +1,5 @@
+title = "vtk 6.1";
+is_affected = .build-depends ~ /libvtk6-dev/;
+is_good = .depends ~ /libvtk6.1/;
+is_bad = .depends ~ /libvtk6($|,| )/;
+notes = "";
