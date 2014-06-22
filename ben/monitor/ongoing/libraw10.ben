@@ -1,0 +1,4 @@
+title = "libraw10";
+is_affected = .build-depends ~ /libraw-dev/;
+is_good = .depends ~ /libraw10/;
+is_bad = .depends ~ /libraw9/;
