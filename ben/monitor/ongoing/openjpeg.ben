@@ -1,5 +1,5 @@
 title = "openjepg";
-is_affected = .build-depends ~ /libopenjpeg-dev/
-is_good = .depends ~ /libopenjpeg5/
-is_bad = .depends ~ /libopenjpeg2/
+is_affected = .build-depends ~ /libopenjpeg-dev/;
+is_good = .depends ~ /libopenjpeg5/;
+is_bad = .depends ~ /libopenjpeg2/;
 notes = "";
