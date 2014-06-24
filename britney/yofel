@@ -16,5 +16,5 @@ remove ocropus/0.3.1-4
 force-hint libplist/1.11-3 usbmuxd/1.0.8-5 libusbmuxd/1.0.9-1
 
 # help out lightdm
-urgent lightdm-kde-greeter/0.3.2.1-2tanglu1
-easy lightdm/1.10.1-3 razorqt/0.5.2-4 razorqt-lightdm-greeter/0.5.2-4 lightdm-kde-greeter/0.3.2.1-2tanglu1
+urgent lightdm-kde/0.3.2.1-2tanglu1
+easy lightdm/1.10.1-3 razorqt/0.5.2-4 razorqt/0.5.2-4 lightdm-kde/0.3.2.1-2tanglu1
