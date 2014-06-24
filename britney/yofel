@@ -12,8 +12,8 @@ urgent freeimage/3.15.4-3b1 evas-loaders/1.8.1-2b1
 # help the tiff3 removal
 remove ocropus/0.3.1-4
 
-# the libgpod deps are blocking other things
-force-hint libplist/1.11-3 usbmuxd/1.0.8-5 libusbmuxd/1.0.9-1
+# get libgpod through the queue
+urgent libgpod/0.8.3-1.1tanglu3
 
 # help out lightdm
 urgent lightdm-kde/0.3.2.1-2tanglu1
