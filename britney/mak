@@ -22,4 +22,5 @@ force-hint protobuf/2.5.0-9
 
 # We want glibc to properly replace eglibc
 remove eglibc/2.18-7
+urgent glibc/2.19-4
 force-hint glibc/2.19-4
