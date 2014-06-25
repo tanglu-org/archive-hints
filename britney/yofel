@@ -19,3 +19,4 @@ force-hint sip4/4.16.1+dfsg-1
 # force-hint completed transitions that are stuck on other transitions
 force-hint libraw/0.16.0-5
 force-hint ffms2/2.19.1-1b1
+force-hint libwebp/0.4.0-4.1b1
