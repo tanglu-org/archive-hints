@@ -14,3 +14,4 @@ urgent ideviceinstaller/1.0.1-0.2b1
 
 # speed the sip4 transition up
 urgent pykde4/4:4.13.1-1tanglu1 veusz/1.20.1-3tanglu1 pyqwt3d/0.1.7~cvs20090625-12tanglu1
+force-hint sip4/4.16.1+dfsg-1
