@@ -21,3 +21,6 @@ easy lightdm/1.10.1-3 razorqt/0.5.2-4 lightdm-kde/0.3.2.1-2tanglu1 libstatgrab/0
 
 # last part of libplist
 urgent ideviceinstaller/1.0.1-0.2b1
+
+# speed the sip4 transition up
+urgent pykde4/4:4.13.1-1tanglu1 veusz/1.20.1-3tanglu1 pyqwt3d/0.1.7~cvs20090625-12tanglu1
