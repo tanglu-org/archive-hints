@@ -1,0 +1,5 @@
+title = "gnutls28";
+is_affected = (.depends ~ "libgnutls26") | (.depends ~ "libgnutls-dev") | (.depends ~ "libgnutlsxx27") | (.depends ~ "libgnutls-deb0-28") | (.depends ~ "libgnutls28-dev") | (.depends ~ "libgnutlsxx28");
+is_good = (.depends ~ "libgnutls-deb0-28") | (.depends ~ "libgnutls28-dev") | (.depends ~ "libgnutlsxx28");
+is_bad = (.depends ~ "libgnutls26") | (.depends ~ "libgnutls-dev") | (.depends ~ "libgnutlsxx27");
+notes = "";
