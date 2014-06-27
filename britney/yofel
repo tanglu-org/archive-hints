@@ -54,3 +54,6 @@ urgent bibletime/2.9.2-1tanglu1
 # force upower as the old one isn't installable
 urgent upower/0.99.0-2
 force-hint upower/0.99.0-2
+
+# d-i
+urgent apt-setup/1:0.89tanglu3
