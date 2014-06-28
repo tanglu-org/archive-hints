@@ -1,5 +1,5 @@
 title = "libgphoto2";
-is_affected = .build-depends ~ /libgphoto2-2-dev/;
+is_affected = .build-depends ~ /libgphoto2(-2)?-dev/;
 is_good = .depends ~ /libgphoto2-(6|port10)/;
 is_bad = .depends ~ /libgphoto2-(2|port0)/;
 notes = "";
