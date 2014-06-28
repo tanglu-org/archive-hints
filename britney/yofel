@@ -2,58 +2,5 @@
 # Britney hints file for Philip Muškovac
 ##
 
-# get rtmpdump out of the queue
-urgent gst-plugins-bad0.10/0.10.23-7.2tanglu2
-
-# these need to migrate together and block most of staging
-# force them so get rid of the larger entangled transitions
-force-hint openjpeg/1.5.2-2
-force-hint libav/6:10.1-1b1
-# and speed up libav
-urgent amarok/2.8.0-2b1
-urgent ffmpegthumbnailer/2.0.8-2b1
-urgent ffmpegthumbs/4:4.13.1-1b1
-urgent alsa-plugins/1.0.27-2.1b1
-urgent amide/1.0.5-2b1
-urgent aubio/0.4.1-2b1
-urgent audacious-plugins/3.4.3-2b1
-urgent chromaprint/1.1-1b1
-urgent dff/1.3.0+dfsg.1-4.1b1
-urgent forked-daapd/21.0-1b1
-urgent freerdp/1.0.2-4b1
-urgent gegl/0.2.0-5b1
-urgent goldendict/1.5.0~git20131003-1b1
-urgent guvcview/1.7.3-1.1b1
-urgent hedgewars/0.9.20.5-6b1
-urgent idjc/0.8.14-1b1
-urgent lebiniou/3.21-1b1
-urgent kradio4/4.0.7-2b2
-urgent libphash/0.9.4-1.4b1
-urgent lynkeos.app/1.2-6.2b1
-urgent motion/3.2.12+git20140228-4b1
-urgent mpd/0.18.11-1b1
-urgent nepomuk-core/4:4.13.1-1b1
-urgent opencv/2.4.8+dfsg1-2.2b1
-urgent acoustid-fingerprinter/0.6-3b1
-urgent paraview/4.1.0+dfsg-3b1
-urgent silan/0.3.2-2b1
-urgent spek/0.8.2-3.1b1
-urgent squeezelite/1.6-1b1
-urgent survex/1.2.13-1b1
-urgent yorick-av/0.0.3-3b1
-urgent gmerlin-avdecoder/1.2.0~dfsg-5b1
-urgent gmerlin-encoders/1.2.0-7b1
-urgent kid3/3.1-1b1
-urgent mlt/0.9.0+dfsg1-1b1
-urgent mpv/0.3.11-1tanglu2
-urgent opal/3.10.10~dfsg-2.2b1
-urgent transcode/3:1.1.7-9b1
-urgent xine-lib-1.2/1.2.5-1b2
-urgent bibletime/2.9.2-1tanglu1
-
-# force upower as the old one isn't installable
-urgent upower/0.99.0-2
-force-hint upower/0.99.0-2
-
 # d-i
 urgent apt-setup/1:0.89tanglu3
