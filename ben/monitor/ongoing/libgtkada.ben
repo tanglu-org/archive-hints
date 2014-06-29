@@ -1,0 +1,4 @@
+title = "libgtkada (yofel)";
+is_affected = .depends ~ /libgnomeada2.24.4|libgnomeada2.24.4-dev|libgtkada2.24.4|libgtkada2.24.4-dev|libgtkglada2.24.4|libgtkglada2.24.4-dev|libgnomeada2.24.1|libgnomeada2.24.1-dev|libgtkada2.24.1|libgtkada2.24.1-dev|libgtkglada2.24.1|libgtkglada2.24.1-dev/;
+is_good = .depends ~ /libgnomeada2.24.4|libgnomeada2.24.4-dev|libgtkada2.24.4|libgtkada2.24.4-dev|libgtkglada2.24.4|libgtkglada2.24.4-dev/;
+is_bad = .depends ~ /libgnomeada2.24.1|libgnomeada2.24.1-dev|libgtkada2.24.1|libgtkada2.24.1-dev|libgtkglada2.24.1|libgtkglada2.24.1-dev/;
