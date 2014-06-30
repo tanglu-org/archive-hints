@@ -27,7 +27,7 @@ remove docky/2.2.0-2
 remove gnome-desktop/2.32.1-2 gnome-desktop-sharp2/2.26.0-8
 
 # Drop remnants of the freesmartphone.org software stack for ARM smartphones
-remove fso-common/0.1-1 libphone-utils/0.1+git20110523-2.1
+remove fso-common/0.1-1 libphone-utils/0.1+git20110523-2.1 python-phoneutils/0.1+git20100219-1
 
 # Misc crap
 remove fsl/4.1.9-7.2
