@@ -205,6 +205,7 @@ fso-specs
 fso-usaged
 libfso-glib
 libfsoframework
+libphone-utils
 libphone-ui
 libphone-ui-shr
 phonefsod
