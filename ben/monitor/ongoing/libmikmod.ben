@@ -1,5 +1,5 @@
 title = "libmikmod3 (yofel)";
-is_affected = .build-depends ~ /libmikmod-dev/;
+is_affected = .build-depends ~ /libmikmod(2)?-dev/;
 is_good = .depends ~ /libmikmod3/;
 is_bad = .depends ~ /libmikmod2/;
 notes = "";
