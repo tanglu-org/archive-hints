@@ -19,6 +19,10 @@ force-hint qttranslations-opensource-src/5.3.0-2
 force-hint qtwebkit-examples-opensource-src/5.3.0+dfsg-2
 force-hint qtx11extras-opensource-src/5.3.0-3
 
+# sauerbraten-dbg is only out of date because it has been removed...
+force sauerbraten/0.0.20140302-1
+force-hint sauerbraten/0.0.20140302-1
+
 # Remove GCC 4.7, barthomomea will only ship with 4.6, 4.8 and 4.9
 remove gcc-4.7/4.7.3-5 gcc-4.7-doc/4.7.3-2
 
