@@ -11,3 +11,6 @@ urgent tasksel/3.20tanglu4
 
 # tryton-server migration, package removed from testing
 remove gnuhealth/2.4.1-2
+
+# speed up qt5.3.1
+urgent qtmultimedia-opensource-src/5.3.1-1 qttools-opensource-src/5.3.1-1 qtquick1-opensource-src/5.3.1-1
