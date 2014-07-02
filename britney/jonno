@@ -3,21 +3,19 @@
 ##
 
 # There are already packages in bartholomea depending on Qt 5.3
-force qtbase-opensource-src/5.3.1+dfsg-2 qtconnectivity-opensource-src/5.3.1-1 qtdeclarative-opensource-src/5.3.1-2 qtimageformats-opensource-src/5.3.1-1 qtscript-opensource-src/5.3.1+dfsg-3 qtwebkit-opensource-src/5.3.1+dfsg-1 qtxmlpatterns-opensource-src/5.3.1-3
-force-hint qtbase-opensource-src/5.3.1+dfsg-2 qtconnectivity-opensource-src/5.3.1-1 qtdeclarative-opensource-src/5.3.1-2 qtimageformats-opensource-src/5.3.1-1 qtscript-opensource-src/5.3.1+dfsg-3 qtwebkit-opensource-src/5.3.1+dfsg-1 qtxmlpatterns-opensource-src/5.3.1-3
+force-hint qtdeclarative-opensource-src/5.3.1-3
 force-hint qtdoc-opensource-src/5.3.0-2
-force-hint qtgraphicaleffects-opensource-src/5.3.0-2
-force-hint qtlocation-opensource-src/5.3.0-3
-force-hint qtmultimedia-opensource-src/5.3.0-6
-force-hint qtquick1-opensource-src/5.3.0-4
-force-hint qtquickcontrols-opensource-src/5.3.0-2
-force-hint qtsensors-opensource-src/5.3.0+dfsg-3
-force-hint qtserialport-opensource-src/5.3.0-3
+force-hint qtgraphicaleffects-opensource-src/5.3.0-2b1
+force-hint qtlocation-opensource-src/5.3.1-1
+force-hint qtmultimedia-opensource-src/5.3.1-2
+force-hint qtquickcontrols-opensource-src/5.3.1-1
+force-hint qtscript-opensource-src/5.3.1+dfsg-3
+force-hint qtsensors-opensource-src/5.3.0+dfsg-2b1
+force-hint qtserialport-opensource-src/5.3.1-1
 force-hint qtsvg-opensource-src/5.3.0-2
-force-hint qttools-opensource-src/5.3.0-5
-force-hint qttranslations-opensource-src/5.3.0-2
-force-hint qtwebkit-examples-opensource-src/5.3.0+dfsg-2
-force-hint qtx11extras-opensource-src/5.3.0-3
+force-hint qttranslations-opensource-src/5.3.1-1
+force-hint qtwebkit-examples-opensource-src/5.3.1+dfsg-1
+force-hint qtx11extras-opensource-src/5.3.1-1
 
 # sauerbraten-dbg is only out of date because it has been removed...
 force sauerbraten/0.0.20140302-1
