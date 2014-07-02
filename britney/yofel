@@ -7,3 +7,10 @@ urgent clanlib/1.0~svn3827-3tanglu1 gweled/0.9.1-3tanglu1 bb/1.3rc1-8.1tanglu1 u
 
 # for gnome-bluetooth
 urgent network-manager-applet/0.9.8.10-1tanglu1 gnome-user-share/3.8.3-1tanglu1
+
+# qtbase-abi-5-3-1
+urgent qtquickcontrols-opensource-src/5.3.1-1 qtx11extras-opensource-src/5.3.1-1
+urgent qtmultimedia-opensource-src/5.3.1-2 qtcreator/3.1.2+dfsg-1
+urgent qtgraphicaleffects-opensource-src/5.3.1-1 qtlocation-opensource-src/5.3.1-1
+urgent qtserialport-opensource-src/5.3.1-1 qtwebkit-examples-opensource-src/5.3.1+dfsg-1
+urgent qtdeclarative-opensource-src/5.3.1-3
