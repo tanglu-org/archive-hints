@@ -14,6 +14,8 @@ urgent qtmultimedia-opensource-src/5.3.1-2 qtcreator/3.1.2+dfsg-1
 urgent qtgraphicaleffects-opensource-src/5.3.1-1 qtlocation-opensource-src/5.3.1-1
 urgent qtserialport-opensource-src/5.3.1-1 qtwebkit-examples-opensource-src/5.3.1+dfsg-1
 urgent qtdeclarative-opensource-src/5.3.1-3
+urgent qtsvg-opensource-src/5.3.1-1 qtsensors-opensource-src/5.3.1+dfsg-1
+urgent qtwebkit-opensource-src/5.3.1+dfsg-2
 
 # used old upower
 urgent gnome-power-manager/3.12.0-2
