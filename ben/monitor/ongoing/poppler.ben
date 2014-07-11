@@ -1,0 +1,4 @@
+title = "poppler 0.26 (yofel)";
+is_affected = .depends ~ /gir1.2-poppler-0.18|libpoppler-cpp-dev|libpoppler-cpp0|libpoppler-dev|libpoppler-glib-dev|libpoppler-glib-doc|libpoppler-glib8|libpoppler-private-dev|libpoppler-qt4-4|libpoppler-qt4-dev|libpoppler-qt5-1|libpoppler-qt5-dev|libpoppler46|poppler-dbg|poppler-utils|libpoppler44/;
+is_good = .depends ~ /gir1.2-poppler-0.18|libpoppler-cpp-dev|libpoppler-cpp0|libpoppler-dev|libpoppler-glib-dev|libpoppler-glib-doc|libpoppler-glib8|libpoppler-private-dev|libpoppler-qt4-4|libpoppler-qt4-dev|libpoppler-qt5-1|libpoppler-qt5-dev|libpoppler46|poppler-dbg|poppler-utils/;
+is_bad = .depends ~ /libpoppler44/;
