@@ -259,3 +259,6 @@ bootchart # Use systemd-bootchart
 bootchart2 # Use systemd-bootchart
 gnome-desktop # Gnome 2.x is dead
 gnome-desktop-sharp2 # Gnome 2.x is dead
+
+# jonno: 2014-07-19
+nvidia-graphics-modules # the dkms package in nvidia-graphics-drivers is enough

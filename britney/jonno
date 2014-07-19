@@ -17,6 +17,9 @@ remove gcc-4.7/4.7.3-5 gcc-4.7-doc/4.7.3-2
 # Drop remnants of the freesmartphone.org software stack for ARM smartphones
 remove fso-common/0.1-1 libphone-utils/0.1+git20110523-2.1 python-phoneutils/0.1+git20100219-1
 
+# Drop pre-compiled nvidia driver modules, deprecated in favour of dkms
+remove nvidia-graphics-modules/331.67+3.14+1
+
 # Misc crap
 remove fsl/4.1.9-7.2
 remove ngspice/24-1.1
