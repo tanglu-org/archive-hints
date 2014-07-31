@@ -165,6 +165,7 @@ ufsutils
 zfsutils
 partman-ufs
 partman-zfs
+libsystemd-dummy
 
 # Non-amd64/i386 arch specific stuff
 openbios-sparc
