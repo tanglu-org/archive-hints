@@ -4,3 +4,6 @@
 
 # blocks lots of packages on i386
 urgent libclass-xsaccessor-perl/1.19-2b1
+
+# fixes our live image builds
+urgent init-system-helpers/1.20tanglu1
