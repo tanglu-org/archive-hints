@@ -2,3 +2,5 @@
 # Britney hints file for Philip Muškovac
 ##
 
+# blocks lots of packages on i386
+urgent libclass-xsaccessor-perl/1.19-2b1
