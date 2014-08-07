@@ -113,8 +113,9 @@ gcc-4.4
 gcc-4.4-doc-non-dfsg
 gnat-4.4
 
-gcc-4.7
-gcc-4.7-doc
+# sync until https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=748004 is fixed
+#gcc-4.7
+#gcc-4.7-doc
 
 
 # Debian specific stuff

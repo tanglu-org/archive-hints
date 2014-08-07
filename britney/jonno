@@ -12,7 +12,9 @@ force sauerbraten/0.0.20140302-1
 force-hint sauerbraten/0.0.20140302-1
 
 # Remove GCC 4.7, barthomomea will only ship with 4.6, 4.8 and 4.9
-remove gcc-4.7/4.7.3-5 gcc-4.7-doc/4.7.3-2
+# # Don't remove until https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=748004
+# # is fixed
+#remove gcc-4.7/4.7.3-5 gcc-4.7-doc/4.7.3-2
 
 # Drop remnants of the freesmartphone.org software stack for ARM smartphones
 remove fso-common/0.1-1 libphone-utils/0.1+git20110523-2.1 python-phoneutils/0.1+git20100219-1
