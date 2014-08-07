@@ -7,3 +7,6 @@ urgent libclass-xsaccessor-perl/1.19-2b1
 
 # fixes our live image builds
 urgent init-system-helpers/1.20tanglu1
+
+# removed from testing
+remove fpdns/0.9.3-5
