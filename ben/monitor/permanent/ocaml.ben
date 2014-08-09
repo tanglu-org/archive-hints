@@ -2,7 +2,7 @@ title = "OCaml";
 is_affected = .maintainer ~ /debian-ocaml-maint/
             | .build-depends ~ /ocaml/
             | .build-depends-indep ~ /ocaml/;
-is_good = !.debcheck ~ /uninstallable/;
-is_bad = .debcheck ~ /uninstallable/;
+is_good = !.edos-debcheck ~ /uninstallable/;
+is_bad = .edos-debcheck ~ /uninstallable/;
 notes = "This is permanent tracker to prepare next transition of OCaml, tracked under #718767.
 More on http://wiki.debian.org/Teams/OCamlTaskForce/OCamlTransitions";
