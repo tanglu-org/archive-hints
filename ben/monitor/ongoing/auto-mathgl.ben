@@ -1,0 +1,8 @@
+title = "mathgl (auto)";
+is_affected = .depends ~ /libmgl-fltk7.2.0|libmgl-glut7.2.0|libmgl-mpi7.2.0|libmgl-qt7.2.0|libmgl-wnd7.2.0|libmgl-wx7.2.0|libmgl7.2.0|udav|libmgl-fltk5|libmgl-glut5|libmgl-qt5|libmgl-wx5|libmgl5|mathgl-doc-en|mathgl-doc-ru/;
+is_good = .depends ~ /libmgl-fltk7.2.0|libmgl-glut7.2.0|libmgl-mpi7.2.0|libmgl-qt7.2.0|libmgl-wnd7.2.0|libmgl-wx7.2.0|libmgl7.2.0|udav/;
+is_bad = .depends ~ /libmgl-fltk5|libmgl-glut5|libmgl-qt5|libmgl-wx5|libmgl5|mathgl-doc-en|mathgl-doc-ru/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

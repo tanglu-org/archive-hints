@@ -1,0 +1,8 @@
+title = "superlu (auto)";
+is_affected = .depends ~ /libsuperlu-dev|libsuperlu-doc|libsuperlu4|libsuperlu4-dbg|libsuperlu3|libsuperlu3-dev/;
+is_good = .depends ~ /libsuperlu-dev|libsuperlu-doc|libsuperlu4|libsuperlu4-dbg/;
+is_bad = .depends ~ /libsuperlu3|libsuperlu3-dev/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libsuperlu3-dev is not in libs or oldlibs";

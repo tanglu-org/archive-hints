@@ -1,0 +1,8 @@
+title = "libtemplates-parser (auto)";
+is_affected = .depends ~ /libtemplates-parser-dbg|libtemplates-parser11.8.2014|libtemplates-parser11.8.2014-dev|libtemplates-parser11.6|libtemplates-parser11.6-dbg|libtemplates-parser11.6-dev/;
+is_good = .depends ~ /libtemplates-parser-dbg|libtemplates-parser11.8.2014|libtemplates-parser11.8.2014-dev/;
+is_bad = .depends ~ /libtemplates-parser11.6|libtemplates-parser11.6-dbg|libtemplates-parser11.6-dev/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libtemplates-parser11.6-dev is not in libs or oldlibs";

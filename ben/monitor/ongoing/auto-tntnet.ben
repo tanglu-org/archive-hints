@@ -1,0 +1,8 @@
+title = "tntnet (auto)";
+is_affected = .depends ~ /libtntnet12|libtntnet11/;
+is_good = .depends ~ /libtntnet12/;
+is_bad = .depends ~ /libtntnet11/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

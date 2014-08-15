@@ -1,0 +1,8 @@
+title = "ppl (auto)";
+is_affected = .depends ~ /libppl-dev|libppl13|libppl0.12-dev|libppl12/;
+is_good = .depends ~ /libppl-dev|libppl13/;
+is_bad = .depends ~ /libppl0.12-dev|libppl12/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libppl0.12-dev is not in libs or oldlibs";
