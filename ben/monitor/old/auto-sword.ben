@@ -1,5 +1,0 @@
-title = "sword (auto)";
-is_affected = .depends ~ /libsword10|libsword9/;
-is_good = .depends ~ /libsword10/;
-is_bad = .depends ~ /libsword9/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...";
