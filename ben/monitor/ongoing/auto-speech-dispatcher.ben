@@ -1,0 +1,8 @@
+title = "speech-dispatcher (auto)";
+is_affected = .depends ~ /python3-speechd|speech-dispatcher-audio-plugins|python-speechd/;
+is_good = .depends ~ /python3-speechd|speech-dispatcher-audio-plugins/;
+is_bad = .depends ~ /python-speechd/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - python-speechd is not in libs or oldlibs";
