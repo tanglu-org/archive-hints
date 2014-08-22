@@ -27,3 +27,7 @@ force-hint glibc/2.19-4
 
 # fixes lots of install-issues
 urgent network-manager-gnome/0.9.10.0-2
+
+# fixes kdm issues
+urgent kde-workspace/​4:4.11.11-1tanglu3
+urgent tanglu-artwork/0.5.7
