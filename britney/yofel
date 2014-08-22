@@ -2,17 +2,5 @@
 # Britney hints file for Philip Muškovac
 ##
 
-# blocks lots of packages on i386
-urgent libclass-xsaccessor-perl/1.19-2b1
-
-# fixes our live image builds
-urgent init-system-helpers/1.20tanglu1
-
-# removed from testing
-remove fpdns/0.9.3-5
-
-# blocks the kde4libs security update
-urgent libauthen-krb5-admin-perl/0.17-1b2
-
-# help krb5 migrate
-easy krb5/1.12.1+dfsg-5 libauthen-krb5-admin-perl/0.17-1b2 krb5-sync/3.0-4 keyutils/1.5.9-4b1
+# don't try to migrate perl until the transition is done
+block perl
