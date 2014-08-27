@@ -1,0 +1,8 @@
+title = "libodfgen (auto)";
+is_affected = .depends ~ /libodfgen-0.1-1|libodfgen-0.0-0/;
+is_good = .depends ~ /libodfgen-0.1-1/;
+is_bad = .depends ~ /libodfgen-0.0-0/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

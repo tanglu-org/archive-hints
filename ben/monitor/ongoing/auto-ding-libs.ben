@@ -1,0 +1,8 @@
+title = "ding-libs (auto)";
+is_affected = .depends ~ /libcollection4|libini-config5|libcollection2|libini-config3/;
+is_good = .depends ~ /libcollection4|libini-config5/;
+is_bad = .depends ~ /libcollection2|libini-config3/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

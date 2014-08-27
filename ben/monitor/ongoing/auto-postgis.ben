@@ -1,0 +1,8 @@
+title = "postgis (auto)";
+is_affected = .depends ~ /postgresql-9.4-postgis-2.1|postgresql-9.4-postgis-2.1-scripts|postgresql-9.4-postgis-scripts|postgresql-9.3-postgis-2.1|postgresql-9.3-postgis-2.1-scripts|postgresql-9.3-postgis-scripts/;
+is_good = .depends ~ /postgresql-9.4-postgis-2.1|postgresql-9.4-postgis-2.1-scripts|postgresql-9.4-postgis-scripts/;
+is_bad = .depends ~ /postgresql-9.3-postgis-2.1|postgresql-9.3-postgis-2.1-scripts|postgresql-9.3-postgis-scripts/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - postgresql-9.3-postgis-scripts is not in libs or oldlibs";

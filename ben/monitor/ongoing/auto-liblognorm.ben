@@ -1,0 +1,8 @@
+title = "liblognorm (auto)";
+is_affected = .depends ~ /liblognorm1|liblognorm0/;
+is_good = .depends ~ /liblognorm1/;
+is_bad = .depends ~ /liblognorm0/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

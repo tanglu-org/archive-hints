@@ -1,0 +1,8 @@
+title = "protobuf-c (auto)";
+is_affected = .depends ~ /libprotobuf-c-dev|libprotobuf-c1|libprotobuf-c1-dbg|libprotobuf-c0|libprotobuf-c0-dev/;
+is_good = .depends ~ /libprotobuf-c-dev|libprotobuf-c1|libprotobuf-c1-dbg/;
+is_bad = .depends ~ /libprotobuf-c0|libprotobuf-c0-dev/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libprotobuf-c0-dev is not in libs or oldlibs";
