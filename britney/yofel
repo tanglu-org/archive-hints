@@ -3,4 +3,13 @@
 ##
 
 # don't try to migrate perl until the transition is done
-block perl
+#block perl
+
+# perl 5.20
+urgent uwsgi/2.0.6~dfsg-8
+remove pilot-link/0.12.5-6
+#force-hint -pilot-link/0.12.5-6
+remove libclone-fast-perl/0.97-1b1
+remove libposix-strptime-perl/0.10-2
+remove libsbml/5.6.0-1b1 sbmltoolbox/4.1.0-1
+remove postgres-xc/1.1-2b1
