@@ -3,6 +3,7 @@
 ##
 
 # perl 5.20 is done but needs some help
+block perl
 #force-hint perl/5.20.0-4b1
 urgent uwsgi/2.0.6~dfsg-8
 remove pilot-link/0.12.5-6
