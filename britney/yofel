@@ -12,3 +12,9 @@ remove libclone-fast-perl/0.97-1b1
 remove libposix-strptime-perl/0.10-2
 remove libsbml/5.6.0-1b1 sbmltoolbox/4.1.0-1
 remove postgres-xc/1.1-2b1
+
+# broken by updated filter libraries
+remove calligra/1:2.7.5-1b2
+remove calligra-l10n/1:2.7.5-1
+remove calligra-transitional/3
+easy -calligra/1:2.7.5-1b2 -calligra-l10n/1:2.7.5-1 -calligra-transitional/3
