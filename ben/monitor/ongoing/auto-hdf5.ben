@@ -1,0 +1,8 @@
+title = "hdf5 (auto)";
+is_affected = .depends ~ /libhdf5-8|libhdf5-8-dbg|libhdf5-cpp-8|libhdf5-cpp-8-dbg|libhdf5-mpich-8|libhdf5-mpich-8-dbg|libhdf5-openmpi-8|libhdf5-openmpi-8-dbg|libhdf5-7|libhdf5-7-dbg|libhdf5-cpp-7|libhdf5-cpp-7-dbg|libhdf5-mpich-7|libhdf5-mpich-7-dbg|libhdf5-mpich2-7|libhdf5-mpich2-7-dbg|libhdf5-openmpi-7|libhdf5-openmpi-7-dbg/;
+is_good = .depends ~ /libhdf5-8|libhdf5-8-dbg|libhdf5-cpp-8|libhdf5-cpp-8-dbg|libhdf5-mpich-8|libhdf5-mpich-8-dbg|libhdf5-openmpi-8|libhdf5-openmpi-8-dbg/;
+is_bad = .depends ~ /libhdf5-7|libhdf5-7-dbg|libhdf5-cpp-7|libhdf5-cpp-7-dbg|libhdf5-mpich-7|libhdf5-mpich-7-dbg|libhdf5-mpich2-7|libhdf5-mpich2-7-dbg|libhdf5-openmpi-7|libhdf5-openmpi-7-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libhdf5-mpich-7-dbg is not in libs or oldlibs";

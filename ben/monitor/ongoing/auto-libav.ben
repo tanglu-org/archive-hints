@@ -1,0 +1,8 @@
+title = "libav (auto)";
+is_affected = .depends ~ /libavcodec-extra-56|libavcodec56|libavdevice55|libavfilter5|libavformat56|libavresample2|libavutil54|libswscale3|libavcodec-extra-55|libavcodec55|libavdevice54|libavfilter4|libavformat55|libavresample1|libavutil53|libswscale2/;
+is_good = .depends ~ /libavcodec-extra-56|libavcodec56|libavdevice55|libavfilter5|libavformat56|libavresample2|libavutil54|libswscale3/;
+is_bad = .depends ~ /libavcodec-extra-55|libavcodec55|libavdevice54|libavfilter4|libavformat55|libavresample1|libavutil53|libswscale2/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
