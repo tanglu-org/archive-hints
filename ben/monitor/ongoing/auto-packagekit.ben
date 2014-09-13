@@ -1,0 +1,8 @@
+title = "packagekit (auto)";
+is_affected = .depends ~ /libpackagekit-glib2-18|libpackagekit-glib2-16/;
+is_good = .depends ~ /libpackagekit-glib2-18/;
+is_bad = .depends ~ /libpackagekit-glib2-16/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
