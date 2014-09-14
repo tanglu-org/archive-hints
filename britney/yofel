@@ -13,18 +13,6 @@ remove libposix-strptime-perl/0.10-2
 remove libsbml/5.6.0-1b1 sbmltoolbox/4.1.0-1
 remove postgres-xc/1.1-2b1
 
-# broken by updated filter libraries
-remove calligra/1:2.7.5-1b2
-remove calligra-l10n/1:2.7.5-1
-remove calligra-transitional/3
-easy -calligra/1:2.7.5-1b2 -calligra-l10n/1:2.7.5-1 -calligra-transitional/3
-
-# broken and blocks gnustep
-remove sogo/2.2.5-1
-
-# curse you cairo-dock-dbus-plug-in-interface-mono:i386
-force-hint upower/0.99.1-2 gnome-control-center/1:3.12.1-4b1 gnome-power-manager/3.12.2-1b1 xfce4-systemload-plugin/1.1.1-3b1 cinnamon-settings-daemon/2.2.4.repack-4 gnome-shell-pomodoro/0.10.2-5 cairo-dock-plug-ins/3.3.2-3.3b1 gnome-applets/3.8.1-1 wmbattery/2.44b1 sleepd/2.07b1 gnome-settings-daemon/3.12.2-1b1 tracker/1.0.3-1b1 mutter/3.12.2-2b1 cinnamon-control-center/2.2.10-3b1 mate-power-manager/1.8.0+dfsg1-3b1
-
 # clean out staging with perl, wx, libav, etc.
 remove mrpt/1:1.0.2-1b1
 force-hint -mrpt/1:1.0.2-1b1
