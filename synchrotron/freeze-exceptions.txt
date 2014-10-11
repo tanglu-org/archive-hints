@@ -1,0 +1,10 @@
+# Tanglu synchrotron permanent sync freeze exceptions
+#
+# This list contains packages which should be permanently automatically synced,
+# although a Debian import freeze is currently active.
+#
+# Tanglu developers can manually sync stuff from Debian at any time! Please do
+# only add packages here which should be auto-synced.
+
+# GNOME 3.14
+adwaita-icon-theme
