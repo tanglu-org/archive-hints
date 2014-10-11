@@ -8,3 +8,14 @@
 
 # GNOME 3.14
 adwaita-icon-theme
+at-spi2-atk
+at-spi2-core
+atk
+
+# Some dependencies of GNOME
+packagekit
+
+# Other stuff we want up-to-date
+apper
+packagekit-qt
+listaller
