@@ -224,7 +224,6 @@ init-select
 openrc
 file-rc
 upstart
-mountall
 
 # jonno: 2014-02-10
 # For old versions of sugar, only 0.96+ is in Tanglu
