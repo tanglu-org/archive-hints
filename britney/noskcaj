@@ -1,3 +1,6 @@
 ##
 # Britney hints file for Jackson Doak
 ##
+
+# glade changed soname and all r-deps are ready
+force-hint glade/3.18.3-1
