@@ -3,22 +3,7 @@
 ##
 
 # old package, superseded
-remove agda-bin/2.3.0.1-1
-remove udev/175-7
-remove bluez-hcidump/2.5-1
-
-# we migrated to webkitgtk
-block webkit
-
-# RoQA kdenetwork
-remove kdenetwork/4:4.10.5-3
-
-# Broken in Debian/Tanglu
-remove telepathy-ring/2.1.0-1
-
-# Protobuf is required by many packages, hint
-# it for inclusion (and deal with the fallout later)
-force-hint protobuf/2.5.0-9
+remove update-manager/0.200.5-2.1tanglu1
 
 # We want glibc to properly replace eglibc
 remove eglibc/2.18-7
