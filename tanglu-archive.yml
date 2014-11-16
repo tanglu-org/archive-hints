@@ -22,7 +22,7 @@ Janitor:
     hints_file: /srv/dak/archive-hints/britney/janitor
 
 Templates:
-    package_watch:
+    package_watch: /srv/dev-websites/qa-pages/package-watch/pkgwatch.html.tpl
 
 Suites:
     - name: aequorea
