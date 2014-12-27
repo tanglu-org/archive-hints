@@ -1,0 +1,8 @@
+title = "openvswitch (auto)";
+is_affected = .depends ~ /openvswitch-vtep|openvswitch-brcompat|openvswitch-controller|openvswitch-datapath-dkms|openvswitch-datapath-source|ovsdbmonitor/;
+is_good = .depends ~ /openvswitch-vtep/;
+is_bad = .depends ~ /openvswitch-brcompat|openvswitch-controller|openvswitch-datapath-dkms|openvswitch-datapath-source|ovsdbmonitor/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - openvswitch-datapath-dkms is not in libs or oldlibs";

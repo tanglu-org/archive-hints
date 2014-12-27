@@ -1,0 +1,8 @@
+title = "xmlrpc-c (auto)";
+is_affected = .depends ~ /libxmlrpc-c++8|libxmlrpc-c++8-dev|libxmlrpc-c++4|libxmlrpc-c++4-dev|libxmlrpc-c3-dev/;
+is_good = .depends ~ /libxmlrpc-c++8|libxmlrpc-c++8-dev/;
+is_bad = .depends ~ /libxmlrpc-c++4|libxmlrpc-c++4-dev|libxmlrpc-c3-dev/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libxmlrpc-c++4-dev is not in libs or oldlibs";

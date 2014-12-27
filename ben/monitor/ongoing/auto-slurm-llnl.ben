@@ -1,0 +1,8 @@
+title = "slurm-llnl (auto)";
+is_affected = .depends ~ /libslurm27|libslurmdb27|slurm-client|slurm-wlm|slurm-wlm-basic-plugins|slurm-wlm-basic-plugins-dev|slurm-wlm-doc|slurm-wlm-torque|slurmctld|slurmd|slurmdbd|sview|libslurm26|libslurmdb26|slurm-llnl-basic-plugins|slurm-llnl-basic-plugins-dev|slurm-llnl-doc|slurm-llnl-sview|slurm-llnl-torque/;
+is_good = .depends ~ /libslurm27|libslurmdb27|slurm-client|slurm-wlm|slurm-wlm-basic-plugins|slurm-wlm-basic-plugins-dev|slurm-wlm-doc|slurm-wlm-torque|slurmctld|slurmd|slurmdbd|sview/;
+is_bad = .depends ~ /libslurm26|libslurmdb26|slurm-llnl-basic-plugins|slurm-llnl-basic-plugins-dev|slurm-llnl-doc|slurm-llnl-sview|slurm-llnl-torque/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - slurm-llnl-basic-plugins is not in libs or oldlibs";

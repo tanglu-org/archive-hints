@@ -1,0 +1,8 @@
+title = "freeipmi (auto)";
+is_affected = .depends ~ /freeipmi-ipmiseld|libfreeipmi16|libipmimonitoring5a|libfreeipmi12|libipmimonitoring5/;
+is_good = .depends ~ /freeipmi-ipmiseld|libfreeipmi16|libipmimonitoring5a/;
+is_bad = .depends ~ /libfreeipmi12|libipmimonitoring5/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

@@ -1,0 +1,8 @@
+title = "apq (auto)";
+is_affected = .depends ~ /libapq-dbg|libapq-doc|libapq3.2.0.1|libapq4-dev|libapq3.2.0|libapq3.2.0-dbg|libapq3.2.0-dev/;
+is_good = .depends ~ /libapq-dbg|libapq-doc|libapq3.2.0.1|libapq4-dev/;
+is_bad = .depends ~ /libapq3.2.0|libapq3.2.0-dbg|libapq3.2.0-dev/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libapq3.2.0-dev is not in libs or oldlibs";
