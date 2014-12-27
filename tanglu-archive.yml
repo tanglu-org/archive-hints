@@ -7,7 +7,7 @@ MOM:
 
 Archive:
     path: /srv/archive.tanglu.org
-    devel_suite: bartholomea
+    devel_suite: chromodoris
     staging_suite: staging
     export_dir: /srv/dak/export
     incoming: /pub/ftp/incoming
@@ -15,14 +15,11 @@ Archive:
 Synchrotron:
     sync_source:
         archs: amd64 armel armhf i386 ia64 mips mipsel powerpc s390 s390x sparc kfreebsd-amd64 kfreebsd-i386 m68k
-    sync_enabled: false
+    sync_enabled: true
     freeze_exceptions: /srv/dak/archive-hints/synchrotron/freeze-exceptions.txt
 
 Janitor:
     hints_file: /srv/dak/archive-hints/britney/janitor
-
-Templates:
-    package_watch: /srv/dev-websites/qa-pages/package-watch/pkgwatch.html.tpl
 
 Suites:
     - name: aequorea
@@ -33,12 +30,22 @@ Suites:
       components: main contrib non-free
       archs: amd64 i386
 
+    - name: chromodoris
+      components: main contrib non-free
+      archs: amd64 i386
+
+Rapidumo:
+    html_output: /srv/dak/export/qa-pages
+    britney_output_dir: /srv/qa.tanglu.org/staging-report/
+    pkg_issues_dir: /srv/dak/export/pkg-issues/
+
 Fedmsg:
     prefix: "org.tanglu"
     sign: false
     environment: "dev"
     endpoints:
-        "rapidumolib.curie":
+        "rapidumo.curie":
+            - "tcp://hub.tanglu.org:9940"
             - "tcp://localhost:3000"
             - "tcp://localhost:3001"
             - "tcp://localhost:3002"
