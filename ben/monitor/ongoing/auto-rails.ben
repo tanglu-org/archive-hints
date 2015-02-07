@@ -1,0 +1,8 @@
+title = "rails (auto)";
+is_affected = .depends ~ /ruby-actionview|ruby-activesupport-2.3|ruby-rails|ruby-activeresource/;
+is_good = .depends ~ /ruby-actionview|ruby-activesupport-2.3|ruby-rails/;
+is_bad = .depends ~ /ruby-activeresource/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";
