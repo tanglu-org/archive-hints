@@ -5,14 +5,6 @@
 # old package, superseded
 remove update-manager/0.200.5-2.1tanglu1
 
-# We want glibc to properly replace eglibc
-remove eglibc/2.18-7
-urgent glibc/2.19-4
-force-hint glibc/2.19-4
-
-# fixes lots of install-issues
-urgent network-manager-gnome/0.9.10.0-2
-
-# fixes kdm issues
-urgent kde-workspace/4:4.11.11-1tanglu4
-urgent tanglu-artwork/0.5.7
+# we want new live-tools in chromodoris ASAP
+urgent live-build/5.0~a3-1tanglu1
+urgent live-boot/5.0~a1-1tanglu1
