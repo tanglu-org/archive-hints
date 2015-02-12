@@ -2,15 +2,6 @@
 # Britney hints file for Jon Severinsson
 ##
 
-# There are already packages in bartholomea depending on Qt 5.3
-force-hint qtdoc-opensource-src/5.3.0-2
-force-hint qtgraphicaleffects-opensource-src/5.3.1-1
-force-hint qttranslations-opensource-src/5.3.1-1
-
-# sauerbraten-dbg is only out of date because it has been removed...
-force sauerbraten/0.0.20140302-1
-force-hint sauerbraten/0.0.20140302-1
-
 # Remove GCC 4.7, barthomomea will only ship with 4.6, 4.8 and 4.9
 # # Don't remove until https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=748004
 # # is fixed
