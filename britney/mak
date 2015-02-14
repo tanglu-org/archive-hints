@@ -5,7 +5,7 @@
 # old package, superseded
 remove update-manager/0.200.5-2.1tanglu1
 
-# we want new live-tools in chromodoris ASAP
-urgent live-build/5.0~a3-1tanglu1
-urgent live-boot/5.0~a1-1tanglu1
+# we want new live-tools in chromodoris asap
+urgent live-build/5.0~a3-1tanglu2
+urgent live-boot/5.0~a1-1tanglu2
 urgent live-config/5.0~a1-1tanglu1
