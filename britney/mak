@@ -5,10 +5,11 @@
 # old package, superseded
 remove update-manager/0.200.5-2.1tanglu1
 
-# we want new live-tools in chromodoris asap
+# we want new live/installer stuff in chromodoris asap
 urgent live-build/5.0~a3-1tanglu2
 urgent live-boot/5.0~a1-1tanglu3
 urgent live-config/5.0~a1-1tanglu1
+urgent calamares/1.0.1-0tanglu2
 
 # help Postgres 9.4.1 to reach chromodoris
 force-hint postgresql-9.4/9.4.1-1
