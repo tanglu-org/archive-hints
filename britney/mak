@@ -11,5 +11,9 @@ urgent live-boot/5.0~a1-1tanglu3
 urgent live-config/5.0~a1-1tanglu1
 urgent calamares/1.0.1-0tanglu4
 
-# help Postgres 9.4.1 to reach chromodoris
-force-hint postgresql-9.4/9.4.1-1
+# help some packages migrate
+force-hint util-linux/2.25.2-5
+force-hint systemd/218-10tanglu1
+force-hint lirc/0.9.0~pre1-1.2
+urgent policykit-1/0.112-4tanglu2
+urgent apparmor/2.9.0-3+exp1
