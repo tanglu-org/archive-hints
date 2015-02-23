@@ -16,5 +16,5 @@ urgent policykit-1/0.112-4tanglu2
 urgent apparmor/2.9.0-3+exp1b1
 urgent evolution-data-server/3.12.11-0tanglu2
 
-#force-hint clutter-1.0/1.21.4-0tanglu1
-force-hint libinput/0.10.0-1
+urgent clutter-1.0/1.21.4-0tanglu2
+urgent libinput/0.10.0-1
