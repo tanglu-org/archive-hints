@@ -1,4 +1,0 @@
-title = "libxmlada (yofel)";
-is_affected =  .depends ~ /libxmlada-dbg|libxmlada4.4.0|libxmlada4.4.0-dev|libxmlada4.1|libxmlada4.1-dbg|libxmlada4.1-dev/;
-is_good = .depends ~ /libxmlada-dbg|libxmlada4.4.0|libxmlada4.4.0-dev/;
-is_bad = .depends ~ /libxmlada4.1|libxmlada4.1-dbg|libxmlada4.1-dev/;
