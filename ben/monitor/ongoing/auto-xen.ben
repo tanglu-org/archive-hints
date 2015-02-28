@@ -1,8 +1,0 @@
-title = "xen (auto)";
-is_affected = .depends ~ /libxen-4.4|xen-hypervisor-4.4-amd64|xen-hypervisor-4.4-arm64|xen-hypervisor-4.4-armhf|xen-system-arm64|xen-system-armhf|xen-utils-4.4|libxen-4.3|libxen-ocaml|libxen-ocaml-dev|xen-hypervisor-4.3-amd64|xen-utils-4.3/;
-is_good = .depends ~ /libxen-4.4|xen-hypervisor-4.4-amd64|xen-hypervisor-4.4-arm64|xen-hypervisor-4.4-armhf|xen-system-arm64|xen-system-armhf|xen-utils-4.4/;
-is_bad = .depends ~ /libxen-4.3|libxen-ocaml|libxen-ocaml-dev|xen-hypervisor-4.3-amd64|xen-utils-4.3/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - xen-utils-4.3 is not in libs or oldlibs";

@@ -1,8 +1,0 @@
-title = "asis (auto)";
-is_affected = .depends ~ /libasis-dbg|libasis2013|libasis2013-dev|libasis2010|libasis2010-dbg|libasis2010-dev/;
-is_good = .depends ~ /libasis-dbg|libasis2013|libasis2013-dev/;
-is_bad = .depends ~ /libasis2010|libasis2010-dbg|libasis2010-dev/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

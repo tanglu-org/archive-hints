@@ -1,8 +1,0 @@
-title = "libinput (auto)";
-is_affected = .depends ~ /libinput5|libinput5-dbg|libinput3|libinput3-dbg/;
-is_good = .depends ~ /libinput5|libinput5-dbg/;
-is_bad = .depends ~ /libinput3|libinput3-dbg/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

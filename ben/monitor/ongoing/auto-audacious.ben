@@ -1,8 +1,0 @@
-title = "audacious (auto)";
-is_affected = .depends ~ /libaudcore2|libaudclient2|libaudcore1/;
-is_good = .depends ~ /libaudcore2/;
-is_bad = .depends ~ /libaudclient2|libaudcore1/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libaudcore1 is not in libs or oldlibs";

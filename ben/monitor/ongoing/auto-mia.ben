@@ -1,8 +1,0 @@
-title = "mia (auto)";
-is_affected = .depends ~ /libmia-2.2-0|libmia-2.2-0-dbg|libmia-2.2-dev|libmia-2.2-doc|libmia-2.0-8|libmia-2.0-8-dbg|libmia-2.0-dev|libmia-2.0-doc/;
-is_good = .depends ~ /libmia-2.2-0|libmia-2.2-0-dbg|libmia-2.2-dev|libmia-2.2-doc/;
-is_bad = .depends ~ /libmia-2.0-8|libmia-2.0-8-dbg|libmia-2.0-dev|libmia-2.0-doc/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libmia-2.0-dev is not in libs or oldlibs";

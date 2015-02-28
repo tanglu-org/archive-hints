@@ -1,8 +1,0 @@
-title = "baloo (auto)";
-is_affected = .depends ~ /baloo-utils|baloo4|baloo/;
-is_good = .depends ~ /baloo-utils|baloo4/;
-is_bad = .depends ~ /baloo/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - baloo is not in libs or oldlibs";
