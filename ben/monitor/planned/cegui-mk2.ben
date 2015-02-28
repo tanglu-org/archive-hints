@@ -1,5 +1,0 @@
-title = "cegui-mk2";
-is_affected = (.depends ~ "libcegui-mk2-0.7.6") | (.depends ~ "libcegui-mk2-0.8.3");
-is_good = .depends ~ "libcegui-mk2-0.8.3";
-is_bad = .depends ~ "libcegui-mk2-0.7.6";
-notes = "Debian bug#732763";
