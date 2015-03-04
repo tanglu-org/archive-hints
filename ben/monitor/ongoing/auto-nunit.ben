@@ -1,8 +1,0 @@
-title = "nunit (auto)";
-is_affected = .depends ~ /libnunit-console-runner2.6.3-cil|libnunit-core-interfaces2.6.3-cil|libnunit-core2.6.3-cil|libnunit-framework2.6.3-cil|libnunit-mocks2.6.3-cil|libnunit-util2.6.3-cil|libnunit2.6-cil/;
-is_good = .depends ~ /libnunit-console-runner2.6.3-cil|libnunit-core-interfaces2.6.3-cil|libnunit-core2.6.3-cil|libnunit-framework2.6.3-cil|libnunit-mocks2.6.3-cil|libnunit-util2.6.3-cil/;
-is_bad = .depends ~ /libnunit2.6-cil/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libnunit2.6-cil is not in libs or oldlibs";
