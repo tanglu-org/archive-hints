@@ -1,0 +1,25 @@
+# Qt5
+
+experimental/qtbase-opensource-src
+experimental/qtdeclarative-opensource-src
+experimental/qtdoc-opensource-src
+experimental/qtenginio-opensource-src
+experimental/qtgraphicaleffects-opensource-src
+experimental/qtimageformats-opensource-src
+experimental/qtlocation-opensource-src
+experimental/qtmultimedia-opensource-src
+experimental/qtquick1-opensource-src
+experimental/qtquickcontrols-opensource-src
+experimental/qtscript-opensource-src
+experimental/qtsensors-opensource-src
+experimental/qtserialport-opensource-src
+experimental/qtsvg-opensource-src
+experimental/qttools-opensource-src
+experimental/qttranslations-opensource-src
+experimental/qtwayland-opensource-src
+experimental/qtwebkit-examples-opensource-src
+experimental/qtwebkit-opensource-src
+experimental/qtwebsockets-opensource-src
+experimental/qtx11extras-opensource-src
+experimental/qtxmlpatterns-opensource-src
+
