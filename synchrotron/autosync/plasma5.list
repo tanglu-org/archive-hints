@@ -1,0 +1,64 @@
+#
+# KDE Plasma 5
+#
+
+experimental/about-distro     # https://projects.kde.org/projects/playground/base/about-distro
+experimental/analitza         # http://edu.kde.org/
+experimental/baloo-kf5        # https://projects.kde.org/projects/kde/kdelibs/baloo
+experimental/bluedevil        # https://projects.kde.org/projects/kde/workspace/bluedevil
+experimental/breeze           # https://projects.kde.org/projects/kde/workspace/breeze
+experimental/breeze-qt4       # https://projects.kde.org/projects/kde/workspace/breeze
+experimental/debconf-kde      # http://projects.kde.org/projects/extragear/sysadmin/libdebconf-kde
+experimental/gwenview         # http://www.kde.org/
+experimental/kaccounts-providers
+experimental/kalgebra          # http://edu.kde.org/
+experimental/kanagram          # https://projects.kde.org/projects/kde/kdeedu/kanagram
+experimental/kapptemplate      # http://www.kde.org/
+experimental/kate              # http://kate-editor.org/
+experimental/kcalc             # http://www.kde.org/
+experimental/kcharselect       # http://www.kde.org/
+experimental/kcm-touchpad      # http://www.kde.org
+experimental/kcron             # http://www.kde.org/
+experimental/kde-cli-tools     # https://projects.kde.org/projects/kde/workspace/kde-cli-tools
+experimental/kde-gtk-config    # https://projects.kde.org/projects/kde/workspace/kde-gtk-config
+experimental/kde-style-qtcurve # https://github.com/QtCurve/qtcurve
+experimental/kdecoration       # https://projects.kde.org/projects/kde/workspace/kdecoration
+experimental/kdeedu-data       # http://edu.kde.org/
+experimental/kdenlive          # https://kdenlive.org/
+experimental/kdeplasma-addons  # http://kde.org/
+experimental/kfilemetadata-kf5 # https://projects.kde.org/projects/kde/workspace/kfilemetadata
+experimental/khelpcenter       # https://projects.kde.org/projects/kde/workspace/khelpcenter
+experimental/khotkeys          # https://projects.kde.org/projects/kde/workspace/khotkeys
+experimental/kinfocenter       # https://projects.kde.org/projects/playground/libs/libkscreen
+experimental/kio-extras        # https://projects.kde.org/projects/kde/workspace/kio-extras
+experimental/konsole           # http://www.kde.org/
+experimental/kscreen           # https://projects.kde.org/projects/extragear/base/kscreen
+experimental/ksshaskpass       # https://projects.kde.org/projects/kde/workspace/ksshaskpass
+experimental/ksysguard         # https://projects.kde.org/unstable/plasma/ksysguard
+experimental/kwayland          # https://projects.kde.org/projects/kde/workspace/kwayland
+experimental/kwin              # https://projects.kde.org/projects/kde/unstable/plasma/kwin
+experimental/kwrited           # https://projects.kde.org/projects/kde/workspace/kwrited
+experimental/libbluedevil       # https://projects.kde.org/projects/playground/libs/libbluedevil
+experimental/libkeduvocdocument # http://edu.kde.org/
+experimental/libkscreen         # https://projects.kde.org/projects/playground/libs/libkscreen
+experimental/libksysguard       # https://projects.kde.org/projects/kde/workspace/libksysguard
+experimental/libmm-qt           # https://projects.kde.org/projects/kde/workspace/libmm-qt
+experimental/libqapt            # https://projects.kde.org/projects/extragear/sysadmin/libqapt/
+experimental/milou              # https://projects.kde.org/projects/kde/workspace/milou
+experimental/oxygen             # https://projects.kde.org/projects/kde/workspace/oxygen
+experimental/oxygen-fonts
+experimental/oxygen-qt4         # https://projects.kde.org/projects/kde/workspace/oxygen
+experimental/parley             # https://projects.kde.org/projects/kde/kdeedu/parley
+experimental/plasma-desktop     # https://projects.kde.org/projects/kde/workspace/plasma-desktop
+experimental/plasma-mediacenter # https://projects.kde.org/projects/extragear/multimedia/plasma-mediacenter
+experimental/plasma-nm          # https://projects.kde.org/projects/kde/workspace/plasma-nm
+experimental/plasma-workspace
+experimental/plasma-workspace-wallpapers
+experimental/polkit-kde-agent-1
+experimental/polkit-qt-1        # https://projects.kde.org/projects/kdesupport/polkit-qt-1
+experimental/powerdevil
+experimental/print-manager      # http://www.kde.org/
+experimental/sddm               # https://github.com/sddm/sddm
+experimental/sddm-kcm           # https://projects.kde.org/projects/kde/workspace/sddm-kcm/repository
+experimental/systemsettings     # https://projects.kde.org/projects/kde/workspace/systemsettings
+experimental/user-manager       # http://www.kde.org
