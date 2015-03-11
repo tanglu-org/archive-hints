@@ -1,0 +1,133 @@
+#
+# KDE Frameworks 5
+#
+#
+# https://projects.kde.org/projects/kdesupport/attica
+# https://projects.kde.org/projects/kdesupport/extra-cmake-modules
+# https://projects.kde.org/projects/frameworks/frameworkintegration
+# https://projects.kde.org/projects/kde/kdelibs/kactivities
+# https://projects.kde.org/projects/frameworks/kapidox
+# https://projects.kde.org/projects/frameworks/karchive
+# https://projects.kde.org/projects/frameworks/kauth
+# https://projects.kde.org/projects/frameworks/kbookmarks
+# https://projects.kde.org/projects/frameworks/kcmutils
+# https://projects.kde.org/projects/frameworks/kcodecs
+# https://projects.kde.org/projects/frameworks/kcompletion
+# https://projects.kde.org/projects/frameworks/kconfig
+# https://projects.kde.org/projects/frameworks/kconfigwidgets
+# http://projects.kde.org/kcoreaddons
+# https://projects.kde.org/projects/frameworks/kcrash
+# https://projects.kde.org/projects/frameworks/kdbusaddons
+# https://projects.kde.org/projects/frameworks/kdeclarative
+# https://projects.kde.org/projects/frameworks/kded
+# https://projects.kde.org/projects/frameworks/portingAids/kdelibs4support
+# https://projects.kde.org/projects/frameworks/kdesignerplugin
+# https://projects.kde.org/projects/frameworks/kdesu
+# https://projects.kde.org/projects/frameworks/kdewebkit
+# https://projects.kde.org/projects/frameworks/kdnssd
+# https://projects.kde.org/projects/frameworks/kdoctools
+# https://projects.kde.org/projects/frameworks/kemoticons
+# https://projects.kde.org/projects/frameworks/kglobalaccel
+# http://projects.kde.org/kguiaddons
+# https://projects.kde.org/projects/frameworks/khtml
+# https://projects.kde.org/projects/frameworks/ki18n
+# https://projects.kde.org/projects/frameworks/kiconthemes
+# https://projects.kde.org/kidletime
+# https://projects.kde.org/projects/frameworks/kimageformats
+# https://projects.kde.org/projects/frameworks/kinit
+# https://projects.kde.org/projects/frameworks/kio
+# https://projects.kde.org/projects/frameworks/kitemmodels
+# https://projects.kde.org/projects/frameworks/kitemviews
+# https://projects.kde.org/projects/frameworks/kjobwidgets
+# https://projects.kde.org/projects/frameworks/kjs
+# https://projects.kde.org/projects/frameworks/kjsembed
+# https://projects.kde.org/projects/frameworks/kmediaplayer
+# https://projects.kde.org/projects/frameworks/knewstuff
+# https://projects.kde.org/projects/frameworks/knotifications
+# https://projects.kde.org/projects/frameworks/knotifyconfig
+# https://projects.kde.org/projects/frameworks/kpackage
+# https://projects.kde.org/projects/frameworks/kparts
+# https://projects.kde.org/projects/frameworks/kplotting
+# https://projects.kde.org/projects/frameworks/kpty
+# https://projects.kde.org/projects/frameworks/kross
+# https://projects.kde.org/projects/frameworks/krunner
+# https://projects.kde.org/projects/frameworks/kservice
+# https://projects.kde.org/projects/frameworks/ktexteditor
+# https://projects.kde.org/projects/frameworks/ktextwidgets
+# https://projects.kde.org/projects/frameworks/kunitconversion
+# https://projects.kde.org/projects/frameworks/kwallet
+# https://projects.kde.org/projects/frameworks/kwidgetsaddons
+# https://projects.kde.org/projects/frameworks/kwindowsystem
+# https://projects.kde.org/projects/frameworks/kxmlgui
+# https://projects.kde.org/projects/frameworks/kxmlrpcclient
+# https://projects.kde.org/projects/kde/frameworks/libnm-qt
+# https://projects.kde.org/projects/frameworks/plasma-framework
+# https://projects.kde.org/projects/kdesupport/prison
+# https://projects.kde.org/projects/frameworks/solid
+# http://projects.kde.org/sonnet
+# https://projects.kde.org/projects/frameworks/threadweaver
+
+experimental/attica-kf5
+experimental/extra-cmake-modules
+experimental/frameworkintegration
+experimental/kactivities-kf5
+experimental/kapidox
+experimental/karchive
+experimental/kauth
+experimental/kbookmarks
+experimental/kcmutils
+experimental/kcodecs
+experimental/kcompletion
+experimental/kconfig
+experimental/kconfigwidgets
+experimental/kcoreaddons
+experimental/kcrash
+experimental/kdbusaddons
+experimental/kdeclarative
+experimental/kded
+experimental/kdelibs4support
+experimental/kdesignerplugin
+experimental/kdesu
+experimental/kdewebkit
+experimental/kdnssd-kf5
+experimental/kdoctools
+experimental/kemoticons
+experimental/kglobalaccel
+experimental/kguiaddons
+experimental/khtml
+experimental/ki18n
+experimental/kiconthemes
+experimental/kidletime
+experimental/kimageformats
+experimental/kinit
+experimental/kio
+experimental/kitemmodels
+experimental/kitemviews
+experimental/kjobwidgets
+experimental/kjs
+experimental/kjsembed
+experimental/kmediaplayer
+experimental/knewstuff
+experimental/knotifications
+experimental/knotifyconfig
+experimental/kpackage
+experimental/kparts
+experimental/kplotting
+experimental/kpty
+experimental/kross
+experimental/krunner
+experimental/kservice
+experimental/ktexteditor
+experimental/ktextwidgets
+experimental/kunitconversion
+experimental/kwallet-kf5
+experimental/kwidgetsaddons
+experimental/kwindowsystem
+experimental/kxmlgui
+experimental/kxmlrpcclient
+experimental/networkmanager-qt
+experimental/plasma-framework
+experimental/prison-kf5
+experimental/solid
+experimental/sonnet
+experimental/threadweaver
