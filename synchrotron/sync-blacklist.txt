@@ -107,6 +107,7 @@ y-u-no-validate
 zarafa-drag-n-drop
 
 # old GCC versions which we don't support
+gcc-3.3
 gcc-4.4
 gcc-4.4-doc-non-dfsg
 gnat-4.4
