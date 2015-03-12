@@ -1,4 +1,4 @@
-# Tanglu synchrotron blacklist
+# Tanglu Synchrotron Blacklist
 #
 # This list contains packages which should not be synced from Debian automatically,
 # be it because they are obsolete, we don't support then or they are just Debian or
@@ -107,16 +107,9 @@ y-u-no-validate
 zarafa-drag-n-drop
 
 # old GCC versions which we don't support
-gcc-3.3
-
 gcc-4.4
 gcc-4.4-doc-non-dfsg
 gnat-4.4
-
-# sync until https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=748004 is fixed
-#gcc-4.7
-#gcc-4.7-doc
-
 
 # Debian specific stuff
 debian-faq
@@ -266,3 +259,8 @@ nvidia-graphics-modules # the dkms package in nvidia-graphics-drivers is enough
 
 # yofel: 2014-08-01
 linux # Changing the kernel version/ABI results in additional work so only do that manually
+linux-latest
+
+# mak: 2015-03-12
+popularity-contest # we have our own, patched version
+choose-mirror # mainly Tanglu-specific, we occasionally merge it with Debian
