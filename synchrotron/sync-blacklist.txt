@@ -8,6 +8,27 @@
 # Temporary blocks for KDE5 transition
 meta-kde
 kde-workspace
+apper
+cantata
+kcometen4
+bespin
+kdeartwork
+kdenetwork-filesharing
+kdenetwork-strigi-analyzers
+kdevelop
+kdm-gdmcompat
+kget
+knemo
+ktorrent
+ktux
+kwin-style-crystal
+kwin-style-dekorator
+kwin-style-qtcurve
+plasma-widget-yawp
+plasma-widget-adjustableclock
+plasma-widget-fastuserswitch
+plasma-widget-homerun
+kde-baseapps
 
 
 # These packages currently fail to autosync
