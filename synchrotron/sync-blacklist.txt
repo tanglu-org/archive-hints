@@ -5,6 +5,11 @@
 # architecture-specific.
 #
 
+# Temporary blocks for KDE5 transition
+meta-kde
+kde-workspace
+
+
 # These packages currently fail to autosync
 scsh-install-lib # crashes dak, missing checksums
 

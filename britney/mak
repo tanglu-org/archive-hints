@@ -2,16 +2,6 @@
 # Britney hints file for Matthias Klumpp
 ##
 
-# we want new live/installer stuff in chromodoris asap
-urgent live-build/5.0~a3-1tanglu3
-urgent live-boot/5.0~a1-1tanglu3
-urgent live-config/5.0~a1-1tanglu1
-urgent calamares/1.0.1-0tanglu4
-
-# help some packages migrate
-urgent policykit-1/0.112-4tanglu2
-urgent apparmor/2.9.0-3+exp1b1
-urgent evolution-data-server/3.12.11-0tanglu2
-
-urgent clutter-1.0/1.21.4-0tanglu2
-urgent libinput/0.10.0-1
+# Remove KDE4 parts which block KDE5 transition
+remove meta-kde/5:84
+remove kde-workspace/4:4.11.11-1tanglu5
