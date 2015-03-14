@@ -20,12 +20,7 @@ remove ktux/4:4.12.2-2
 remove kwin-style-crystal/2.2.1-2b1
 remove kwin-style-dekorator/0.5.1-1
 remove kwin-style-qtcurve/1.8.14-3b1
-remove plasma-widget-yawp/0.4.2-1
-remove plasma-widget-adjustableclock/4.1.4-1
-remove plasma-widget-fastuserswitch/0.2.1-1build1
-remove plasma-widget-homerun/1.2.4-0tanglu1
 remove kde-baseapps/4:4.14.2-1tanglu1
-
-force-hint kate4/4:4.14.3-0tanglu1
-force-hint kate/4:14.12.2-0tanglu1
-force-hint plasma-workspace/4:5.2.1-0tanglu1
+remove homerun/1.2.4-0tanglu1
+remove plasma-widget-smooth-tasks/1flupp0~hg20120610-2b1
+remove veromix/0.18.3-1.1

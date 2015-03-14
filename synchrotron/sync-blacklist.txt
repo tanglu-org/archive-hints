@@ -27,7 +27,6 @@ kwin-style-qtcurve
 plasma-widget-yawp
 plasma-widget-adjustableclock
 plasma-widget-fastuserswitch
-plasma-widget-homerun
 kde-baseapps
 
 
