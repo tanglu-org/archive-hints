@@ -36,6 +36,7 @@ scsh-install-lib # crashes dak, missing checksums
 #
 base-files
 eglibc # we have glibc in Tanglu
+gnutls26
 
 # Mozilla stuff
 # FIXME: Right now, we want icedove/iceowl in Tanglu
