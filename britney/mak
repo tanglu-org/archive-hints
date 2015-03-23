@@ -2,25 +2,5 @@
 # Britney hints file for Matthias Klumpp
 ##
 
-# Remove KDE4 parts which block KDE5 transition
-remove kde-workspace/4:4.11.11-1tanglu5
-remove apper/0.9.1-2tanglu1
-remove cantata/1.4.2.ds1-1
-remove kcometen4/1.0.8-1
-remove bespin/0.r1552+nmu1
-remove kdeartwork/4:4.14.2-1
-remove kdenetwork-filesharing/4:4.12.2-2
-remove kdenetwork-strigi-analyzers/4:4.11.3-2
-remove kdevelop/4:4.7.0-1
-remove kdm-gdmcompat/0.13-2
-remove kget/4:4.14.0+dfsg-1
-remove knemo/0.7.6-2
-remove ktorrent/4.3.1-2
-remove ktux/4:4.12.2-2
-remove kwin-style-crystal/2.2.1-2b1
-remove kwin-style-dekorator/0.5.1-1
-remove kwin-style-qtcurve/1.8.14-3b1
-remove kde-baseapps/4:4.14.2-1tanglu1
-remove homerun/1.2.4-0tanglu1
-remove plasma-widget-smooth-tasks/1flupp0~hg20120610-2b1
-remove veromix/0.18.3-1.1
+# help binutils migrate (possibly breaking stuff)
+force-hint binutils/2.25-5
