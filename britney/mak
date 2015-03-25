@@ -1,6 +1,3 @@
 ##
 # Britney hints file for Matthias Klumpp
 ##
-
-# help binutils migrate (possibly breaking stuff)
-force-hint binutils/2.25-5
