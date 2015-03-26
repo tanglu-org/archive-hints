@@ -36,3 +36,4 @@ remove jenkins/1.447.2+dfsg-3 jenkins/1.509.2+dfsg-2
 remove libsbml/5.6.0-1b1 libsbml/5.8.0-2b1
 remove dlr-languages/20090805+git.e6b28d27+dfsg-4 dlr-languages/20090805+git.e6b28d27+dfsg-4b1
 remove fcoe-utils/1.0.29+git0.09caead4-2
+remove freebsd-manpages/9.2+1-1
