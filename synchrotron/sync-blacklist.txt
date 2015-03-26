@@ -33,11 +33,6 @@ kde-baseapps
 # These packages currently fail to autosync
 scsh-install-lib # crashes dak, missing checksums
 
-#
-base-files
-eglibc # we have glibc in Tanglu
-gnutls26
-
 # Mozilla stuff
 # FIXME: Right now, we want icedove/iceowl in Tanglu
 #icedove
@@ -136,7 +131,6 @@ zarafa-drag-n-drop
 gcc-3.3
 gcc-4.4
 gcc-4.4-doc-non-dfsg
-gnat-4.4
 
 # Debian specific stuff
 debian-faq
@@ -245,6 +239,10 @@ openrc
 file-rc
 upstart
 
+
+# mak: 2013-05-27
+base-files
+
 # jonno: 2014-02-10
 # For old versions of sugar, only 0.96+ is in Tanglu
 sugar-artwork-0.84
@@ -262,15 +260,8 @@ sugar-toolkit-0.84
 sugar-toolkit-0.88
 
 # jonno: 2014-02-10
-udev # udev is packaged via systemd
 uclibc # We don't want this mess in Tanglu
-console-tools # Superseeded by kbd
-iproute # Superseeded by iproute2
-makejvf # Subsumed into texlive-binaries
 mendexk # Subsumed into texlive-binaries
-libgd-gd2-noxpm-perl # Superseeded, Tanglu completed its transition before Debian
-libgd-gd2-perl # Superseeded, Tanglu completed its transition before Debian
-boost1.49 # Superseeded, Tanglu completed its transition before Debian
 
 # jonno: 2014-04-24
 libdbd-oracle-perl # Does not auto-build
@@ -291,3 +282,6 @@ linux-latest
 # mak: 2015-03-12
 popularity-contest # we have our own, patched version
 choose-mirror # mainly Tanglu-specific, we occasionally merge it with Debian
+
+# mak: 2015-03-20
+gnutls26
