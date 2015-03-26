@@ -129,8 +129,18 @@ zarafa-drag-n-drop
 
 # old GCC versions which we don't support
 gcc-3.3
+gcc-h8300-hms
+gcc-m68hc1x
 gcc-4.4
 gcc-4.4-doc-non-dfsg
+gcc-4.6
+gcc-4.6-doc
+gcj-4.6
+gnat-4.6
+gcc-4.7
+gcc-4.7-doc
+gcc-4.8
+gcc-4.8-doc
 
 # Debian specific stuff
 debian-faq
