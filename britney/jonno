@@ -19,6 +19,9 @@ remove gcc-4.8/4.8.4-1
 remove gcc-4.8-doc/4.8.3-1
 remove gcc-avr/1:4.8.1+Atmel3.4.4-2
 
+# Drop OpenJDK 6, having openjdk-7 and openjdk-8 in chromodoris is enough
+remove openjdk-6/6b34-1.13.6-1b1
+
 # Misc crap
 remove fsl/4.1.9-7.2
 remove ngspice/24-1.1
