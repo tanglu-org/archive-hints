@@ -1,7 +1,7 @@
 #
 # KDE Frameworks 5
 #
-#
+
 # https://projects.kde.org/projects/kdesupport/attica
 # https://projects.kde.org/projects/kdesupport/extra-cmake-modules
 # https://projects.kde.org/projects/frameworks/frameworkintegration
@@ -131,3 +131,5 @@ experimental/prison-kf5
 experimental/solid
 experimental/sonnet
 experimental/threadweaver
+experimental/phonon
+experimental/phonon-backend-gstreamer

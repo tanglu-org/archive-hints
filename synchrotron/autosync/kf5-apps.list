@@ -1,0 +1,11 @@
+#
+# KF5 Applications
+#
+
+experimental/kde-baseapps
+experimental/kdevelop
+experimental/okular
+experimental/digikam
+experimental/korundum
+experimental/libkdeedu
+experimental/kmenuedit
