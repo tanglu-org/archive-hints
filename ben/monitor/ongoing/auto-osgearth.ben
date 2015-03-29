@@ -1,0 +1,8 @@
+title = "osgearth (auto)";
+is_affected = .depends ~ /libosgearth4|libosgearthannotation4|libosgearthfeatures4|libosgearthqt4|libosgearthsymbology4|libosgearthutil4|libosgearth3|libosgearthannotation3|libosgearthfeatures3|libosgearthqt3|libosgearthsymbology3|libosgearthutil3/;
+is_good = .depends ~ /libosgearth4|libosgearthannotation4|libosgearthfeatures4|libosgearthqt4|libosgearthsymbology4|libosgearthutil4/;
+is_bad = .depends ~ /libosgearth3|libosgearthannotation3|libosgearthfeatures3|libosgearthqt3|libosgearthsymbology3|libosgearthutil3/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

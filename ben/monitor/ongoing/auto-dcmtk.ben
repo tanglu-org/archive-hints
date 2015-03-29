@@ -1,0 +1,8 @@
+title = "dcmtk (auto)";
+is_affected = .depends ~ /libdcmtk4|libdcmtk4-dbg|libdcmtk4-dev|libdcmtk2|libdcmtk2-dbg|libdcmtk2-dev/;
+is_good = .depends ~ /libdcmtk4|libdcmtk4-dbg|libdcmtk4-dev/;
+is_bad = .depends ~ /libdcmtk2|libdcmtk2-dbg|libdcmtk2-dev/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libdcmtk2-dev is not in libs or oldlibs";

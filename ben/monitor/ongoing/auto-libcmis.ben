@@ -1,0 +1,8 @@
+title = "libcmis (auto)";
+is_affected = .depends ~ /libcmis-0.5-5|libcmis-0.4-4/;
+is_good = .depends ~ /libcmis-0.5-5/;
+is_bad = .depends ~ /libcmis-0.4-4/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
