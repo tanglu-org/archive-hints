@@ -26,6 +26,7 @@ remove yui/2.9.0.dfsg.0.1-0.1
 remove jenkins/1.447.2+dfsg-3
 remove fcoe-utils/1.0.29+git0.09caead4-2
 remove freebsd-manpages/9.2+1-1
+remove slof/20140630+dfsg-1tanglu1
 
 # FTBFS in staging, gone from jessie
 remove libcgi-application-plugin-ajaxupload-perl/0.0.3-4tanglu1
