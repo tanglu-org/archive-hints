@@ -26,8 +26,20 @@ remove yui/2.9.0.dfsg.0.1-0.1
 remove jenkins/1.447.2+dfsg-3
 remove fcoe-utils/1.0.29+git0.09caead4-2
 remove freebsd-manpages/9.2+1-1
+
+# FTBFS in staging, gone from jessie
+remove libcgi-application-plugin-ajaxupload-perl/0.0.3-4tanglu1
+remove libcgi-application-plugin-ajaxupload-perl/0.0.3-6b1
+remove mercurial-buildpackage/0.10
+remove mercurial-buildpackage/0.10.1
+remove mod-gnutls/0.6-1.2
+remove mod-gnutls/0.6-1.3
 remove openvas-plugins-dfsg/1:20100705-4
 remove openvas-plugins-dfsg/1:20100705-4b1
+remove qpid-cpp/0.16-7.2b1
+remove qpid-cpp/0.16-9
+remove sorl-thumbnail/11.12-6
+remove sorl-thumbnail/12.2-1
 
 # lib32nss-mdns:amd64 depends on libnss-mdns-i386:i386 which dak doesn't grook
 force-hint nss-mdns/0.10-6
