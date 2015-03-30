@@ -44,3 +44,6 @@ remove sorl-thumbnail/12.2-1
 
 # lib32nss-mdns:amd64 depends on libnss-mdns-i386:i386 which dak doesn't grook
 force-hint nss-mdns/0.10-6
+
+# Stuff in chromodoris already depend on this and the autohinter failes because it unnecessarily tangles it with the perl migration.
+force-hint imagemagick/8:6.8.9.9-5tanglu4 pythonmagick/pythonmagick php-imagick/3.2.0~rc1-1 jmagick/6.6.9~20130201-svn99-2b1
