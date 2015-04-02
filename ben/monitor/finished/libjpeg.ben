@@ -1,6 +1,0 @@
-title = "libjpeg transition to libjpeg8";
-
-is_affected = .depends ~ /libjpeg/ & ! .build-depends ~ /libjpeg62-dev/;
-is_bad = .depends ~ /libjpeg62/;
-is_good = .depends ~ /libjpeg8/;
-

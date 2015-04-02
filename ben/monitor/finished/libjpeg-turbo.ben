@@ -1,0 +1,5 @@
+title = "libjpeg transition to libjpeg-turbo";
+
+is_affected = .depends ~ "libjpeg8" | .depends ~ "libjpeg62";
+is_good = .depends ~ "libjpeg62";
+is_bad = .depends ~ "libjpeg8";
