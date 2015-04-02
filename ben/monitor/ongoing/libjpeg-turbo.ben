@@ -1,5 +1,5 @@
 title = "libjpeg transition to libjpeg-turbo";
 
-is_affected = .depends ~ "libjpeg8" | .depends ~ "libjpeg62";
-is_good = .depends ~ "libjpeg62";
+is_affected = .build-depends ~ /libjpeg-dev/ & ! .build-depends ~ /libjpeg8-dev/;
 is_bad = .depends ~ "libjpeg8";
+is_good = .depends ~ "libjpeg62" | .depends ~ "libjpeg62-turbo";
