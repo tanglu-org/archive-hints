@@ -295,6 +295,7 @@ choose-mirror # mainly Tanglu-specific, we occasionally merge it with Debian
 
 # mak: 2015-03-20
 gnutls26
+libgcrypt11
 
 # jonno: 2015-03-26
 openjdk-6 # Having openjdk-7 and openjdk-8 in chromodoris is enough
