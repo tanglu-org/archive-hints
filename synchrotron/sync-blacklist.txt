@@ -299,3 +299,6 @@ libgcrypt11
 
 # jonno: 2015-03-26
 openjdk-6 # Having openjdk-7 and openjdk-8 in chromodoris is enough
+
+# jonno: 2015-04-08
+arb # fails to autobuild
