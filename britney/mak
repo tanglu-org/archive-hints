@@ -1,3 +1,7 @@
 ##
 # Britney hints file for Matthias Klumpp
 ##
+
+# make d-i ready again
+urgent systemd/219-6tanglu3
+urgent libcap2/1:2.24-8tanglu1
