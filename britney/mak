@@ -2,6 +2,7 @@
 # Britney hints file for Matthias Klumpp
 ##
 
-# make d-i ready again
-urgent systemd/219-6tanglu3
-urgent libcap2/1:2.24-8tanglu1
+# for the alpha release
+urgent kate/4:14.12.3-0tanglu2
+urgent kio-mtp/0.75+git20140304-1tanglu1
+urgent kio-extras/4:5.2.1-0tanglu2
