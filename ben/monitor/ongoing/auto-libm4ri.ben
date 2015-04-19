@@ -1,8 +1,0 @@
-title = "libm4ri (auto)";
-is_affected = .depends ~ /libm4ri-0.0.20140914|libm4ri-0.0.20140914-dbg|libm4ri-0.0.20130416|libm4ri-0.0.20130416-dbg/;
-is_good = .depends ~ /libm4ri-0.0.20140914|libm4ri-0.0.20140914-dbg/;
-is_bad = .depends ~ /libm4ri-0.0.20130416|libm4ri-0.0.20130416-dbg/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

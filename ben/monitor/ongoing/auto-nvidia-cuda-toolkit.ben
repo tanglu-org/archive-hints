@@ -1,8 +1,0 @@
-title = "nvidia-cuda-toolkit (auto)";
-is_affected = .depends ~ /libcublas6.0|libcudart6.0|libcufft6.0|libcufftw6.0|libcuinj32-6.0|libcuinj64-6.0|libcupti6.0|libcurand6.0|libcusparse6.0|libnppc6.0|libnppi6.0|libnpps6.0|libnvblas6.0|libcublas5.5|libcudart5.5|libcufft5.5|libcufftw5.5|libcuinj32-5.5|libcuinj64-5.5|libcupti5.5|libcurand5.5|libcusparse5.5|libnppc5.5|libnppi5.5|libnpps5.5/;
-is_good = .depends ~ /libcublas6.0|libcudart6.0|libcufft6.0|libcufftw6.0|libcuinj32-6.0|libcuinj64-6.0|libcupti6.0|libcurand6.0|libcusparse6.0|libnppc6.0|libnppi6.0|libnpps6.0|libnvblas6.0/;
-is_bad = .depends ~ /libcublas5.5|libcudart5.5|libcufft5.5|libcufftw5.5|libcuinj32-5.5|libcuinj64-5.5|libcupti5.5|libcurand5.5|libcusparse5.5|libnppc5.5|libnppi5.5|libnpps5.5/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libnpps5.5 is not in libs or oldlibs";
