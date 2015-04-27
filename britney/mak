@@ -2,5 +2,5 @@
 # Britney hints file for Matthias Klumpp
 ##
 
-# fix broken GNOME
-urgent gnome-shell/3.16.0-0tanglu2
+# we want the (finally built!) LO in chromodoris asap
+urgent libreoffice/1:4.4.2~rc2-1tanglu2
