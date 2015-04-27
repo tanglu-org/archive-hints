@@ -29,6 +29,8 @@ plasma-widget-adjustableclock
 plasma-widget-fastuserswitch
 kde-baseapps
 
+# we package our own d-i
+debian-installer
 
 # These packages currently fail to autosync
 scsh-install-lib # crashes dak, missing checksums
