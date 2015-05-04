@@ -62,3 +62,4 @@ experimental/sddm               # https://github.com/sddm/sddm
 experimental/sddm-kcm           # https://projects.kde.org/projects/kde/workspace/sddm-kcm/repository
 experimental/systemsettings     # https://projects.kde.org/projects/kde/workspace/systemsettings
 experimental/user-manager       # http://www.kde.org
+experimental/kpeople
