@@ -1,8 +1,0 @@
-title = "mutter (auto)";
-is_affected = .depends ~ /libmutter0f|libmutter0e/;
-is_good = .depends ~ /libmutter0f/;
-is_bad = .depends ~ /libmutter0e/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";
