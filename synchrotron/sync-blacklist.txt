@@ -290,6 +290,7 @@ nvidia-graphics-modules # the dkms package in nvidia-graphics-drivers is enough
 # yofel: 2014-08-01
 linux # Changing the kernel version/ABI results in additional work so only do that manually
 linux-latest
+linux-tools
 
 # mak: 2015-03-12
 popularity-contest # we have our own, patched version
