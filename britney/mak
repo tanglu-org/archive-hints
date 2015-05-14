@@ -2,9 +2,6 @@
 # Britney hints file for Matthias Klumpp
 ##
 
-# we want the (finally built!) LO in Chromodoris asap
-urgent libreoffice/1:4.4.2~rc2-1tanglu2
-
-# Plasma 5.3
-force-hint plasma-desktop/4:5.3.0-0tanglu1
-force-hint plasma-workspace/4:5.3.0-0tanglu2
+# Perl 5.20.2 is a must-have for T3, deal with the breakage later
+# (likely by removing some of them)
+force-hint perl/5.20.2-4
