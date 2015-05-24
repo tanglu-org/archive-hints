@@ -5,3 +5,6 @@
 # Perl 5.20.2 is a must-have for T3, deal with the breakage later
 # (likely by removing some of them)
 force-hint perl/5.20.2-4
+
+# Listaller is dead upstream
+remove listaller/0.5.9-4
