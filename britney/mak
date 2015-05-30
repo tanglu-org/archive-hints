@@ -2,10 +2,5 @@
 # Britney hints file for Matthias Klumpp
 ##
 
-# Perl 5.20.2 is a must-have for T3, deal with the breakage later
-# (likely by removing some of them)
-force-hint perl/5.20.2-4
-
-# Cruft removal
-remove rails-3.2/3.2.19-1b1
-remove openvas-plugins-dfsg/1:20100705-4
+# GDM3 isn't ready yet
+block gdm3
