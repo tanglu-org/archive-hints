@@ -4,3 +4,6 @@
 
 # GDM3 isn't ready yet
 block gdm3
+
+# we want EFI support on the nightly builds asap
+urgent live-build/5.0~a3-1tanglu4
