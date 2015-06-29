@@ -11,7 +11,6 @@ remove kcemu/0.5.1+git20141014+dfsg-1
 remove kcm-touchpad/4:5.1.95-0tanglu1
 remove korundum/4:4.14.2-1b1
 remove kplayer/1:0.7-2.1
-remove nss-mdns/0.10-6
 remove starpu-contrib/1.1.3+dfsg-3b1
 remove dragonegg/3.5.0-1
 remove mail-notification/5.4.dfsg.1-13
@@ -27,3 +26,5 @@ remove shorewall6-lite/4.5.21.9-1tanglu1
 remove webgui/7.10.29-2
 remove wnn7egg/1.02-8
 remove workrave/1.10.4-3
+remove kde-style-qtcurve/1.8.14-3b1
+remove libnm-qt/0.9.8.2-1
