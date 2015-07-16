@@ -1,9 +1,10 @@
 ## Tanglu synchrotron permanent sync freeze exceptions
 
-The lists in this directory contain packages which should be permanently automatically synced,
-although a Debian import freeze is currently active.
+This directory contains symlinks to package set lists in ../sets/.
+The sets linked to this directory will be permanently automatically synced,
+even if a Debian import freeze is currently active.
 They can also be used to perma-sync packages from suites other than the default
 automatic import suite (testing).
 
 Tanglu developers can manually sync stuff from Debian at any time! Please do
-only add packages here which should be auto-synced.
+only symlink package sets here which should be constantly auto-synced.
