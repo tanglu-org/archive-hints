@@ -1,3 +1,5 @@
 ##
 # Britney hints file for Matthias Klumpp
 ##
+
+force-hint gcc-5/5.2.1-14
