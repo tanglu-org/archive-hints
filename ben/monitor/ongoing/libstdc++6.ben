@@ -1,0 +1,6 @@
+title = "libstdc++6";
+is_affected = .depends ~ /libstdc\+\+6/ & !.package ~ /gcc-2.95|gcc-[45]/;
+is_good = .depends ~ /libstdc\+\+6 \(>= 5/;
+is_bad = .depends ~ /libstdc\+\+6(,|$)|libstdc\+\+6 \(>= [234]/;
+notes = "Tracking bug: http://tracker.tanglu.org/T146";
+export = false;
