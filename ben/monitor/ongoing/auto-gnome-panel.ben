@@ -1,8 +1,0 @@
-title = "gnome-panel (auto)";
-is_affected = .depends ~ /gir1.2-panelapplet-5.0|libpanel-applet-dev|libpanel-applet-doc|libpanel-applet0|gir1.2-panelapplet-4.0|gnome-session-fallback|gnome-session-flashback|libpanel-applet-4-0|libpanel-applet-4-dev|libpanel-applet-4-doc/;
-is_good = .depends ~ /gir1.2-panelapplet-5.0|libpanel-applet-dev|libpanel-applet-doc|libpanel-applet0/;
-is_bad = .depends ~ /gir1.2-panelapplet-4.0|gnome-session-fallback|gnome-session-flashback|libpanel-applet-4-0|libpanel-applet-4-dev|libpanel-applet-4-doc/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - gnome-session-flashback is not in libs or oldlibs";

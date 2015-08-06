@@ -1,8 +1,0 @@
-title = "libksysguard (auto)";
-is_affected = .depends ~ /libkf5sysguard-bin|libkf5sysguard-data|libkf5sysguard-dbg|libksgrd7|libksignalplotter7|liblsofui7|libprocesscore7|libprocessui7|libksgrd5|libksignalplotter5|libksysguard5-dbg|liblsofui5|libprocesscore5|libprocessui5/;
-is_good = .depends ~ /libkf5sysguard-bin|libkf5sysguard-data|libkf5sysguard-dbg|libksgrd7|libksignalplotter7|liblsofui7|libprocesscore7|libprocessui7/;
-is_bad = .depends ~ /libksgrd5|libksignalplotter5|libksysguard5-dbg|liblsofui5|libprocesscore5|libprocessui5/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

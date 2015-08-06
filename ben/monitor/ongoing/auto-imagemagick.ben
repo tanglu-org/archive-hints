@@ -1,8 +1,0 @@
-title = "imagemagick (auto)";
-is_affected = .depends ~ /imagemagick-6.q16|libimage-magick-perl|libimage-magick-q16-perl|libmagick++-6-headers|libmagick++-6.q16-5|libmagick++-6.q16-dev|libmagickcore-6-arch-config|libmagickcore-6-headers|libmagickcore-6.q16-2|libmagickcore-6.q16-2-extra|libmagickcore-6.q16-dev|libmagickwand-6-headers|libmagickwand-6.q16-2|libmagickwand-6.q16-dev|libmagick++5|libmagickcore5|libmagickcore5-extra|libmagickwand5/;
-is_good = .depends ~ /imagemagick-6.q16|libimage-magick-perl|libimage-magick-q16-perl|libmagick++-6-headers|libmagick++-6.q16-5|libmagick++-6.q16-dev|libmagickcore-6-arch-config|libmagickcore-6-headers|libmagickcore-6.q16-2|libmagickcore-6.q16-2-extra|libmagickcore-6.q16-dev|libmagickwand-6-headers|libmagickwand-6.q16-2|libmagickwand-6.q16-dev/;
-is_bad = .depends ~ /libmagick++5|libmagickcore5|libmagickcore5-extra|libmagickwand5/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";
