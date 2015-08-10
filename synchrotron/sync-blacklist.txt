@@ -30,6 +30,9 @@ plasma-widget-fastuserswitch
 kde-baseapps
 kde-l10n
 
+# mak: 2015-08-10
+golang-go.net-dev
+
 # we package our own d-i
 debian-installer
 
