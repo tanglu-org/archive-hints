@@ -2,7 +2,5 @@
 # Britney hints file for Matthias Klumpp
 ##
 
-force-hint gcc-5/5.2.1-14
-
 # Remove old boost
 remove boost1.55/1.55.0+dfsg-3
