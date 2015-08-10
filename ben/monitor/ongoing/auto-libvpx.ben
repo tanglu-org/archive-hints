@@ -1,7 +1,7 @@
-title = "rails (auto)";
-is_affected = .depends ~ /ruby-actionview|ruby-rails|ruby-activeresource/;
-is_good = .depends ~ /ruby-actionview|ruby-rails/;
-is_bad = .depends ~ /ruby-activeresource/;
+title = "libvpx (auto)";
+is_affected = .depends ~ /libvpx2|libvpx2-dbg|libvpx1|libvpx1-dbg/;
+is_good = .depends ~ /libvpx2|libvpx2-dbg/;
+is_bad = .depends ~ /libvpx1|libvpx1-dbg/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

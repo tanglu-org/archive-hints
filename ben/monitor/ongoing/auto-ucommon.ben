@@ -1,7 +1,7 @@
-title = "rails (auto)";
-is_affected = .depends ~ /ruby-actionview|ruby-rails|ruby-activeresource/;
-is_good = .depends ~ /ruby-actionview|ruby-rails/;
-is_bad = .depends ~ /ruby-activeresource/;
+title = "ucommon (auto)";
+is_affected = .depends ~ /libucommon7|libucommon7-dbg|libucommon6|libucommon6-dbg/;
+is_good = .depends ~ /libucommon7|libucommon7-dbg/;
+is_bad = .depends ~ /libucommon6|libucommon6-dbg/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

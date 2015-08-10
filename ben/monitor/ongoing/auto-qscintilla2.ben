@@ -1,0 +1,8 @@
+title = "qscintilla2 (auto)";
+is_affected = .depends ~ /libqscintilla2-12|libqscintilla2-12-dbg|libqt5scintilla2-12|libqt5scintilla2-12-dbg|libqscintilla2-11|libqscintilla2-11-dbg|libqt5scintilla2-11|libqt5scintilla2-11-dbg/;
+is_good = .depends ~ /libqscintilla2-12|libqscintilla2-12-dbg|libqt5scintilla2-12|libqt5scintilla2-12-dbg/;
+is_bad = .depends ~ /libqscintilla2-11|libqscintilla2-11-dbg|libqt5scintilla2-11|libqt5scintilla2-11-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

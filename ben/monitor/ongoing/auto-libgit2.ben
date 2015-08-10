@@ -1,0 +1,8 @@
+title = "libgit2 (auto)";
+is_affected = .depends ~ /libgit2-22|libgit2-21/;
+is_good = .depends ~ /libgit2-22/;
+is_bad = .depends ~ /libgit2-21/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

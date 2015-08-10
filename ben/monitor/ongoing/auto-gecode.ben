@@ -1,0 +1,8 @@
+title = "gecode (auto)";
+is_affected = .depends ~ /libgecode41|libgecodeflatzinc41|libgecodegist41|libgecode36|libgecodeflatzinc36|libgecodegist36/;
+is_good = .depends ~ /libgecode41|libgecodeflatzinc41|libgecodegist41/;
+is_bad = .depends ~ /libgecode36|libgecodeflatzinc36|libgecodegist36/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

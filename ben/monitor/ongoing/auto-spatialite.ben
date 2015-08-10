@@ -1,0 +1,8 @@
+title = "spatialite (auto)";
+is_affected = .depends ~ /libspatialite-dbg|libspatialite7|libsqlite3-mod-spatialite|libspatialite5|libspatialite5-dbg/;
+is_good = .depends ~ /libspatialite-dbg|libspatialite7|libsqlite3-mod-spatialite/;
+is_bad = .depends ~ /libspatialite5|libspatialite5-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

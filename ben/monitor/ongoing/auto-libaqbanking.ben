@@ -1,0 +1,8 @@
+title = "libaqbanking (auto)";
+is_affected = .depends ~ /libaqbanking-dev|libaqbanking35|libaqbanking35-dbg|libaqbanking35-plugins|libaqbanking34|libaqbanking34-dbg|libaqbanking34-dev|libaqbanking34-plugins/;
+is_good = .depends ~ /libaqbanking-dev|libaqbanking35|libaqbanking35-dbg|libaqbanking35-plugins/;
+is_bad = .depends ~ /libaqbanking34|libaqbanking34-dbg|libaqbanking34-dev|libaqbanking34-plugins/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

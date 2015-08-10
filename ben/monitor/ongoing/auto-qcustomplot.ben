@@ -1,0 +1,8 @@
+title = "qcustomplot (auto)";
+is_affected = .depends ~ /libqcustomplot1.3|libqcustomplot1.3-dbg|libqcustomplot1.2|libqcustomplot1.2-dbg/;
+is_good = .depends ~ /libqcustomplot1.3|libqcustomplot1.3-dbg/;
+is_bad = .depends ~ /libqcustomplot1.2|libqcustomplot1.2-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

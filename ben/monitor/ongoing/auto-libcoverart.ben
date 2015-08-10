@@ -1,0 +1,8 @@
+title = "libcoverart (auto)";
+is_affected = .depends ~ /libcoverart1|libcoverartcc1|libcoverart0/;
+is_good = .depends ~ /libcoverart1|libcoverartcc1/;
+is_bad = .depends ~ /libcoverart0/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

@@ -1,0 +1,8 @@
+title = "gpac (auto)";
+is_affected = .depends ~ /libgpac4|libgpac3/;
+is_good = .depends ~ /libgpac4/;
+is_bad = .depends ~ /libgpac3/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

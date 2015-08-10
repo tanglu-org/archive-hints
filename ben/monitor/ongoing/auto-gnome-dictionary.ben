@@ -1,0 +1,8 @@
+title = "gnome-dictionary (auto)";
+is_affected = .depends ~ /gir1.2-gdict-1.0|libgdict-1.0-8|libgdict-1.0-6/;
+is_good = .depends ~ /gir1.2-gdict-1.0|libgdict-1.0-8/;
+is_bad = .depends ~ /libgdict-1.0-6/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

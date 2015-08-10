@@ -1,0 +1,8 @@
+title = "libgphoto2 (auto)";
+is_affected = .depends ~ /libgphoto2-port12|libgphoto2-2-dev|libgphoto2-port10/;
+is_good = .depends ~ /libgphoto2-port12/;
+is_bad = .depends ~ /libgphoto2-2-dev|libgphoto2-port10/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libgphoto2-2-dev is not in libs or oldlibs";

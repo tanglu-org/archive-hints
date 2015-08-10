@@ -1,0 +1,8 @@
+title = "libgtop2 (auto)";
+is_affected = .depends ~ /libgtop-2.0-10|libgtop2-7/;
+is_good = .depends ~ /libgtop-2.0-10/;
+is_bad = .depends ~ /libgtop2-7/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

@@ -1,0 +1,8 @@
+title = "ffmpeg (auto)";
+is_affected = .depends ~ /libav-tools-links|libavcodec-dev|libavcodec-extra|libavcodec-ffmpeg-extra56|libavdevice-dev|libavfilter-dev|libavformat-dev|libavresample-dev|libavutil-dev|libpostproc-dev|libswresample-dev|libswscale-dev|qt-faststart/;
+is_good = .depends ~ /libav-tools-links|libavcodec-dev|libavcodec-extra|libavcodec-ffmpeg-extra56|libavdevice-dev|libavfilter-dev|libavformat-dev|libavresample-dev|libavutil-dev|libpostproc-dev|libswresample-dev|libswscale-dev/;
+is_bad = .depends ~ /qt-faststart/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

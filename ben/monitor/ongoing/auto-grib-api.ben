@@ -1,0 +1,8 @@
+title = "grib-api (auto)";
+is_affected = .depends ~ /libgrib-api0|libgrib-api-1.10.4/;
+is_good = .depends ~ /libgrib-api0/;
+is_bad = .depends ~ /libgrib-api-1.10.4/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
