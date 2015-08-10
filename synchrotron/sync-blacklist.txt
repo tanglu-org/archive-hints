@@ -28,6 +28,7 @@ plasma-widget-yawp
 plasma-widget-adjustableclock
 plasma-widget-fastuserswitch
 kde-baseapps
+kde-l10n
 
 # we package our own d-i
 debian-installer
