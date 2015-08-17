@@ -5,4 +5,4 @@ is_bad = .depends ~ /libxfce4util6|libxfce4util6-dbg/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: no - libxfce4util6-dbg is not in libs or oldlibs";
+ * can-smooth-update: no - libxfce4util6 is not in libs or oldlibs";
