@@ -12,3 +12,5 @@ remove haskell-haskeline/0.7.1.3-1
 
 remove haskell-hashed-storage/0.5.10-4b1
 remove haskell-monadcatchio-mtl/0.3.1.0-1
+
+remove haskell-io-streams/1.1.4.6-1b1
