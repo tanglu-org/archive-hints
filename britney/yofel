@@ -14,9 +14,15 @@ remove haskell-monadcatchio-mtl/0.3.1.0-1
 
 remove haskell-io-streams/1.1.4.6-1b1
 
-haskell-hamlet/1.1.9.2-1b6 haskell-hamlet/1.1.9.2-1b5 haskell-hamlet/1.1.9.2-1b4
-haskell-io-streams/1.1.4.6-1
-haskell-yesod-routes/1.2.0.7-1b3 haskell-yesod-routes/1.2.0.7-1b2 haskell-yesod-routes/1.2.0.7-1b1
+remove haskell-hamlet/1.1.9.2-1b6 haskell-hamlet/1.1.9.2-1b5 haskell-hamlet/1.1.9.2-1b4
+remove haskell-io-streams/1.1.4.6-1
+remove haskell-yesod-routes/1.2.0.7-1b3 haskell-yesod-routes/1.2.0.7-1b2 haskell-yesod-routes/1.2.0.7-1b1
+
+remove haskell-hamlet/1.1.9.2-1b6 haskell-hamlet/1.1.9.2-1b7
+remove haskell-shakespeare-css/1.0.7.4-1b4 haskell-shakespeare-css/1.0.7.4-1b3
+remove haskell-shakespeare-i18n/1.0.0.5-1b5 haskell-shakespeare-i18n/1.0.0.5-1b4
+remove haskell-shakespeare-js/1.2.0.4-1b6 haskell-shakespeare-js/1.2.0.4-1b5
+remove haskell-shakespeare-text/1.0.2-1b5 haskell-shakespeare-text/1.0.2-1b4
 
 # gcc5 incompatible
 boost1.55/1.55.0+dfsg-4b1 boost1.55/1.55.0+dfsg-4
