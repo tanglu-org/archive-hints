@@ -1,8 +1,8 @@
 title = "x265 (auto)";
-is_affected = .depends ~ /libx265-59|libx265-59-dbg|libx265-43|libx265-43-dbg/;
-is_good = .depends ~ /libx265-59|libx265-59-dbg/;
-is_bad = .depends ~ /libx265-43|libx265-43-dbg/;
+is_affected = .depends ~ /\b(libx265\-59|libx265\-59\-dbg|libx265\-43|libx265\-43\-dbg)\b/;
+is_good = .depends ~ /\b(libx265\-59|libx265\-59\-dbg)\b/;
+is_bad = .depends ~ /\b(libx265\-43|libx265\-43\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

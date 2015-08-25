@@ -1,7 +1,7 @@
 title = "gpac (auto)";
-is_affected = .depends ~ /libgpac4|libgpac3/;
-is_good = .depends ~ /libgpac4/;
-is_bad = .depends ~ /libgpac3/;
+is_affected = .depends ~ /\b(libgpac4|libgpac3)\b/;
+is_good = .depends ~ /\b(libgpac4)\b/;
+is_bad = .depends ~ /\b(libgpac3)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

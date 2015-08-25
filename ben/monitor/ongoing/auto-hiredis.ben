@@ -1,7 +1,7 @@
 title = "hiredis (auto)";
-is_affected = .depends ~ /libhiredis0.13|libhiredis0.10/;
-is_good = .depends ~ /libhiredis0.13/;
-is_bad = .depends ~ /libhiredis0.10/;
+is_affected = .depends ~ /\b(libhiredis0\.13|libhiredis0\.10)\b/;
+is_good = .depends ~ /\b(libhiredis0\.13)\b/;
+is_bad = .depends ~ /\b(libhiredis0\.10)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

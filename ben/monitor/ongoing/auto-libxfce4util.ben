@@ -1,7 +1,7 @@
 title = "libxfce4util (auto)";
-is_affected = .depends ~ /libxfce4util7|libxfce4util7-dbg|libxfce4util6|libxfce4util6-dbg/;
-is_good = .depends ~ /libxfce4util7|libxfce4util7-dbg/;
-is_bad = .depends ~ /libxfce4util6|libxfce4util6-dbg/;
+is_affected = .depends ~ /\b(libxfce4util7|libxfce4util7\-dbg|libxfce4util6|libxfce4util6\-dbg)\b/;
+is_good = .depends ~ /\b(libxfce4util7|libxfce4util7\-dbg)\b/;
+is_bad = .depends ~ /\b(libxfce4util6|libxfce4util6\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

@@ -1,8 +1,8 @@
 title = "libvpx (auto)";
-is_affected = .depends ~ /libvpx2|libvpx2-dbg|libvpx1|libvpx1-dbg/;
-is_good = .depends ~ /libvpx2|libvpx2-dbg/;
-is_bad = .depends ~ /libvpx1|libvpx1-dbg/;
+is_affected = .depends ~ /\b(libvpx2|libvpx2\-dbg|libvpx1|libvpx1\-dbg)\b/;
+is_good = .depends ~ /\b(libvpx2|libvpx2\-dbg)\b/;
+is_bad = .depends ~ /\b(libvpx1|libvpx1\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

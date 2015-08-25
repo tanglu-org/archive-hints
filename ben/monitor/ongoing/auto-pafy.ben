@@ -1,7 +1,7 @@
 title = "pafy (auto)";
-is_affected = .depends ~ /python3-pafy|python-pafy/;
-is_good = .depends ~ /python3-pafy/;
-is_bad = .depends ~ /python-pafy/;
+is_affected = .depends ~ /\b(python3\-pafy|python\-pafy)\b/;
+is_good = .depends ~ /\b(python3\-pafy)\b/;
+is_bad = .depends ~ /\b(python\-pafy)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

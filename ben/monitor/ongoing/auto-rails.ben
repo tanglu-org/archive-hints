@@ -1,8 +1,8 @@
 title = "rails (auto)";
-is_affected = .depends ~ /ruby-actionview|ruby-rails|ruby-activeresource/;
-is_good = .depends ~ /ruby-actionview|ruby-rails/;
-is_bad = .depends ~ /ruby-activeresource/;
+is_affected = .depends ~ /\b(ruby\-actionview|ruby\-rails|ruby\-activeresource)\b/;
+is_good = .depends ~ /\b(ruby\-actionview|ruby\-rails)\b/;
+is_bad = .depends ~ /\b(ruby\-activeresource)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

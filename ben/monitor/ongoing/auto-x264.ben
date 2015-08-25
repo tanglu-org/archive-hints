@@ -1,7 +1,7 @@
 title = "x264 (auto)";
-is_affected = .depends ~ /libx264-146|libx264-142/;
-is_good = .depends ~ /libx264-146/;
-is_bad = .depends ~ /libx264-142/;
+is_affected = .depends ~ /\b(libx264\-146|libx264\-142)\b/;
+is_good = .depends ~ /\b(libx264\-146)\b/;
+is_bad = .depends ~ /\b(libx264\-142)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

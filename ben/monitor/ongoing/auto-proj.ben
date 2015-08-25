@@ -1,7 +1,7 @@
 title = "proj (auto)";
-is_affected = .depends ~ /libproj9|libproj0/;
-is_good = .depends ~ /libproj9/;
-is_bad = .depends ~ /libproj0/;
+is_affected = .depends ~ /\b(libproj9|libproj0)\b/;
+is_good = .depends ~ /\b(libproj9)\b/;
+is_bad = .depends ~ /\b(libproj0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
