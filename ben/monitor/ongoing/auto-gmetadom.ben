@@ -1,7 +1,7 @@
 title = "gmetadom (auto)";
-is_affected = .depends ~ /libgdome2-cpp-smart0v5|libgdome2-cpp-smart0c2a/;
-is_good = .depends ~ /libgdome2-cpp-smart0v5/;
-is_bad = .depends ~ /libgdome2-cpp-smart0c2a/;
+is_affected = .depends ~ /\b(libgdome2\-cpp\-smart0v5|libgdome2\-cpp\-smart0c2a)\b/;
+is_good = .depends ~ /\b(libgdome2\-cpp\-smart0v5)\b/;
+is_bad = .depends ~ /\b(libgdome2\-cpp\-smart0c2a)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

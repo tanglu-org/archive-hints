@@ -1,7 +1,7 @@
 title = "lucene++ (auto)";
-is_affected = .depends ~ /liblucene++-contrib0v5|liblucene++0v5|liblucene++-contrib0|liblucene++0/;
-is_good = .depends ~ /liblucene++-contrib0v5|liblucene++0v5/;
-is_bad = .depends ~ /liblucene++-contrib0|liblucene++0/;
+is_affected = .depends ~ /\b(liblucene\+\+\-contrib0v5|liblucene\+\+0v5|liblucene\+\+\-contrib0|liblucene\+\+0)\b/;
+is_good = .depends ~ /\b(liblucene\+\+\-contrib0v5|liblucene\+\+0v5)\b/;
+is_bad = .depends ~ /\b(liblucene\+\+\-contrib0|liblucene\+\+0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

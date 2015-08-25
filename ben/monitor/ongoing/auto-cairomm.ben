@@ -1,7 +1,7 @@
 title = "cairomm (auto)";
-is_affected = .depends ~ /libcairomm-1.0-1v5|libcairomm-1.0-1/;
-is_good = .depends ~ /libcairomm-1.0-1v5/;
-is_bad = .depends ~ /libcairomm-1.0-1/;
+is_affected = .depends ~ /\b(libcairomm\-1\.0\-1v5|libcairomm\-1\.0\-1)\b/;
+is_good = .depends ~ /\b(libcairomm\-1\.0\-1v5)\b/;
+is_bad = .depends ~ /\b(libcairomm\-1\.0\-1)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

@@ -1,7 +1,7 @@
 title = "leveldb (auto)";
-is_affected = .depends ~ /libleveldb1v5|libleveldb1/;
-is_good = .depends ~ /libleveldb1v5/;
-is_bad = .depends ~ /libleveldb1/;
+is_affected = .depends ~ /\b(libleveldb1v5|libleveldb1)\b/;
+is_good = .depends ~ /\b(libleveldb1v5)\b/;
+is_bad = .depends ~ /\b(libleveldb1)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

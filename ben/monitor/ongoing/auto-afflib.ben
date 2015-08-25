@@ -1,7 +1,7 @@
 title = "afflib (auto)";
-is_affected = .depends ~ /libafflib0v5|libafflib0/;
-is_good = .depends ~ /libafflib0v5/;
-is_bad = .depends ~ /libafflib0/;
+is_affected = .depends ~ /\b(libafflib0v5|libafflib0)\b/;
+is_good = .depends ~ /\b(libafflib0v5)\b/;
+is_bad = .depends ~ /\b(libafflib0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

@@ -1,7 +1,7 @@
 title = "psurface (auto)";
-is_affected = .depends ~ /libpsurface0v5|libpsurface0/;
-is_good = .depends ~ /libpsurface0v5/;
-is_bad = .depends ~ /libpsurface0/;
+is_affected = .depends ~ /\b(libpsurface0v5|libpsurface0)\b/;
+is_good = .depends ~ /\b(libpsurface0v5)\b/;
+is_bad = .depends ~ /\b(libpsurface0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

@@ -1,7 +1,7 @@
 title = "taglib (auto)";
-is_affected = .depends ~ /libtag1v5|libtag1v5-vanilla|libtag1-vanilla|libtag1c2a/;
-is_good = .depends ~ /libtag1v5|libtag1v5-vanilla/;
-is_bad = .depends ~ /libtag1-vanilla|libtag1c2a/;
+is_affected = .depends ~ /\b(libtag1v5|libtag1v5\-vanilla|libtag1\-vanilla|libtag1c2a)\b/;
+is_good = .depends ~ /\b(libtag1v5|libtag1v5\-vanilla)\b/;
+is_bad = .depends ~ /\b(libtag1\-vanilla|libtag1c2a)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

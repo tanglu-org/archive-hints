@@ -1,7 +1,7 @@
 title = "colpack (auto)";
-is_affected = .depends ~ /libcolpack0v5|libcolpack0/;
-is_good = .depends ~ /libcolpack0v5/;
-is_bad = .depends ~ /libcolpack0/;
+is_affected = .depends ~ /\b(libcolpack0v5|libcolpack0)\b/;
+is_good = .depends ~ /\b(libcolpack0v5)\b/;
+is_bad = .depends ~ /\b(libcolpack0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

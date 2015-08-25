@@ -1,7 +1,7 @@
 title = "wxwidgets3.0 (auto)";
-is_affected = .depends ~ /libwxbase3.0-0v5|libwxbase3.0-0v5-dbg|libwxgtk-media3.0-0v5|libwxgtk-media3.0-0v5-dbg|libwxgtk-webview3.0-0v5|libwxgtk-webview3.0-0v5-dbg|libwxgtk3.0-0v5|libwxgtk3.0-0v5-dbg|libwxbase3.0-0|libwxbase3.0-0-dbg|libwxgtk-media3.0-0|libwxgtk-media3.0-0-dbg|libwxgtk-webview3.0-0|libwxgtk-webview3.0-0-dbg|libwxgtk3.0-0|libwxgtk3.0-0-dbg/;
-is_good = .depends ~ /libwxbase3.0-0v5|libwxbase3.0-0v5-dbg|libwxgtk-media3.0-0v5|libwxgtk-media3.0-0v5-dbg|libwxgtk-webview3.0-0v5|libwxgtk-webview3.0-0v5-dbg|libwxgtk3.0-0v5|libwxgtk3.0-0v5-dbg/;
-is_bad = .depends ~ /libwxbase3.0-0|libwxbase3.0-0-dbg|libwxgtk-media3.0-0|libwxgtk-media3.0-0-dbg|libwxgtk-webview3.0-0|libwxgtk-webview3.0-0-dbg|libwxgtk3.0-0|libwxgtk3.0-0-dbg/;
+is_affected = .depends ~ /\b(libwxbase3\.0\-0v5|libwxbase3\.0\-0v5\-dbg|libwxgtk\-media3\.0\-0v5|libwxgtk\-media3\.0\-0v5\-dbg|libwxgtk\-webview3\.0\-0v5|libwxgtk\-webview3\.0\-0v5\-dbg|libwxgtk3\.0\-0v5|libwxgtk3\.0\-0v5\-dbg|libwxbase3\.0\-0|libwxbase3\.0\-0\-dbg|libwxgtk\-media3\.0\-0|libwxgtk\-media3\.0\-0\-dbg|libwxgtk\-webview3\.0\-0|libwxgtk\-webview3\.0\-0\-dbg|libwxgtk3\.0\-0|libwxgtk3\.0\-0\-dbg)\b/;
+is_good = .depends ~ /\b(libwxbase3\.0\-0v5|libwxbase3\.0\-0v5\-dbg|libwxgtk\-media3\.0\-0v5|libwxgtk\-media3\.0\-0v5\-dbg|libwxgtk\-webview3\.0\-0v5|libwxgtk\-webview3\.0\-0v5\-dbg|libwxgtk3\.0\-0v5|libwxgtk3\.0\-0v5\-dbg)\b/;
+is_bad = .depends ~ /\b(libwxbase3\.0\-0|libwxbase3\.0\-0\-dbg|libwxgtk\-media3\.0\-0|libwxgtk\-media3\.0\-0\-dbg|libwxgtk\-webview3\.0\-0|libwxgtk\-webview3\.0\-0\-dbg|libwxgtk3\.0\-0|libwxgtk3\.0\-0\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

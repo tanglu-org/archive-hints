@@ -1,7 +1,7 @@
 title = "liblognorm (auto)";
-is_affected = .depends ~ /liblognorm2|liblognorm1/;
-is_good = .depends ~ /liblognorm2/;
-is_bad = .depends ~ /liblognorm1/;
+is_affected = .depends ~ /\b(liblognorm2|liblognorm1)\b/;
+is_good = .depends ~ /\b(liblognorm2)\b/;
+is_bad = .depends ~ /\b(liblognorm1)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

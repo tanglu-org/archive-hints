@@ -1,7 +1,7 @@
 title = "papi (auto)";
-is_affected = .depends ~ /libpapi5.4.1|libpapi5.3/;
-is_good = .depends ~ /libpapi5.4.1/;
-is_bad = .depends ~ /libpapi5.3/;
+is_affected = .depends ~ /\b(libpapi5\.4\.1|libpapi5\.3)\b/;
+is_good = .depends ~ /\b(libpapi5\.4\.1)\b/;
+is_bad = .depends ~ /\b(libpapi5\.3)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

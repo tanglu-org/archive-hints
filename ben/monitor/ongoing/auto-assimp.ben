@@ -1,7 +1,7 @@
 title = "assimp (auto)";
-is_affected = .depends ~ /libassimp3v5|libassimp3/;
-is_good = .depends ~ /libassimp3v5/;
-is_bad = .depends ~ /libassimp3/;
+is_affected = .depends ~ /\b(libassimp3v5|libassimp3)\b/;
+is_good = .depends ~ /\b(libassimp3v5)\b/;
+is_bad = .depends ~ /\b(libassimp3)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

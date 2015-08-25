@@ -1,7 +1,7 @@
 title = "ffmpegthumbnailer (auto)";
-is_affected = .depends ~ /libffmpegthumbnailer4v5|libffmpegthumbnailer4/;
-is_good = .depends ~ /libffmpegthumbnailer4v5/;
-is_bad = .depends ~ /libffmpegthumbnailer4/;
+is_affected = .depends ~ /\b(libffmpegthumbnailer4v5|libffmpegthumbnailer4)\b/;
+is_good = .depends ~ /\b(libffmpegthumbnailer4v5)\b/;
+is_bad = .depends ~ /\b(libffmpegthumbnailer4)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

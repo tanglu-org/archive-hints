@@ -1,7 +1,7 @@
 title = "gmsh (auto)";
-is_affected = .depends ~ /libgmsh2v5|libgmsh2/;
-is_good = .depends ~ /libgmsh2v5/;
-is_bad = .depends ~ /libgmsh2/;
+is_affected = .depends ~ /\b(libgmsh2v5|libgmsh2)\b/;
+is_good = .depends ~ /\b(libgmsh2v5)\b/;
+is_bad = .depends ~ /\b(libgmsh2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

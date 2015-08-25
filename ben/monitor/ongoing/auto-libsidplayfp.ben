@@ -1,7 +1,7 @@
 title = "libsidplayfp (auto)";
-is_affected = .depends ~ /libsidplayfp4|libsidplayfp3/;
-is_good = .depends ~ /libsidplayfp4/;
-is_bad = .depends ~ /libsidplayfp3/;
+is_affected = .depends ~ /\b(libsidplayfp4|libsidplayfp3)\b/;
+is_good = .depends ~ /\b(libsidplayfp4)\b/;
+is_bad = .depends ~ /\b(libsidplayfp3)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

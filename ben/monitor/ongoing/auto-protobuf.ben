@@ -1,7 +1,7 @@
 title = "protobuf (auto)";
-is_affected = .depends ~ /libprotobuf-lite9v5|libprotobuf9v5|libprotoc9v5|libprotobuf-lite9|libprotobuf9|libprotoc9/;
-is_good = .depends ~ /libprotobuf-lite9v5|libprotobuf9v5|libprotoc9v5/;
-is_bad = .depends ~ /libprotobuf-lite9|libprotobuf9|libprotoc9/;
+is_affected = .depends ~ /\b(libprotobuf\-lite9v5|libprotobuf9v5|libprotoc9v5|libprotobuf\-lite9|libprotobuf9|libprotoc9)\b/;
+is_good = .depends ~ /\b(libprotobuf\-lite9v5|libprotobuf9v5|libprotoc9v5)\b/;
+is_bad = .depends ~ /\b(libprotobuf\-lite9|libprotobuf9|libprotoc9)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

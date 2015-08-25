@@ -1,7 +1,7 @@
 title = "netcdf (auto)";
-is_affected = .depends ~ /libnetcdf7|libcf0|libnetcdfc++4|libnetcdfc7|libnetcdff5/;
-is_good = .depends ~ /libnetcdf7/;
-is_bad = .depends ~ /libcf0|libnetcdfc++4|libnetcdfc7|libnetcdff5/;
+is_affected = .depends ~ /\b(libnetcdf7|libcf0|libnetcdfc\+\+4|libnetcdfc7|libnetcdff5)\b/;
+is_good = .depends ~ /\b(libnetcdf7)\b/;
+is_bad = .depends ~ /\b(libcf0|libnetcdfc\+\+4|libnetcdfc7|libnetcdff5)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

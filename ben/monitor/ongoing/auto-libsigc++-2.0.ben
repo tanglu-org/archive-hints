@@ -1,7 +1,7 @@
 title = "libsigc++-2.0 (auto)";
-is_affected = .depends ~ /libsigc++-2.0-0v5|libsigc++-2.0-0c2a/;
-is_good = .depends ~ /libsigc++-2.0-0v5/;
-is_bad = .depends ~ /libsigc++-2.0-0c2a/;
+is_affected = .depends ~ /\b(libsigc\+\+\-2\.0\-0v5|libsigc\+\+\-2\.0\-0c2a)\b/;
+is_good = .depends ~ /\b(libsigc\+\+\-2\.0\-0v5)\b/;
+is_bad = .depends ~ /\b(libsigc\+\+\-2\.0\-0c2a)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

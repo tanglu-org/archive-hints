@@ -1,7 +1,7 @@
 title = "libmusicbrainz3 (auto)";
-is_affected = .depends ~ /libmusicbrainz3-6v5|libmusicbrainz3-6/;
-is_good = .depends ~ /libmusicbrainz3-6v5/;
-is_bad = .depends ~ /libmusicbrainz3-6/;
+is_affected = .depends ~ /\b(libmusicbrainz3\-6v5|libmusicbrainz3\-6)\b/;
+is_good = .depends ~ /\b(libmusicbrainz3\-6v5)\b/;
+is_bad = .depends ~ /\b(libmusicbrainz3\-6)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

@@ -1,7 +1,7 @@
 title = "libsynthesis (auto)";
-is_affected = .depends ~ /libsynthesis0v5|libsynthesis0/;
-is_good = .depends ~ /libsynthesis0v5/;
-is_bad = .depends ~ /libsynthesis0/;
+is_affected = .depends ~ /\b(libsynthesis0v5|libsynthesis0)\b/;
+is_good = .depends ~ /\b(libsynthesis0v5)\b/;
+is_bad = .depends ~ /\b(libsynthesis0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

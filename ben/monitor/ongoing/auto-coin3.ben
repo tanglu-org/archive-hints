@@ -1,7 +1,7 @@
 title = "coin3 (auto)";
-is_affected = .depends ~ /libcoin80v5|libcoin80/;
-is_good = .depends ~ /libcoin80v5/;
-is_bad = .depends ~ /libcoin80/;
+is_affected = .depends ~ /\b(libcoin80v5|libcoin80)\b/;
+is_good = .depends ~ /\b(libcoin80v5)\b/;
+is_bad = .depends ~ /\b(libcoin80)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

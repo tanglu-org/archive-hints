@@ -1,7 +1,7 @@
 title = "muparser (auto)";
-is_affected = .depends ~ /libmuparser2v5|libmuparser2/;
-is_good = .depends ~ /libmuparser2v5/;
-is_bad = .depends ~ /libmuparser2/;
+is_affected = .depends ~ /\b(libmuparser2v5|libmuparser2)\b/;
+is_good = .depends ~ /\b(libmuparser2v5)\b/;
+is_bad = .depends ~ /\b(libmuparser2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

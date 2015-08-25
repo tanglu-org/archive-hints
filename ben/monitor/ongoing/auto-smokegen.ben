@@ -1,7 +1,7 @@
 title = "smokegen (auto)";
-is_affected = .depends ~ /libsmokebase3v5|libsmokebase3/;
-is_good = .depends ~ /libsmokebase3v5/;
-is_bad = .depends ~ /libsmokebase3/;
+is_affected = .depends ~ /\b(libsmokebase3v5|libsmokebase3)\b/;
+is_good = .depends ~ /\b(libsmokebase3v5)\b/;
+is_bad = .depends ~ /\b(libsmokebase3)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

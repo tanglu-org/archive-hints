@@ -1,7 +1,7 @@
 title = "notmuch (auto)";
-is_affected = .depends ~ /libnotmuch4|libnotmuch3/;
-is_good = .depends ~ /libnotmuch4/;
-is_bad = .depends ~ /libnotmuch3/;
+is_affected = .depends ~ /\b(libnotmuch4|libnotmuch3)\b/;
+is_good = .depends ~ /\b(libnotmuch4)\b/;
+is_bad = .depends ~ /\b(libnotmuch3)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

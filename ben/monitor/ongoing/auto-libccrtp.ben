@@ -1,7 +1,7 @@
 title = "libccrtp (auto)";
-is_affected = .depends ~ /libccrtp2v5|libccrtp2/;
-is_good = .depends ~ /libccrtp2v5/;
-is_bad = .depends ~ /libccrtp2/;
+is_affected = .depends ~ /\b(libccrtp2v5|libccrtp2)\b/;
+is_good = .depends ~ /\b(libccrtp2v5)\b/;
+is_bad = .depends ~ /\b(libccrtp2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

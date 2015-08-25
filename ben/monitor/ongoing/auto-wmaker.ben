@@ -1,7 +1,7 @@
 title = "wmaker (auto)";
-is_affected = .depends ~ /libwings3|libwraster-dev|libwraster5|libwutil5|libwings2|libwraster3|libwraster3-dev|libwutil3/;
-is_good = .depends ~ /libwings3|libwraster-dev|libwraster5|libwutil5/;
-is_bad = .depends ~ /libwings2|libwraster3|libwraster3-dev|libwutil3/;
+is_affected = .depends ~ /\b(libwings3|libwraster\-dev|libwraster5|libwutil5|libwings2|libwraster3|libwraster3\-dev|libwutil3)\b/;
+is_good = .depends ~ /\b(libwings3|libwraster\-dev|libwraster5|libwutil5)\b/;
+is_bad = .depends ~ /\b(libwings2|libwraster3|libwraster3\-dev|libwutil3)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

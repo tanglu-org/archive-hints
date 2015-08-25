@@ -1,7 +1,7 @@
 title = "med-fichier (auto)";
-is_affected = .depends ~ /libmed1v5|libmedc1v5|libmedimport0v5|libmed1|libmedc1|libmedimport0/;
-is_good = .depends ~ /libmed1v5|libmedc1v5|libmedimport0v5/;
-is_bad = .depends ~ /libmed1|libmedc1|libmedimport0/;
+is_affected = .depends ~ /\b(libmed1v5|libmedc1v5|libmedimport0v5|libmed1|libmedc1|libmedimport0)\b/;
+is_good = .depends ~ /\b(libmed1v5|libmedc1v5|libmedimport0v5)\b/;
+is_bad = .depends ~ /\b(libmed1|libmedc1|libmedimport0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

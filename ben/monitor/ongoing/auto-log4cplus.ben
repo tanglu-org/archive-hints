@@ -1,7 +1,7 @@
 title = "log4cplus (auto)";
-is_affected = .depends ~ /liblog4cplus-1.0-4v5|liblog4cplus-1.0-4/;
-is_good = .depends ~ /liblog4cplus-1.0-4v5/;
-is_bad = .depends ~ /liblog4cplus-1.0-4/;
+is_affected = .depends ~ /\b(liblog4cplus\-1\.0\-4v5|liblog4cplus\-1\.0\-4)\b/;
+is_good = .depends ~ /\b(liblog4cplus\-1\.0\-4v5)\b/;
+is_bad = .depends ~ /\b(liblog4cplus\-1\.0\-4)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

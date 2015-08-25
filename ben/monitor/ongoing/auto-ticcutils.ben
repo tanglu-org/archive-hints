@@ -1,7 +1,7 @@
 title = "ticcutils (auto)";
-is_affected = .depends ~ /libticcutils2v5|libticcutils2/;
-is_good = .depends ~ /libticcutils2v5/;
-is_bad = .depends ~ /libticcutils2/;
+is_affected = .depends ~ /\b(libticcutils2v5|libticcutils2)\b/;
+is_good = .depends ~ /\b(libticcutils2v5)\b/;
+is_bad = .depends ~ /\b(libticcutils2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

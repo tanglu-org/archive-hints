@@ -1,7 +1,7 @@
 title = "squid3 (auto)";
-is_affected = .depends ~ /squid|squid-common|squid-dbg|squid3-common|squid3-dbg/;
-is_good = .depends ~ /squid|squid-common|squid-dbg/;
-is_bad = .depends ~ /squid3-common|squid3-dbg/;
+is_affected = .depends ~ /\b(squid|squid\-common|squid\-dbg|squid3\-common|squid3\-dbg)\b/;
+is_good = .depends ~ /\b(squid|squid\-common|squid\-dbg)\b/;
+is_bad = .depends ~ /\b(squid3\-common|squid3\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

@@ -1,7 +1,7 @@
 title = "coinutils (auto)";
-is_affected = .depends ~ /coinor-libcoinutils3v5|coinor-libcoinutils3v5-dbg|coinor-libcoinutils3|coinor-libcoinutils3-dbg/;
-is_good = .depends ~ /coinor-libcoinutils3v5|coinor-libcoinutils3v5-dbg/;
-is_bad = .depends ~ /coinor-libcoinutils3|coinor-libcoinutils3-dbg/;
+is_affected = .depends ~ /\b(coinor\-libcoinutils3v5|coinor\-libcoinutils3v5\-dbg|coinor\-libcoinutils3|coinor\-libcoinutils3\-dbg)\b/;
+is_good = .depends ~ /\b(coinor\-libcoinutils3v5|coinor\-libcoinutils3v5\-dbg)\b/;
+is_bad = .depends ~ /\b(coinor\-libcoinutils3|coinor\-libcoinutils3\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

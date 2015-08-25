@@ -1,7 +1,7 @@
 title = "mpqc (auto)";
-is_affected = .depends ~ /libsc7v5|libsc7/;
-is_good = .depends ~ /libsc7v5/;
-is_bad = .depends ~ /libsc7/;
+is_affected = .depends ~ /\b(libsc7v5|libsc7)\b/;
+is_good = .depends ~ /\b(libsc7v5)\b/;
+is_bad = .depends ~ /\b(libsc7)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

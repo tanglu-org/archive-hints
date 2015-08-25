@@ -1,7 +1,7 @@
 title = "libplist (auto)";
-is_affected = .depends ~ /libplist++3|libplist3|libplist++2|libplist2/;
-is_good = .depends ~ /libplist++3|libplist3/;
-is_bad = .depends ~ /libplist++2|libplist2/;
+is_affected = .depends ~ /\b(libplist\+\+3|libplist3|libplist\+\+2|libplist2)\b/;
+is_good = .depends ~ /\b(libplist\+\+3|libplist3)\b/;
+is_bad = .depends ~ /\b(libplist\+\+2|libplist2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

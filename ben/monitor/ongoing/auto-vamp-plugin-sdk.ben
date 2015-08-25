@@ -1,7 +1,7 @@
 title = "vamp-plugin-sdk (auto)";
-is_affected = .depends ~ /libvamp-hostsdk3v5|libvamp-sdk2v5|libvamp-hostsdk3|libvamp-sdk2/;
-is_good = .depends ~ /libvamp-hostsdk3v5|libvamp-sdk2v5/;
-is_bad = .depends ~ /libvamp-hostsdk3|libvamp-sdk2/;
+is_affected = .depends ~ /\b(libvamp\-hostsdk3v5|libvamp\-sdk2v5|libvamp\-hostsdk3|libvamp\-sdk2)\b/;
+is_good = .depends ~ /\b(libvamp\-hostsdk3v5|libvamp\-sdk2v5)\b/;
+is_bad = .depends ~ /\b(libvamp\-hostsdk3|libvamp\-sdk2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

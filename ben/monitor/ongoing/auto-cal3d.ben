@@ -1,7 +1,7 @@
 title = "cal3d (auto)";
-is_affected = .depends ~ /libcal3d12v5|libcal3d12/;
-is_good = .depends ~ /libcal3d12v5/;
-is_bad = .depends ~ /libcal3d12/;
+is_affected = .depends ~ /\b(libcal3d12v5|libcal3d12)\b/;
+is_good = .depends ~ /\b(libcal3d12v5)\b/;
+is_bad = .depends ~ /\b(libcal3d12)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

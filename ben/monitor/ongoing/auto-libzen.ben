@@ -1,7 +1,7 @@
 title = "libzen (auto)";
-is_affected = .depends ~ /libzen0v5|libzen0/;
-is_good = .depends ~ /libzen0v5/;
-is_bad = .depends ~ /libzen0/;
+is_affected = .depends ~ /\b(libzen0v5|libzen0)\b/;
+is_good = .depends ~ /\b(libzen0v5)\b/;
+is_bad = .depends ~ /\b(libzen0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

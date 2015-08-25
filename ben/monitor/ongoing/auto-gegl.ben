@@ -1,8 +1,8 @@
 title = "gegl (auto)";
-is_affected = .depends ~ /libgegl-0.3-0|libgegl-0.3-0-dbg|libgegl-0.2-0|libgegl-0.2-0-dbg/;
-is_good = .depends ~ /libgegl-0.3-0|libgegl-0.3-0-dbg/;
-is_bad = .depends ~ /libgegl-0.2-0|libgegl-0.2-0-dbg/;
+is_affected = .depends ~ /\b(libgegl\-0\.3\-0|libgegl\-0\.3\-0\-dbg|libgegl\-0\.2\-0|libgegl\-0\.2\-0\-dbg)\b/;
+is_good = .depends ~ /\b(libgegl\-0\.3\-0|libgegl\-0\.3\-0\-dbg)\b/;
+is_bad = .depends ~ /\b(libgegl\-0\.2\-0|libgegl\-0\.2\-0\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

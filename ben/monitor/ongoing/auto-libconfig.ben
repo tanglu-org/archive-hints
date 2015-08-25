@@ -1,7 +1,7 @@
 title = "libconfig (auto)";
-is_affected = .depends ~ /libconfig++9v5|libconfig++9/;
-is_good = .depends ~ /libconfig++9v5/;
-is_bad = .depends ~ /libconfig++9/;
+is_affected = .depends ~ /\b(libconfig\+\+9v5|libconfig\+\+9)\b/;
+is_good = .depends ~ /\b(libconfig\+\+9v5)\b/;
+is_bad = .depends ~ /\b(libconfig\+\+9)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

@@ -1,7 +1,7 @@
 title = "gflags (auto)";
-is_affected = .depends ~ /libgflags2v5|libgflags2/;
-is_good = .depends ~ /libgflags2v5/;
-is_bad = .depends ~ /libgflags2/;
+is_affected = .depends ~ /\b(libgflags2v5|libgflags2)\b/;
+is_good = .depends ~ /\b(libgflags2v5)\b/;
+is_bad = .depends ~ /\b(libgflags2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

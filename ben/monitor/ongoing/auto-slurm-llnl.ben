@@ -1,7 +1,7 @@
 title = "slurm-llnl (auto)";
-is_affected = .depends ~ /libpmi0-dbg|libslurm28|libslurm28-dbg|libslurmdb28|libslurmdb28-dbg|slurm-client-dbg|slurm-wlm-basic-plugins-dbg|slurmctld-dbg|slurmd-dbg|slurmdbd-dbg|libslurm27|libslurmdb27/;
-is_good = .depends ~ /libpmi0-dbg|libslurm28|libslurm28-dbg|libslurmdb28|libslurmdb28-dbg|slurm-client-dbg|slurm-wlm-basic-plugins-dbg|slurmctld-dbg|slurmd-dbg|slurmdbd-dbg/;
-is_bad = .depends ~ /libslurm27|libslurmdb27/;
+is_affected = .depends ~ /\b(libpmi0\-dbg|libslurm28|libslurm28\-dbg|libslurmdb28|libslurmdb28\-dbg|slurm\-client\-dbg|slurm\-wlm\-basic\-plugins\-dbg|slurmctld\-dbg|slurmd\-dbg|slurmdbd\-dbg|libslurm27|libslurmdb27)\b/;
+is_good = .depends ~ /\b(libpmi0\-dbg|libslurm28|libslurm28\-dbg|libslurmdb28|libslurmdb28\-dbg|slurm\-client\-dbg|slurm\-wlm\-basic\-plugins\-dbg|slurmctld\-dbg|slurmd\-dbg|slurmdbd\-dbg)\b/;
+is_bad = .depends ~ /\b(libslurm27|libslurmdb27)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

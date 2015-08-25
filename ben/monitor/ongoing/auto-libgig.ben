@@ -1,7 +1,7 @@
 title = "libgig (auto)";
-is_affected = .depends ~ /libgig6v5|libgig6/;
-is_good = .depends ~ /libgig6v5/;
-is_bad = .depends ~ /libgig6/;
+is_affected = .depends ~ /\b(libgig6v5|libgig6)\b/;
+is_good = .depends ~ /\b(libgig6v5)\b/;
+is_bad = .depends ~ /\b(libgig6)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

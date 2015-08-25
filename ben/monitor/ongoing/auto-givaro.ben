@@ -1,7 +1,7 @@
 title = "givaro (auto)";
-is_affected = .depends ~ /libgivaro1v5|libgivaro1/;
-is_good = .depends ~ /libgivaro1v5/;
-is_bad = .depends ~ /libgivaro1/;
+is_affected = .depends ~ /\b(libgivaro1v5|libgivaro1)\b/;
+is_good = .depends ~ /\b(libgivaro1v5)\b/;
+is_bad = .depends ~ /\b(libgivaro1)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

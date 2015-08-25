@@ -1,7 +1,7 @@
 title = "bulletml (auto)";
-is_affected = .depends ~ /libbulletml0v5|libbulletml0d2/;
-is_good = .depends ~ /libbulletml0v5/;
-is_bad = .depends ~ /libbulletml0d2/;
+is_affected = .depends ~ /\b(libbulletml0v5|libbulletml0d2)\b/;
+is_good = .depends ~ /\b(libbulletml0v5)\b/;
+is_bad = .depends ~ /\b(libbulletml0d2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

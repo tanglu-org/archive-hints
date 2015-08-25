@@ -1,7 +1,7 @@
 title = "pajeng (auto)";
-is_affected = .depends ~ /libpaje1v5|libpaje1/;
-is_good = .depends ~ /libpaje1v5/;
-is_bad = .depends ~ /libpaje1/;
+is_affected = .depends ~ /\b(libpaje1v5|libpaje1)\b/;
+is_good = .depends ~ /\b(libpaje1v5)\b/;
+is_bad = .depends ~ /\b(libpaje1)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

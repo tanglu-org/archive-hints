@@ -1,7 +1,7 @@
 title = "kwin (auto)";
-is_affected = .depends ~ /kde-window-manager|kwin-common|kwin-wayland|kwin-x11|kwin/;
-is_good = .depends ~ /kde-window-manager|kwin-common|kwin-wayland|kwin-x11/;
-is_bad = .depends ~ /kwin/;
+is_affected = .depends ~ /\b(kde\-window\-manager|kwin\-common|kwin\-wayland|kwin\-x11|kwin)\b/;
+is_good = .depends ~ /\b(kde\-window\-manager|kwin\-common|kwin\-wayland|kwin\-x11)\b/;
+is_bad = .depends ~ /\b(kwin)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

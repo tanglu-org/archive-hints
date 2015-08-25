@@ -1,8 +1,8 @@
 title = "alglib (auto)";
-is_affected = .depends ~ /libalglib3.9-dbg|libalglib3.9v5|libalglib3.8|libalglib3.8-dbg/;
-is_good = .depends ~ /libalglib3.9-dbg|libalglib3.9v5/;
-is_bad = .depends ~ /libalglib3.8|libalglib3.8-dbg/;
+is_affected = .depends ~ /\b(libalglib3\.9\-dbg|libalglib3\.9v5|libalglib3\.8|libalglib3\.8\-dbg)\b/;
+is_good = .depends ~ /\b(libalglib3\.9\-dbg|libalglib3\.9v5)\b/;
+is_bad = .depends ~ /\b(libalglib3\.8|libalglib3\.8\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";
