@@ -1,0 +1,8 @@
+title = "libqalculate (auto)";
+is_affected = .depends ~ /libqalculate5v5|libqalculate5/;
+is_good = .depends ~ /libqalculate5v5/;
+is_bad = .depends ~ /libqalculate5/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

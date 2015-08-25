@@ -1,0 +1,8 @@
+title = "ilmbase (auto)";
+is_affected = .depends ~ /libilmbase6v5|libilmbase6/;
+is_good = .depends ~ /libilmbase6v5/;
+is_bad = .depends ~ /libilmbase6/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

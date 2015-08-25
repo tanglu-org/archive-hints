@@ -1,0 +1,8 @@
+title = "parmetis (auto)";
+is_affected = .depends ~ /libparmetis4.0|libparmetis3.1/;
+is_good = .depends ~ /libparmetis4.0/;
+is_bad = .depends ~ /libparmetis3.1/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libparmetis3.1 is not in libs or oldlibs";

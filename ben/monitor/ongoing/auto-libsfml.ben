@@ -1,6 +1,6 @@
 title = "libsfml (auto)";
-is_affected = .depends ~ /libsfml-audio2.3|libsfml-graphics2.3|libsfml-network2.3|libsfml-system2.3|libsfml-window2.3|libsfml2.3-dbg|libsfml-audio2|libsfml-graphics2|libsfml-network2|libsfml-system2|libsfml-window2|libsfml2-dbg/;
-is_good = .depends ~ /libsfml-audio2.3|libsfml-graphics2.3|libsfml-network2.3|libsfml-system2.3|libsfml-window2.3|libsfml2.3-dbg/;
+is_affected = .depends ~ /libsfml-audio2.3v5|libsfml-graphics2.3v5|libsfml-network2.3v5|libsfml-system2.3v5|libsfml-window2.3v5|libsfml2.3-dbg|libsfml-audio2|libsfml-graphics2|libsfml-network2|libsfml-system2|libsfml-window2|libsfml2-dbg/;
+is_good = .depends ~ /libsfml-audio2.3v5|libsfml-graphics2.3v5|libsfml-network2.3v5|libsfml-system2.3v5|libsfml-window2.3v5|libsfml2.3-dbg/;
 is_bad = .depends ~ /libsfml-audio2|libsfml-graphics2|libsfml-network2|libsfml-system2|libsfml-window2|libsfml2-dbg/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 

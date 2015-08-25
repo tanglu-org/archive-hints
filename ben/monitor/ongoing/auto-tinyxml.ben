@@ -1,0 +1,8 @@
+title = "tinyxml (auto)";
+is_affected = .depends ~ /libtinyxml2.6.2v5|libtinyxml2.6.2v5-dbg|libtinyxml2.6.2|libtinyxml2.6.2-dbg/;
+is_good = .depends ~ /libtinyxml2.6.2v5|libtinyxml2.6.2v5-dbg/;
+is_bad = .depends ~ /libtinyxml2.6.2|libtinyxml2.6.2-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

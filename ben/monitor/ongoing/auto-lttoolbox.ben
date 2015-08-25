@@ -1,8 +1,8 @@
 title = "lttoolbox (auto)";
-is_affected = .depends ~ /liblttoolbox3-3.3-0|lttoolbox-dev|liblttoolbox3-3.1-0|liblttoolbox3-3.1-0-dev/;
-is_good = .depends ~ /liblttoolbox3-3.3-0|lttoolbox-dev/;
-is_bad = .depends ~ /liblttoolbox3-3.1-0|liblttoolbox3-3.1-0-dev/;
+is_affected = .depends ~ /liblttoolbox3-3.3-0v5|liblttoolbox3-3.3-0/;
+is_good = .depends ~ /liblttoolbox3-3.3-0v5/;
+is_bad = .depends ~ /liblttoolbox3-3.3-0/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";
+ * can-smooth-update: no - liblttoolbox3-3.3-0 is not in libs or oldlibs";

@@ -1,0 +1,8 @@
+title = "snappy (auto)";
+is_affected = .depends ~ /libsnappy1v5|libsnappy1/;
+is_good = .depends ~ /libsnappy1v5/;
+is_bad = .depends ~ /libsnappy1/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

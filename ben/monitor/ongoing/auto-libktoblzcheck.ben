@@ -1,0 +1,8 @@
+title = "libktoblzcheck (auto)";
+is_affected = .depends ~ /libktoblzcheck1v5|libktoblzcheck1c2a/;
+is_good = .depends ~ /libktoblzcheck1v5/;
+is_bad = .depends ~ /libktoblzcheck1c2a/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

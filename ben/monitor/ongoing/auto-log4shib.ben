@@ -1,0 +1,8 @@
+title = "log4shib (auto)";
+is_affected = .depends ~ /liblog4shib1v5|liblog4shib1/;
+is_good = .depends ~ /liblog4shib1v5/;
+is_bad = .depends ~ /liblog4shib1/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

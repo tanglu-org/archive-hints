@@ -1,0 +1,8 @@
+title = "flac (auto)";
+is_affected = .depends ~ /libflac++6v5|libflac++6/;
+is_good = .depends ~ /libflac++6v5/;
+is_bad = .depends ~ /libflac++6/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

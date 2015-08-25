@@ -1,0 +1,8 @@
+title = "console-bridge (auto)";
+is_affected = .depends ~ /libconsole-bridge0.2v5|libconsole-bridge0.2v5-dbg|libconsole-bridge0.2|libconsole-bridge0.2-dbg/;
+is_good = .depends ~ /libconsole-bridge0.2v5|libconsole-bridge0.2v5-dbg/;
+is_bad = .depends ~ /libconsole-bridge0.2|libconsole-bridge0.2-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

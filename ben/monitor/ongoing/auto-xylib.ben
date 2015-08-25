@@ -1,0 +1,8 @@
+title = "xylib (auto)";
+is_affected = .depends ~ /libxy3v5|libxy3/;
+is_good = .depends ~ /libxy3v5/;
+is_bad = .depends ~ /libxy3/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

@@ -1,0 +1,8 @@
+title = "htmlcxx (auto)";
+is_affected = .depends ~ /libcss-parser-pp0v5|libhtmlcxx3v5|libcss-parser-pp0|libhtmlcxx3/;
+is_good = .depends ~ /libcss-parser-pp0v5|libhtmlcxx3v5/;
+is_bad = .depends ~ /libcss-parser-pp0|libhtmlcxx3/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

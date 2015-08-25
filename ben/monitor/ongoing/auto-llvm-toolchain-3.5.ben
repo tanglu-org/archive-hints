@@ -1,0 +1,8 @@
+title = "llvm-toolchain-3.5 (auto)";
+is_affected = .depends ~ /libllvm3.5v5|libllvm3.5/;
+is_good = .depends ~ /libllvm3.5v5/;
+is_bad = .depends ~ /libllvm3.5/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

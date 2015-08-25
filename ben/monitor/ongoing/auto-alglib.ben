@@ -1,6 +1,6 @@
 title = "alglib (auto)";
-is_affected = .depends ~ /libalglib3.9|libalglib3.9-dbg|libalglib3.8|libalglib3.8-dbg/;
-is_good = .depends ~ /libalglib3.9|libalglib3.9-dbg/;
+is_affected = .depends ~ /libalglib3.9-dbg|libalglib3.9v5|libalglib3.8|libalglib3.8-dbg/;
+is_good = .depends ~ /libalglib3.9-dbg|libalglib3.9v5/;
 is_bad = .depends ~ /libalglib3.8|libalglib3.8-dbg/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 

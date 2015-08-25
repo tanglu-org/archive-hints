@@ -1,0 +1,8 @@
+title = "vamp-plugin-sdk (auto)";
+is_affected = .depends ~ /libvamp-hostsdk3v5|libvamp-sdk2v5|libvamp-hostsdk3|libvamp-sdk2/;
+is_good = .depends ~ /libvamp-hostsdk3v5|libvamp-sdk2v5/;
+is_bad = .depends ~ /libvamp-hostsdk3|libvamp-sdk2/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libvamp-sdk2 is not in libs or oldlibs";

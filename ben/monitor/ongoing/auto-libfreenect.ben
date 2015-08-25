@@ -1,0 +1,8 @@
+title = "libfreenect (auto)";
+is_affected = .depends ~ /libfreenect0.5|libfreenect0.2/;
+is_good = .depends ~ /libfreenect0.5/;
+is_bad = .depends ~ /libfreenect0.2/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

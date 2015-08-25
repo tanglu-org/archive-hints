@@ -1,0 +1,8 @@
+title = "libbinio (auto)";
+is_affected = .depends ~ /libbinio1v5|libbinio1ldbl/;
+is_good = .depends ~ /libbinio1v5/;
+is_bad = .depends ~ /libbinio1ldbl/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

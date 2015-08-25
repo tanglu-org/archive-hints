@@ -1,0 +1,8 @@
+title = "libplist (auto)";
+is_affected = .depends ~ /libplist++3|libplist3|libplist++2|libplist2/;
+is_good = .depends ~ /libplist++3|libplist3/;
+is_bad = .depends ~ /libplist++2|libplist2/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

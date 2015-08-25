@@ -1,0 +1,8 @@
+title = "ffmpegthumbnailer (auto)";
+is_affected = .depends ~ /libffmpegthumbnailer4v5|libffmpegthumbnailer4/;
+is_good = .depends ~ /libffmpegthumbnailer4v5/;
+is_bad = .depends ~ /libffmpegthumbnailer4/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libffmpegthumbnailer4 is not in libs or oldlibs";

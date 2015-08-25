@@ -1,0 +1,8 @@
+title = "libcrypto++ (auto)";
+is_affected = .depends ~ /libcrypto++9v5|libcrypto++9v5-dbg|libcrypto++9|libcrypto++9-dbg/;
+is_good = .depends ~ /libcrypto++9v5|libcrypto++9v5-dbg/;
+is_bad = .depends ~ /libcrypto++9|libcrypto++9-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";

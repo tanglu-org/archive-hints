@@ -1,0 +1,8 @@
+title = "qpdf (auto)";
+is_affected = .depends ~ /libqpdf13v5|libqpdf13/;
+is_good = .depends ~ /libqpdf13v5/;
+is_bad = .depends ~ /libqpdf13/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

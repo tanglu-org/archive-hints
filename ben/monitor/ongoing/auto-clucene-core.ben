@@ -1,0 +1,8 @@
+title = "clucene-core (auto)";
+is_affected = .depends ~ /libclucene-contribs1v5|libclucene-core1v5|libclucene-contribs1|libclucene-core1/;
+is_good = .depends ~ /libclucene-contribs1v5|libclucene-core1v5/;
+is_bad = .depends ~ /libclucene-contribs1|libclucene-core1/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

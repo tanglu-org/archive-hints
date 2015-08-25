@@ -1,0 +1,8 @@
+title = "libitpp (auto)";
+is_affected = .depends ~ /libitpp8v5|libitpp8v5-dbg|libitpp8|libitpp8-dbg/;
+is_good = .depends ~ /libitpp8v5|libitpp8v5-dbg/;
+is_bad = .depends ~ /libitpp8|libitpp8-dbg/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries)";
