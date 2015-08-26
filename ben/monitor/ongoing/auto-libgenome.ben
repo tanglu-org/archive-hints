@@ -1,0 +1,8 @@
+title = "libgenome (auto)";
+is_affected = .depends ~ /\b(libgenome\-1\.3\-0v5|libgenome\-1\.3\-0)\b/;
+is_good = .depends ~ /\b(libgenome\-1\.3\-0v5)\b/;
+is_bad = .depends ~ /\b(libgenome\-1\.3\-0)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

@@ -1,0 +1,8 @@
+title = "neutron (auto)";
+is_affected = .depends ~ /\b(neutron\-linuxbridge\-agent|neutron\-openvswitch\-agent|neutron\-lbaas\-agent|neutron\-vpn\-agent|python\-quantum|quantum\-common|quantum\-dhcp\-agent|quantum\-l3\-agent|quantum\-lbaas\-agent|quantum\-metadata\-agent|quantum\-plugin\-bigswitch|quantum\-plugin\-brocade|quantum\-plugin\-cisco|quantum\-plugin\-hyperv|quantum\-plugin\-linuxbridge|quantum\-plugin\-linuxbridge\-agent|quantum\-plugin\-metaplugin|quantum\-plugin\-nec|quantum\-plugin\-nec\-agent|quantum\-plugin\-nicira|quantum\-plugin\-openvswitch|quantum\-plugin\-openvswitch\-agent|quantum\-plugin\-plumgrid|quantum\-server)\b/;
+is_good = .depends ~ /\b(neutron\-linuxbridge\-agent|neutron\-openvswitch\-agent)\b/;
+is_bad = .depends ~ /\b(neutron\-lbaas\-agent|neutron\-vpn\-agent|python\-quantum|quantum\-common|quantum\-dhcp\-agent|quantum\-l3\-agent|quantum\-lbaas\-agent|quantum\-metadata\-agent|quantum\-plugin\-bigswitch|quantum\-plugin\-brocade|quantum\-plugin\-cisco|quantum\-plugin\-hyperv|quantum\-plugin\-linuxbridge|quantum\-plugin\-linuxbridge\-agent|quantum\-plugin\-metaplugin|quantum\-plugin\-nec|quantum\-plugin\-nec\-agent|quantum\-plugin\-nicira|quantum\-plugin\-openvswitch|quantum\-plugin\-openvswitch\-agent|quantum\-plugin\-plumgrid|quantum\-server)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";
