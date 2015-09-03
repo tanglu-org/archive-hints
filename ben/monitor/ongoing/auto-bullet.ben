@@ -1,8 +1,8 @@
 title = "bullet (auto)";
-is_affected = .depends ~ /libbullet2.83-dbg|libbulletcollision2.83|libbulletdynamics2.83|libbulletfileloader2.83|libbulletsoftbody2.83|libbulletworldimporter2.83|libbulletxmlworldimporter2.83|libconvexdecomposition2.83|libgimpactutils2.83|libhacd2.83|liblinearmath2.83|libbullet2.82-dbg|libbulletcollision2.82|libbulletdynamics2.82|libbulletfileloader2.82|libbulletsoftbody2.82|libbulletworldimporter2.82|libbulletxmlworldimporter2.82|libconvexdecomposition2.82|libgimpactutils2.82|libhacd2.82|liblinearmath2.82/;
-is_good = .depends ~ /libbullet2.83-dbg|libbulletcollision2.83|libbulletdynamics2.83|libbulletfileloader2.83|libbulletsoftbody2.83|libbulletworldimporter2.83|libbulletxmlworldimporter2.83|libconvexdecomposition2.83|libgimpactutils2.83|libhacd2.83|liblinearmath2.83/;
-is_bad = .depends ~ /libbullet2.82-dbg|libbulletcollision2.82|libbulletdynamics2.82|libbulletfileloader2.82|libbulletsoftbody2.82|libbulletworldimporter2.82|libbulletxmlworldimporter2.82|libconvexdecomposition2.82|libgimpactutils2.82|libhacd2.82|liblinearmath2.82/;
+is_affected = .depends ~ /\b(libbulletcollision2\.83v5|libbulletdynamics2\.83v5|libbulletfileloader2\.83v5|libbulletsoftbody2\.83v5|libbulletworldimporter2\.83v5|libbulletxmlworldimporter2\.83v5|libconvexdecomposition2\.83v5|libgimpactutils2\.83v5|libhacd2\.83v5|liblinearmath2\.83v5|libbulletcollision2\.83|libbulletdynamics2\.83|libbulletfileloader2\.83|libbulletsoftbody2\.83|libbulletworldimporter2\.83|libbulletxmlworldimporter2\.83|libconvexdecomposition2\.83|libgimpactutils2\.83|libhacd2\.83|liblinearmath2\.83)\b/;
+is_good = .depends ~ /\b(libbulletcollision2\.83v5|libbulletdynamics2\.83v5|libbulletfileloader2\.83v5|libbulletsoftbody2\.83v5|libbulletworldimporter2\.83v5|libbulletxmlworldimporter2\.83v5|libconvexdecomposition2\.83v5|libgimpactutils2\.83v5|libhacd2\.83v5|liblinearmath2\.83v5)\b/;
+is_bad = .depends ~ /\b(libbulletcollision2\.83|libbulletdynamics2\.83|libbulletfileloader2\.83|libbulletsoftbody2\.83|libbulletworldimporter2\.83|libbulletxmlworldimporter2\.83|libconvexdecomposition2\.83|libgimpactutils2\.83|libhacd2\.83|liblinearmath2\.83)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";
+ * can-smooth-update: maybe";

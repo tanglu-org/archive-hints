@@ -1,0 +1,8 @@
+title = "mercator (auto)";
+is_affected = .depends ~ /\b(libmercator\-0\.3\-3v5|libmercator\-0\.3\-3v5\-dbg|libmercator\-0\.3\-3|libmercator\-0\.3\-3\-dbg)\b/;
+is_good = .depends ~ /\b(libmercator\-0\.3\-3v5|libmercator\-0\.3\-3v5\-dbg)\b/;
+is_bad = .depends ~ /\b(libmercator\-0\.3\-3|libmercator\-0\.3\-3\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

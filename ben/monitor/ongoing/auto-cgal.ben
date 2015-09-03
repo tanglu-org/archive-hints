@@ -1,6 +1,6 @@
 title = "cgal (auto)";
-is_affected = .depends ~ /\b(libcgal\-qt4\-11|libcgal11|libcgal\-qt4\-10|libcgal10)\b/;
-is_good = .depends ~ /\b(libcgal\-qt4\-11|libcgal11)\b/;
+is_affected = .depends ~ /\b(libcgal\-qt4\-11v5|libcgal11v5|libcgal\-qt4\-10|libcgal10)\b/;
+is_good = .depends ~ /\b(libcgal\-qt4\-11v5|libcgal11v5)\b/;
 is_bad = .depends ~ /\b(libcgal\-qt4\-10|libcgal10)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 

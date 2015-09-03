@@ -1,0 +1,8 @@
+title = "coinor-osi (auto)";
+is_affected = .depends ~ /\b(coinor\-libosi1v5|coinor\-libosi1v5\-dbg|coinor\-libosi1|coinor\-libosi1\-dbg)\b/;
+is_good = .depends ~ /\b(coinor\-libosi1v5|coinor\-libosi1v5\-dbg)\b/;
+is_bad = .depends ~ /\b(coinor\-libosi1|coinor\-libosi1\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - coinor-libosi1 is not in libs or oldlibs";

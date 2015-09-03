@@ -1,0 +1,8 @@
+title = "linux-tools (auto)";
+is_affected = .depends ~ /\b(hyperv\-daemons|liblockdep\-dev|liblockdep4\.2|linux\-kbuild\-4\.2|linux\-perf\-4\.2|lockdep|linux\-kbuild\-4\.0|linux\-tools\-4\.0)\b/;
+is_good = .depends ~ /\b(hyperv\-daemons|liblockdep\-dev|liblockdep4\.2|linux\-kbuild\-4\.2|linux\-perf\-4\.2|lockdep)\b/;
+is_bad = .depends ~ /\b(linux\-kbuild\-4\.0|linux\-tools\-4\.0)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - linux-tools-4.0 is not in libs or oldlibs";
