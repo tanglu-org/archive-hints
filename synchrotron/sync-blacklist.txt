@@ -43,6 +43,7 @@ cross-gcc-defaults
 
 # mak: 2015-08-10
 golang-go.net-dev
+golang-snappy-go
 
 # we package our own d-i
 debian-installer
