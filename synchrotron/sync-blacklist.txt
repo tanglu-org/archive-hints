@@ -30,6 +30,12 @@ plasma-widget-fastuserswitch
 kde-baseapps
 kde-l10n
 
+# mak: 2015-08-10
+# Block packages which break migrations due to conflicting binary versions
+golang-go.net-dev
+golang-snappy-go
+tesseract-grc
+
 # mak: 2015-08-26
 # We can't build those packages due to missing architectures
 cross-gcc-4.9-powerpc
@@ -40,10 +46,6 @@ cross-gcc-4.9-armel
 cross-gcc-4.9-armhf
 cross-gcc-4.9-arm64
 cross-gcc-defaults
-
-# mak: 2015-08-10
-golang-go.net-dev
-golang-snappy-go
 
 # we package our own d-i
 debian-installer
