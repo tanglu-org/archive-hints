@@ -1,0 +1,8 @@
+title = "libglademm2.4 (auto)";
+is_affected = .depends ~ /\b(libglademm\-2\.4\-1v5|libglademm\-2\.4\-1c2a)\b/;
+is_good = .depends ~ /\b(libglademm\-2\.4\-1v5)\b/;
+is_bad = .depends ~ /\b(libglademm\-2\.4\-1c2a)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

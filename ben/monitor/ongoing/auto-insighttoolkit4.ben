@@ -1,0 +1,8 @@
+title = "insighttoolkit4 (auto)";
+is_affected = .depends ~ /\b(libinsighttoolkit4\.7|libinsighttoolkit4\.6)\b/;
+is_good = .depends ~ /\b(libinsighttoolkit4\.7)\b/;
+is_bad = .depends ~ /\b(libinsighttoolkit4\.6)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

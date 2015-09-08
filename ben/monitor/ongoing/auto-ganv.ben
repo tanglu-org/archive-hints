@@ -1,0 +1,8 @@
+title = "ganv (auto)";
+is_affected = .depends ~ /\b(libganv\-1\-1v5|libganv\-1\-1)\b/;
+is_good = .depends ~ /\b(libganv\-1\-1v5)\b/;
+is_bad = .depends ~ /\b(libganv\-1\-1)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

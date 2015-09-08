@@ -1,0 +1,8 @@
+title = "libpqxx (auto)";
+is_affected = .depends ~ /\b(libpqxx\-4\.0v5|libpqxx\-4\.0)\b/;
+is_good = .depends ~ /\b(libpqxx\-4\.0v5)\b/;
+is_bad = .depends ~ /\b(libpqxx\-4\.0)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
