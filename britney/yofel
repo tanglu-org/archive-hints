@@ -29,3 +29,6 @@ boost1.55/1.55.0+dfsg-4b1 boost1.55/1.55.0+dfsg-4
 
 # obsolete
 remove qapt/1.4.0-1tanglu3 qapt/1.4.0-1tanglu1
+
+# amd64-only now
+remove tophat/i386/2.0.12+dfsg-1
