@@ -24,6 +24,8 @@ remove haskell-shakespeare-i18n/1.0.0.5-1b5 haskell-shakespeare-i18n/1.0.0.5-1b4
 remove haskell-shakespeare-js/1.2.0.4-1b6 haskell-shakespeare-js/1.2.0.4-1b5
 remove haskell-shakespeare-text/1.0.2-1b5 haskell-shakespeare-text/1.0.2-1b4
 
+remove haskell-notmuch-web/0.2.0-7b3 haskell-notmuch-web/0.2.0-7b4
+
 # gcc5 incompatible
 boost1.55/1.55.0+dfsg-4b1 boost1.55/1.55.0+dfsg-4
 
