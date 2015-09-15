@@ -1,0 +1,5 @@
+title = "ruby2.2";
+is_affected = .depends ~ /libruby2/;
+is_good = .depends ~ /libruby2.2/;
+is_bad = .depends ~ /libruby2.1/ & !.depends ~ /libruby2.2/;
+notes = "";
