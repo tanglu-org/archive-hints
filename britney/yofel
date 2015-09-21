@@ -40,3 +40,4 @@ remove tophat/i386/2.0.12+dfsg-1
 # FTBFS
 remove mbtserver/0.7-3 mbtserver/0.7-3b1
 remove frog/0.12.17-7.1b1 frog/0.12.17-7.1b3
+remove goplay/0.9 goplay/0.9b3
