@@ -1,8 +1,0 @@
-title = "davix (auto)";
-is_affected = .depends ~ /\b(libdavix0v5|libdavix0)\b/;
-is_good = .depends ~ /\b(libdavix0v5)\b/;
-is_bad = .depends ~ /\b(libdavix0)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

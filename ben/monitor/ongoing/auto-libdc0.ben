@@ -1,8 +1,0 @@
-title = "libdc0 (auto)";
-is_affected = .depends ~ /\b(libdc5v5|libdc5)\b/;
-is_good = .depends ~ /\b(libdc5v5)\b/;
-is_bad = .depends ~ /\b(libdc5)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

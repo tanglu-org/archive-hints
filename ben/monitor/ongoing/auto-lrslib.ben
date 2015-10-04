@@ -1,8 +1,0 @@
-title = "lrslib (auto)";
-is_affected = .depends ~ /liblrsgmp-dev|liblrsgmp0|liblrs-dev|liblrs0d/;
-is_good = .depends ~ /liblrsgmp-dev|liblrsgmp0/;
-is_bad = .depends ~ /liblrs-dev|liblrs0d/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - liblrs0d is not in libs or oldlibs";

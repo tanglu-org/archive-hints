@@ -1,8 +1,0 @@
-title = "libkml (auto)";
-is_affected = .depends ~ /\b(libkmlbase1|libkmlconvenience1|libkmldom1|libkmlengine1|libkmlregionator1|libkmlxsd1|libkml0)\b/;
-is_good = .depends ~ /\b(libkmlbase1|libkmlconvenience1|libkmldom1|libkmlengine1|libkmlregionator1|libkmlxsd1)\b/;
-is_bad = .depends ~ /\b(libkml0)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

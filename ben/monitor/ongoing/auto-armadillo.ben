@@ -1,8 +1,0 @@
-title = "armadillo (auto)";
-is_affected = .depends ~ /libarmadillo5|libarmadillo4/;
-is_good = .depends ~ /libarmadillo5/;
-is_bad = .depends ~ /libarmadillo4/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

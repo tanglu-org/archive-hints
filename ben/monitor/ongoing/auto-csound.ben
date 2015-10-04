@@ -1,8 +1,0 @@
-title = "csound (auto)";
-is_affected = .depends ~ /\b(libcsnd6\-6\.0v5|libcsoundac6\.0v5|libcsnd6\-6\.0|libcsoundac6\.0)\b/;
-is_good = .depends ~ /\b(libcsnd6\-6\.0v5|libcsoundac6\.0v5)\b/;
-is_bad = .depends ~ /\b(libcsnd6\-6\.0|libcsoundac6\.0)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

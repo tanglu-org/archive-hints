@@ -1,8 +1,0 @@
-title = "ogre-1.9 (auto)";
-is_affected = .depends ~ /\b(libogre\-1\.9\.0v5|libogre\-1\.9\.0v5\-dbg|libogre\-1\.9\.0|libogre\-1\.9\.0\-dbg)\b/;
-is_good = .depends ~ /\b(libogre\-1\.9\.0v5|libogre\-1\.9\.0v5\-dbg)\b/;
-is_bad = .depends ~ /\b(libogre\-1\.9\.0|libogre\-1\.9\.0\-dbg)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

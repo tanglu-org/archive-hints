@@ -1,8 +1,0 @@
-title = "mygui (auto)";
-is_affected = .depends ~ /\b(libmygui\.ogreplatform0debian1v5|libmygui\.ogreplatform0debian1v5\-dbg|libmygui\.openglplatform0debian1v5|libmygui\.openglplatform0debian1v5\-dbg|libmyguiengine3debian1v5|libmyguiengine3debian1v5\-dbg|libmygui\.ogreplatform0debian1|libmygui\.ogreplatform0debian1\-dbg|libmygui\.openglplatform0debian1|libmygui\.openglplatform0debian1\-dbg|libmyguiengine3debian1|libmyguiengine3debian1\-dbg)\b/;
-is_good = .depends ~ /\b(libmygui\.ogreplatform0debian1v5|libmygui\.ogreplatform0debian1v5\-dbg|libmygui\.openglplatform0debian1v5|libmygui\.openglplatform0debian1v5\-dbg|libmyguiengine3debian1v5|libmyguiengine3debian1v5\-dbg)\b/;
-is_bad = .depends ~ /\b(libmygui\.ogreplatform0debian1|libmygui\.ogreplatform0debian1\-dbg|libmygui\.openglplatform0debian1|libmygui\.openglplatform0debian1\-dbg|libmyguiengine3debian1|libmyguiengine3debian1\-dbg)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

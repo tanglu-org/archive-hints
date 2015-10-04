@@ -1,8 +1,0 @@
-title = "procps (auto)";
-is_affected = .depends ~ /libprocps4|libprocps4-dev|libprocps3|libprocps3-dev/;
-is_good = .depends ~ /libprocps4|libprocps4-dev/;
-is_bad = .depends ~ /libprocps3|libprocps3-dev/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

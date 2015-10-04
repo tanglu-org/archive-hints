@@ -1,8 +1,0 @@
-title = "alglib (auto)";
-is_affected = .depends ~ /\b(libalglib3\.10|libalglib3\.10\-dbg|libalglib3\.8|libalglib3\.8\-dbg)\b/;
-is_good = .depends ~ /\b(libalglib3\.10|libalglib3\.10\-dbg)\b/;
-is_bad = .depends ~ /\b(libalglib3\.8|libalglib3\.8\-dbg)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

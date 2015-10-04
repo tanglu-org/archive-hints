@@ -1,8 +1,0 @@
-title = "opensm (auto)";
-is_affected = .depends ~ /\b(libopensm5a|libosmcomp3|libosmvendor4|libopensm5)\b/;
-is_good = .depends ~ /\b(libopensm5a|libosmcomp3|libosmvendor4)\b/;
-is_bad = .depends ~ /\b(libopensm5)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

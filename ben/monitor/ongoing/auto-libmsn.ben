@@ -1,8 +1,0 @@
-title = "libmsn (auto)";
-is_affected = .depends ~ /\b(libmsn0\.3v5|libmsn0\.3v5\-dbg|libmsn0\.3|libmsn0\.3\-dbg)\b/;
-is_good = .depends ~ /\b(libmsn0\.3v5|libmsn0\.3v5\-dbg)\b/;
-is_bad = .depends ~ /\b(libmsn0\.3|libmsn0\.3\-dbg)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

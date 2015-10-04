@@ -1,8 +1,0 @@
-title = "flatzebra (auto)";
-is_affected = .depends ~ /\b(libflatzebra\-0\.1\-2v5|libflatzebra\-0\.1\-2)\b/;
-is_good = .depends ~ /\b(libflatzebra\-0\.1\-2v5)\b/;
-is_bad = .depends ~ /\b(libflatzebra\-0\.1\-2)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

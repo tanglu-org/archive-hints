@@ -1,8 +1,0 @@
-title = "clam (auto)";
-is_affected = .depends ~ /\b(libclam1\.4v5|libclam1\.4)\b/;
-is_good = .depends ~ /\b(libclam1\.4v5)\b/;
-is_bad = .depends ~ /\b(libclam1\.4)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

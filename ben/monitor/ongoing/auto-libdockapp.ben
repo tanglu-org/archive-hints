@@ -1,8 +1,0 @@
-title = "libdockapp (auto)";
-is_affected = .depends ~ /\b(libdockapp\-dbg|libdockapp3|libdockapp2)\b/;
-is_good = .depends ~ /\b(libdockapp\-dbg|libdockapp3)\b/;
-is_bad = .depends ~ /\b(libdockapp2)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

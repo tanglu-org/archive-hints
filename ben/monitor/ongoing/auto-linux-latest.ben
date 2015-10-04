@@ -1,8 +1,0 @@
-title = "linux-latest (auto)";
-is_affected = .depends ~ /\b(linux\-perf|linux\-headers\-itanium|linux\-headers\-mckinley|linux\-headers\-r4k\-ip22|linux\-headers\-r5k\-ip32|linux\-headers\-rt\-686\-pae|linux\-headers\-rt\-amd64|linux\-headers\-sb1\-bcm91250a|linux\-image\-itanium|linux\-image\-mckinley|linux\-image\-r4k\-ip22|linux\-image\-r5k\-ip32|linux\-image\-rt\-686\-pae|linux\-image\-rt\-686\-pae\-dbg|linux\-image\-rt\-amd64|linux\-image\-rt\-amd64\-dbg|linux\-image\-sb1\-bcm91250a)\b/;
-is_good = .depends ~ /\b(linux\-perf)\b/;
-is_bad = .depends ~ /\b(linux\-headers\-itanium|linux\-headers\-mckinley|linux\-headers\-r4k\-ip22|linux\-headers\-r5k\-ip32|linux\-headers\-rt\-686\-pae|linux\-headers\-rt\-amd64|linux\-headers\-sb1\-bcm91250a|linux\-image\-itanium|linux\-image\-mckinley|linux\-image\-r4k\-ip22|linux\-image\-r5k\-ip32|linux\-image\-rt\-686\-pae|linux\-image\-rt\-686\-pae\-dbg|linux\-image\-rt\-amd64|linux\-image\-rt\-amd64\-dbg|linux\-image\-sb1\-bcm91250a)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

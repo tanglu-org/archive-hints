@@ -1,8 +1,0 @@
-title = "vpb-driver (auto)";
-is_affected = .depends ~ /\b(libvpb1|libvpb0)\b/;
-is_good = .depends ~ /\b(libvpb1)\b/;
-is_bad = .depends ~ /\b(libvpb0)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

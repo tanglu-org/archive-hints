@@ -1,8 +1,0 @@
-title = "resiprocate (auto)";
-is_affected = .depends ~ /\b(librecon\-1\.10|librecon\-1\.10\-dev|libresiprocate\-1\.10|libresiprocate\-1\.10\-dev|libresiprocate\-turn\-client\-1\.10|libresiprocate\-turn\-client\-1\.10\-dev|resiprocate\-turn\-server\-psql|librecon\-1\.9|librecon\-1\.9\-dev|libresiprocate\-1\.9|libresiprocate\-1\.9\-dev|libresiprocate\-turn\-client\-1\.9|libresiprocate\-turn\-client\-1\.9\-dev)\b/;
-is_good = .depends ~ /\b(librecon\-1\.10|librecon\-1\.10\-dev|libresiprocate\-1\.10|libresiprocate\-1\.10\-dev|libresiprocate\-turn\-client\-1\.10|libresiprocate\-turn\-client\-1\.10\-dev|resiprocate\-turn\-server\-psql)\b/;
-is_bad = .depends ~ /\b(librecon\-1\.9|librecon\-1\.9\-dev|libresiprocate\-1\.9|libresiprocate\-1\.9\-dev|libresiprocate\-turn\-client\-1\.9|libresiprocate\-turn\-client\-1\.9\-dev)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libresiprocate-turn-client-1.9-dev is not in libs or oldlibs";

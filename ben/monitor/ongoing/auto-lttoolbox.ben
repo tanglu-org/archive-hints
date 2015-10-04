@@ -1,8 +1,0 @@
-title = "lttoolbox (auto)";
-is_affected = .depends ~ /\b(liblttoolbox3\-3\.3\-0v5|liblttoolbox3\-3\.3\-0)\b/;
-is_good = .depends ~ /\b(liblttoolbox3\-3\.3\-0v5)\b/;
-is_bad = .depends ~ /\b(liblttoolbox3\-3\.3\-0)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - liblttoolbox3-3.3-0 is not in libs or oldlibs";
