@@ -1,0 +1,8 @@
+title = "c-icap (auto)";
+is_affected = .depends ~ /\b(libicapapi4|libicapapi4\-dbg|libicapapi3|libicapapi3\-dbg)\b/;
+is_good = .depends ~ /\b(libicapapi4|libicapapi4\-dbg)\b/;
+is_bad = .depends ~ /\b(libicapapi3|libicapapi3\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libicapapi3 is not in libs or oldlibs";

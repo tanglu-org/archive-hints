@@ -1,0 +1,8 @@
+title = "sword (auto)";
+is_affected = .depends ~ /\b(libsword11v5|libsword11)\b/;
+is_good = .depends ~ /\b(libsword11v5)\b/;
+is_bad = .depends ~ /\b(libsword11)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

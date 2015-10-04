@@ -1,0 +1,8 @@
+title = "id3lib3.8.3 (auto)";
+is_affected = .depends ~ /\b(libid3\-3\.8\.3v5|libid3\-3\.8\.3c2a)\b/;
+is_good = .depends ~ /\b(libid3\-3\.8\.3v5)\b/;
+is_bad = .depends ~ /\b(libid3\-3\.8\.3c2a)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

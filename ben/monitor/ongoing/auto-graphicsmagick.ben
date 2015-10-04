@@ -1,7 +1,7 @@
 title = "graphicsmagick (auto)";
-is_affected = .depends ~ /\b(libgraphicsmagick\+\+11|libgraphicsmagick\+\+3)\b/;
-is_good = .depends ~ /\b(libgraphicsmagick\+\+11)\b/;
-is_bad = .depends ~ /\b(libgraphicsmagick\+\+3)\b/;
+is_affected = .depends ~ /\b(libgraphicsmagick\+\+\-q16\-11|libgraphicsmagick\-q16\-3|libgraphicsmagick\+\+3|libgraphicsmagick3)\b/;
+is_good = .depends ~ /\b(libgraphicsmagick\+\+\-q16\-11|libgraphicsmagick\-q16\-3)\b/;
+is_bad = .depends ~ /\b(libgraphicsmagick\+\+3|libgraphicsmagick3)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

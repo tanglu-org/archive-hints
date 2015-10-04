@@ -1,0 +1,8 @@
+title = "zeroc-ice (auto)";
+is_affected = .depends ~ /\b(libfreeze35v5|libglacier2\-35v5|libicebox35v5|libicedb35v5|libicegrid35v5|libicepatch2\-35v5|libicessl35v5|libicestorm35v5|libiceutil35v5|libicexml35v5|libslice35v5|libzeroc\-ice35v5|libfreeze35|libglacier2\-35|libicebox35|libicedb35|libicegrid35|libicepatch2\-35|libicessl35|libicestorm35|libiceutil35|libicexml35|libslice35|libzeroc\-ice35)\b/;
+is_good = .depends ~ /\b(libfreeze35v5|libglacier2\-35v5|libicebox35v5|libicedb35v5|libicegrid35v5|libicepatch2\-35v5|libicessl35v5|libicestorm35v5|libiceutil35v5|libicexml35v5|libslice35v5|libzeroc\-ice35v5)\b/;
+is_bad = .depends ~ /\b(libfreeze35|libglacier2\-35|libicebox35|libicedb35|libicegrid35|libicepatch2\-35|libicessl35|libicestorm35|libiceutil35|libicexml35|libslice35|libzeroc\-ice35)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

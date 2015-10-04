@@ -1,6 +1,6 @@
 title = "ginac (auto)";
-is_affected = .depends ~ /\b(libginac5|libginac5\-dbg|libginac2|libginac2\-dbg)\b/;
-is_good = .depends ~ /\b(libginac5|libginac5\-dbg)\b/;
+is_affected = .depends ~ /\b(libginac5v5|libginac5v5\-dbg|libginac2|libginac2\-dbg)\b/;
+is_good = .depends ~ /\b(libginac5v5|libginac5v5\-dbg)\b/;
 is_bad = .depends ~ /\b(libginac2|libginac2\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 

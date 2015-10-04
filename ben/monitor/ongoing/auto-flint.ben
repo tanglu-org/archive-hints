@@ -1,0 +1,8 @@
+title = "flint (auto)";
+is_affected = .depends ~ /\b(libflint\-2\.5\.2|libflint\-2\.4\.5)\b/;
+is_good = .depends ~ /\b(libflint\-2\.5\.2)\b/;
+is_bad = .depends ~ /\b(libflint\-2\.4\.5)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libflint-2.4.5 is not in libs or oldlibs";

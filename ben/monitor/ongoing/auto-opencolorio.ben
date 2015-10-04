@@ -1,0 +1,8 @@
+title = "opencolorio (auto)";
+is_affected = .depends ~ /\b(libopencolorio1v5|libopencolorio1)\b/;
+is_good = .depends ~ /\b(libopencolorio1v5)\b/;
+is_bad = .depends ~ /\b(libopencolorio1)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libopencolorio1 is not in libs or oldlibs";

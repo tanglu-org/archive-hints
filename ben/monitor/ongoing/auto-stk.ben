@@ -1,0 +1,8 @@
+title = "stk (auto)";
+is_affected = .depends ~ /\b(libstk0v5|libstk0c2a)\b/;
+is_good = .depends ~ /\b(libstk0v5)\b/;
+is_bad = .depends ~ /\b(libstk0c2a)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libstk0c2a is not in libs or oldlibs";

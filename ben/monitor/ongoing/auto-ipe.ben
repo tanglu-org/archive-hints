@@ -1,0 +1,8 @@
+title = "ipe (auto)";
+is_affected = .depends ~ /\b(libipe7\.1\.8|libipe7\.1\.4)\b/;
+is_good = .depends ~ /\b(libipe7\.1\.8)\b/;
+is_bad = .depends ~ /\b(libipe7\.1\.4)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
