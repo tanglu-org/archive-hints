@@ -4,3 +4,6 @@
 
 # Remove old boost
 remove boost1.55/1.55.0+dfsg-3
+
+# We want Dolphin back asap, as it is required for tanglu-kde
+force-hint dolphin/4:15.08.1-1
