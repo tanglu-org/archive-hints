@@ -1,0 +1,8 @@
+title = "hdf5 (auto)";
+is_affected = .depends ~ /\b(libhdf5\-10|libhdf5\-10\-dbg|libhdf5\-cpp\-10|libhdf5\-cpp\-10\-dbg|libhdf5\-mpich\-10|libhdf5\-mpich\-10\-dbg|libhdf5\-openmpi\-10|libhdf5\-openmpi\-10\-dbg|libhdf5\-8|libhdf5\-8\-dbg|libhdf5\-cpp\-8|libhdf5\-cpp\-8\-dbg|libhdf5\-mpich\-8|libhdf5\-mpich\-8\-dbg|libhdf5\-mpich2\-dev|libhdf5\-openmpi\-8|libhdf5\-openmpi\-8\-dbg)\b/;
+is_good = .depends ~ /\b(libhdf5\-10|libhdf5\-10\-dbg|libhdf5\-cpp\-10|libhdf5\-cpp\-10\-dbg|libhdf5\-mpich\-10|libhdf5\-mpich\-10\-dbg|libhdf5\-openmpi\-10|libhdf5\-openmpi\-10\-dbg)\b/;
+is_bad = .depends ~ /\b(libhdf5\-8|libhdf5\-8\-dbg|libhdf5\-cpp\-8|libhdf5\-cpp\-8\-dbg|libhdf5\-mpich\-8|libhdf5\-mpich\-8\-dbg|libhdf5\-mpich2\-dev|libhdf5\-openmpi\-8|libhdf5\-openmpi\-8\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libhdf5-mpich2-dev is not in libs or oldlibs";
