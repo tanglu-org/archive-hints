@@ -4,3 +4,6 @@
 
 # Remove old boost
 remove boost1.55/1.55.0+dfsg-3
+
+# FTBFS
+remove goplay/0.9
