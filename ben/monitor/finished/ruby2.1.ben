@@ -1,5 +1,0 @@
-title = "ruby2.1";
-is_affected = .depends ~ /ruby/ | .build-depends ~ /ruby/;
-is_good = .depends ~ /ruby2.1/;
-is_bad = !.depends ~ /ruby2.1/ & .depends ~ /ruby(1.8|1.9|2.0)/;
-notes = "";

@@ -1,5 +1,0 @@
-title = "ruby1.8 removal";
-is_affected = .depends ~ /ruby/ | .build-depends ~ /ruby|gem2deb/;
-is_good = !.depends ~ /ruby1.8/ & !.build-depends ~ /ruby1.8/;
-is_bad = .depends ~ /ruby1.8/ | .build-depends ~ /ruby1.8/;
-notes = "Debian bug#739416";

@@ -1,4 +1,0 @@
-title = "xorg-server 1.16";
-is_affected = .provides ~ /xorg-driver/;
-is_good = .depends ~ /xorg-video-abi-18|xorg-input-abi-21/;
-is_bad = .depends ~ /xorg-video-abi-(12|14|15)|xorg-input-abi-(16|19|20)/;
