@@ -1,0 +1,8 @@
+title = "libkdegames (auto)";
+is_affected = .depends ~ /\b(kdegames\-card\-data\-kf5|libkf5kdegames\-dbg|libkf5kdegames\-dev|libkf5kdegames6|libkf5kdegamesprivate1|qml\-module\-org\-kde\-games\-core|kde\-games\-core\-declarative|kdegames\-card\-data|libkdegames\-dev|libkdegames6abi1|libkdegames6abi1\-dbg|libkdegamesprivate1abi1)\b/;
+is_good = .depends ~ /\b(kdegames\-card\-data\-kf5|libkf5kdegames\-dbg|libkf5kdegames\-dev|libkf5kdegames6|libkf5kdegamesprivate1|qml\-module\-org\-kde\-games\-core)\b/;
+is_bad = .depends ~ /\b(kde\-games\-core\-declarative|kdegames\-card\-data|libkdegames\-dev|libkdegames6abi1|libkdegames6abi1\-dbg|libkdegamesprivate1abi1)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - kdegames-card-data is not in libs or oldlibs";

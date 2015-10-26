@@ -1,8 +1,0 @@
-title = "evolution-data-server (auto)";
-is_affected = .depends ~ /\b(libcamel\-1\.2\-52|libebackend\-1\.2\-10|libebook\-1\.2\-16|libebook\-contacts\-1\.2\-1|libecal\-1\.2\-18|libedata\-book\-1\.2\-25|libedata\-cal\-1\.2\-27|libedataserver\-1\.2\-20|libedataserverui\-1\.2\-1|libedataserverui1\.2\-dev|libcamel\-1\.2\-49|libebackend\-1\.2\-7|libebook\-1\.2\-14|libebook\-contacts\-1\.2\-0|libecal\-1\.2\-16|libedata\-book\-1\.2\-20|libedata\-cal\-1\.2\-23|libedataserver\-1\.2\-18)\b/;
-is_good = .depends ~ /\b(libcamel\-1\.2\-52|libebackend\-1\.2\-10|libebook\-1\.2\-16|libebook\-contacts\-1\.2\-1|libecal\-1\.2\-18|libedata\-book\-1\.2\-25|libedata\-cal\-1\.2\-27|libedataserver\-1\.2\-20|libedataserverui\-1\.2\-1|libedataserverui1\.2\-dev)\b/;
-is_bad = .depends ~ /\b(libcamel\-1\.2\-49|libebackend\-1\.2\-7|libebook\-1\.2\-14|libebook\-contacts\-1\.2\-0|libecal\-1\.2\-16|libedata\-book\-1\.2\-20|libedata\-cal\-1\.2\-23|libedataserver\-1\.2\-18)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

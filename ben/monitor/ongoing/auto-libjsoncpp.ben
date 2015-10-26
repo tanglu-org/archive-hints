@@ -1,8 +1,0 @@
-title = "libjsoncpp (auto)";
-is_affected = .depends ~ /\b(libjsoncpp0v5|libjsoncpp0v5\-dbg|libjsoncpp0|libjsoncpp0\-dbg)\b/;
-is_good = .depends ~ /\b(libjsoncpp0v5|libjsoncpp0v5\-dbg)\b/;
-is_bad = .depends ~ /\b(libjsoncpp0|libjsoncpp0\-dbg)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

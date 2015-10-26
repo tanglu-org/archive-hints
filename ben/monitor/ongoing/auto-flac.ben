@@ -1,8 +1,0 @@
-title = "flac (auto)";
-is_affected = .depends ~ /\b(libflac\+\+6v5|libflac\+\+6)\b/;
-is_good = .depends ~ /\b(libflac\+\+6v5)\b/;
-is_bad = .depends ~ /\b(libflac\+\+6)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

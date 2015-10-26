@@ -1,8 +1,0 @@
-title = "imagemagick (auto)";
-is_affected = .depends ~ /\b(libmagick\+\+\-6\.q16\-5v5|libmagick\+\+\-6\.q16\-5)\b/;
-is_good = .depends ~ /\b(libmagick\+\+\-6\.q16\-5v5)\b/;
-is_bad = .depends ~ /\b(libmagick\+\+\-6\.q16\-5)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

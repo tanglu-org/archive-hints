@@ -1,8 +1,0 @@
-title = "xapian-core (auto)";
-is_affected = .depends ~ /\b(libxapian22v5|libxapian22v5\-dbg|libxapian22|libxapian22\-dbg)\b/;
-is_good = .depends ~ /\b(libxapian22v5|libxapian22v5\-dbg)\b/;
-is_bad = .depends ~ /\b(libxapian22|libxapian22\-dbg)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

@@ -1,8 +1,0 @@
-title = "ptlib (auto)";
-is_affected = .depends ~ /\b(libpt2\.10\.11|libpt2\.10\.10)\b/;
-is_good = .depends ~ /\b(libpt2\.10\.11)\b/;
-is_bad = .depends ~ /\b(libpt2\.10\.10)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

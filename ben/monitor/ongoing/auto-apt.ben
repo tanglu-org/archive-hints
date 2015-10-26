@@ -1,8 +1,0 @@
-title = "apt (auto)";
-is_affected = .depends ~ /\b(libapt\-inst1\.7|libapt\-pkg4\.16|libapt\-inst1\.5|libapt\-pkg4\.12)\b/;
-is_good = .depends ~ /\b(libapt\-inst1\.7|libapt\-pkg4\.16)\b/;
-is_bad = .depends ~ /\b(libapt\-inst1\.5|libapt\-pkg4\.12)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

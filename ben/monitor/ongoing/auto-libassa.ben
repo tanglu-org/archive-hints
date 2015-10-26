@@ -1,8 +1,0 @@
-title = "libassa (auto)";
-is_affected = .depends ~ /\b(libassa\-3\.5\-5\-dbg|libassa\-3\.5\-5\-dev|libassa\-3\.5\-5v5|libassa3\.5\-5|libassa3\.5\-5\-dbg|libassa3\.5\-5\-dev)\b/;
-is_good = .depends ~ /\b(libassa\-3\.5\-5\-dbg|libassa\-3\.5\-5\-dev|libassa\-3\.5\-5v5)\b/;
-is_bad = .depends ~ /\b(libassa3\.5\-5|libassa3\.5\-5\-dbg|libassa3\.5\-5\-dev)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

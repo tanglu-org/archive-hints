@@ -1,8 +1,0 @@
-title = "h323plus (auto)";
-is_affected = .depends ~ /\b(libh323\-1\.24\.0v5|libh323\-1\.24\.0)\b/;
-is_good = .depends ~ /\b(libh323\-1\.24\.0v5)\b/;
-is_bad = .depends ~ /\b(libh323\-1\.24\.0)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

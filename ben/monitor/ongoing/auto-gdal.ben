@@ -1,8 +1,0 @@
-title = "gdal (auto)";
-is_affected = .depends ~ /\b(libgdal1i|libgdal1h)\b/;
-is_good = .depends ~ /\b(libgdal1i)\b/;
-is_bad = .depends ~ /\b(libgdal1h)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

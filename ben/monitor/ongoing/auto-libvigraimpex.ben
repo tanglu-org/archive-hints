@@ -1,7 +1,7 @@
 title = "libvigraimpex (auto)";
-is_affected = .depends ~ /libvigraimpex5|libvigraimpex4/;
-is_good = .depends ~ /libvigraimpex5/;
-is_bad = .depends ~ /libvigraimpex4/;
+is_affected = .depends ~ /\b(libvigraimpex5v5|libvigraimpex4)\b/;
+is_good = .depends ~ /\b(libvigraimpex5v5)\b/;
+is_bad = .depends ~ /\b(libvigraimpex4)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
