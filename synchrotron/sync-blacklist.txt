@@ -15,11 +15,8 @@ bespin
 kdeartwork
 kdenetwork-filesharing
 kdenetwork-strigi-analyzers
-kdevelop
 kdm-gdmcompat
-kget
 knemo
-ktorrent
 ktux
 kwin-style-crystal
 kwin-style-dekorator
