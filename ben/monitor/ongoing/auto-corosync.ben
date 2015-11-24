@@ -1,0 +1,8 @@
+title = "corosync (auto)";
+is_affected = .depends ~ /\b(corosync\-doc|corosync\-notifyd|libcfg6|libcmap\-dev|libcmap4|libcorosync\-common\-dev|libcorosync\-common4|libquorum5|libtotem\-pg5|libvotequorum7|libcfg4|libconfdb\-dev|libconfdb4|libcoroipcc\-dev|libcoroipcc4|libcoroipcs\-dev|libcoroipcs4|libcorosync\-dev|libcorosync4|libevs\-dev|libevs4|liblogsys\-dev|liblogsys4|libpload\-dev|libpload4|libquorum4|libtotem\-pg4|libvotequorum4)\b/;
+is_good = .depends ~ /\b(corosync\-doc|corosync\-notifyd|libcfg6|libcmap\-dev|libcmap4|libcorosync\-common\-dev|libcorosync\-common4|libquorum5|libtotem\-pg5|libvotequorum7)\b/;
+is_bad = .depends ~ /\b(libcfg4|libconfdb\-dev|libconfdb4|libcoroipcc\-dev|libcoroipcc4|libcoroipcs\-dev|libcoroipcs4|libcorosync\-dev|libcorosync4|libevs\-dev|libevs4|liblogsys\-dev|liblogsys4|libpload\-dev|libpload4|libquorum4|libtotem\-pg4|libvotequorum4)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libpload-dev is not in libs or oldlibs";
