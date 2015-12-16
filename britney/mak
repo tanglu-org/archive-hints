@@ -7,3 +7,6 @@ remove boost1.55/1.55.0+dfsg-3
 
 # FTBFS
 remove goplay/0.9
+
+# enforce APT transition
+force-hint apt/1.1.4
