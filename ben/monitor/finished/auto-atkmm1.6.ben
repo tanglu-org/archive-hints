@@ -1,8 +1,0 @@
-title = "atkmm1.6 (auto)";
-is_affected = .depends ~ /\b(libatkmm\-1\.6\-1v5|libatkmm\-1\.6\-1)\b/;
-is_good = .depends ~ /\b(libatkmm\-1\.6\-1v5)\b/;
-is_bad = .depends ~ /\b(libatkmm\-1\.6\-1)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";
