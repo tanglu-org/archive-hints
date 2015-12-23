@@ -29,9 +29,11 @@ kde-l10n
 
 # mak: 2015-08-10
 # Block packages which break migrations due to conflicting binary versions
+# Synchrotron needs to be adjusted to never sync sources without or with obsolete binaries.
 golang-go.net-dev
 golang-snappy-go
 tesseract-grc
+tabix
 
 # mak: 2015-08-26
 # We can't build those packages due to missing architectures
