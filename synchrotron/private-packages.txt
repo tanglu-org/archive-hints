@@ -1,0 +1,30 @@
+# List of Tanglu-exclusive (native) packages
+#
+# This list contains packages which are specific to Tanglu and should therefore not
+# be included in the sychrotron cruft reports and be dealt with separately when creating
+# divergence reports for Tanglu.
+# Keep in mind that non-native packages (with a "0tangluY" revision) are already excluded
+# automatically and do not need to be added to this list.
+#
+
+# Basic
+tanglu-archive-keyring
+
+# Artwork
+tanglu-artwork
+
+# Settings packages
+tanglu-meta
+tanglu-gnome-settings
+tanglu-kde-settings
+
+# Needed for the installer and live images
+casper
+calamares
+calamares-branding-tanglu
+grub-gfxpayload-lists
+gfxboot-theme-tanglu
+libtimezonemap
+
+# Misc
+fedmsg-meta-tanglu
