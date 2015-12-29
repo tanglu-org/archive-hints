@@ -1,4 +1,4 @@
-# GNOME 3.14
+# GNOME 3.18
 
 ## core
 unstable/adwaita-icon-theme
@@ -11,6 +11,7 @@ unstable/fonts-cantarell
 unstable/caribou
 unstable/clutter-1.0
 unstable/clutter-gst-2.0
+unstable/clutter-gst-3.0
 unstable/clutter-gtk
 unstable/cogl
 unstable/d-conf
@@ -57,6 +58,7 @@ unstable/gnome-user-docs
 unstable/gnome-user-share
 unstable/gnome-video-effects
 unstable/gobject-introspection
+unstable/gom
 unstable/grilo
 unstable/grilo-plugins
 unstable/gsettings-desktop-schemas
@@ -76,7 +78,7 @@ unstable/libchamplain
 unstable/libcroco
 unstable/libgdata
 unstable/libgee-0.8
-unstable/libgnomekbd
+unstable/libgrss
 unstable/libgsf
 unstable/libgtop2
 unstable/libgweather
@@ -100,12 +102,11 @@ unstable/pango1.0
 unstable/pangomm
 unstable/pygobject
 unstable/librest
-unstable/seed
 unstable/gnome-sushi
 unstable/totem
 unstable/totem-pl-parser
 unstable/tracker
-unstable/vala-0.26
+unstable/vala
 unstable/vino
 unstable/vte2.91
 unstable/yelp
@@ -129,6 +130,9 @@ unstable/gedit
 unstable/gitg
 unstable/glade
 unstable/gnome-boxes
+unstable/gnome-builder
+unstable/gnome-calendar
+unstable/gnome-characters
 unstable/gnome-chess
 unstable/gnome-clocks
 unstable/gnome-color-manager
@@ -149,7 +153,9 @@ unstable/gnome-software
 unstable/gnome-sound-recorder
 unstable/gnome-sudoku
 unstable/gnome-tetravex
+unstable/gnome-todo
 unstable/gnome-tweak-tool
+unstable/gnome-weather
 unstable/hitori
 unstable/iagno
 unstable/lightsoff
@@ -165,18 +171,15 @@ unstable/tali
 unstable/vinagre
 
 ## telepathy
-unstable/ssh-contact
 unstable/telepathy-farstream
 unstable/telepathy-gabble
 unstable/telepathy-glib
 unstable/telepathy-haze
 unstable/telepathy-idle
 unstable/telepathy-mission-control-5
-unstable/telepathy-phoenix
 unstable/telepathy-python
 unstable/telepathy-qt
 unstable/telepathy-rakia
-unstable/telepathy-ring
 unstable/telepathy-salut
 unstable/telepathy-spec
 
