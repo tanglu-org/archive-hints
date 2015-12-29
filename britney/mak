@@ -4,3 +4,6 @@
 
 # Remove old boost
 remove boost1.55/1.55.0+dfsg-3
+
+# fix live images
+urgent casper/1.365tanglu5
