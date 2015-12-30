@@ -1,0 +1,8 @@
+title = "audacious (auto)";
+is_affected = .depends ~ /\b(libaudcore3|libaudgui3|libaudtag2|libaudcore2)\b/;
+is_good = .depends ~ /\b(libaudcore3|libaudgui3|libaudtag2)\b/;
+is_bad = .depends ~ /\b(libaudcore2)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libaudcore2 is not in libs or oldlibs";
