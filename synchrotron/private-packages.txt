@@ -17,6 +17,7 @@ tanglu-artwork
 tanglu-meta
 tanglu-gnome-settings
 tanglu-kde-settings
+policykit-desktop-privileges
 
 # Needed for the installer and live images
 casper
@@ -28,3 +29,4 @@ libtimezonemap
 
 # Misc
 fedmsg-meta-tanglu
+apturl
