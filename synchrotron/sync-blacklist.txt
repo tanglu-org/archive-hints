@@ -34,6 +34,7 @@ golang-go.net-dev
 golang-snappy-go
 tesseract-grc
 tabix
+zathura-extras
 
 # mak: 2015-08-26
 # We can't build those packages due to missing architectures
