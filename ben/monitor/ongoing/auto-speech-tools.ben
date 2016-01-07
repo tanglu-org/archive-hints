@@ -1,8 +1,0 @@
-title = "speech-tools (auto)";
-is_affected = .depends ~ /\b(libestools\-dev|libestools2\.4|libestools2\.4\-dbg|libestools2\.1|libestools2\.1\-dbg|libestools2\.1\-dev)\b/;
-is_good = .depends ~ /\b(libestools\-dev|libestools2\.4|libestools2\.4\-dbg)\b/;
-is_bad = .depends ~ /\b(libestools2\.1|libestools2\.1\-dbg|libestools2\.1\-dev)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libestools2.1-dev is not in libs or oldlibs";

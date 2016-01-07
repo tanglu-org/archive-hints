@@ -1,8 +1,0 @@
-title = "vips (auto)";
-is_affected = .depends ~ /\b(gir1\.2\-vips\-8\.0|libvips42|libvips38)\b/;
-is_good = .depends ~ /\b(gir1\.2\-vips\-8\.0|libvips42)\b/;
-is_bad = .depends ~ /\b(libvips38)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";
