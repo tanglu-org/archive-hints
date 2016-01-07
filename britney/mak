@@ -6,4 +6,5 @@
 remove boost1.55/1.55.0+dfsg-3
 
 # we want these bugfixes in dasyatis ASAP
-urgent usrmerge/4
+urgent usrmerge/5
+urgent ifupdown/0.8.6
