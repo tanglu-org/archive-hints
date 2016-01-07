@@ -1,0 +1,5 @@
+title = "perl 5.22";
+is_affected = .depends ~ /perlapi|libperl5/ | .pre-depends ~ /perlapi|libperl5/;
+is_good = .depends ~ /perlapi-5.22|libperl5.22/ | .pre-depends ~ /perlapi-5.22|libperl5.22/;
+is_bad = .depends ~ /perlapi-5.20|libperl5.20/ | .pre-depends ~ /perlapi-5.20|libperl5.20/;
+notes = "See also Debian bug #796345";
