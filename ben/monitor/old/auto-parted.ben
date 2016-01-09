@@ -1,8 +1,0 @@
-title = "parted (auto)";
-is_affected = .depends ~ /libparted-dev|libparted-fs-resize0|libparted-fs-resize0-dbg|libparted-fs-resize0-udeb|libparted-i18n|libparted2|libparted2-dbg|libparted2-udeb|libparted0|libparted0-i18n|libparted0-udeb|libparted0debian1|libparted0debian1-dbg/;
-is_good = .depends ~ /libparted-dev|libparted-fs-resize0|libparted-fs-resize0-dbg|libparted-fs-resize0-udeb|libparted-i18n|libparted2|libparted2-dbg|libparted2-udeb/;
-is_bad = .depends ~ /libparted0|libparted0-i18n|libparted0-udeb|libparted0debian1|libparted0debian1-dbg/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

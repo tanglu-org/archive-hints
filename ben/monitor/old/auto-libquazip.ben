@@ -1,8 +1,0 @@
-title = "libquazip (auto)";
-is_affected = .depends ~ /libquazip-dbg|libquazip-dev|libquazip-headers|libquazip-qt5-1|libquazip-qt5-dbg|libquazip-qt5-dev|libquazip1|libquazip0|libquazip0-dbg|libquazip0-dev/;
-is_good = .depends ~ /libquazip-dbg|libquazip-dev|libquazip-headers|libquazip-qt5-1|libquazip-qt5-dbg|libquazip-qt5-dev|libquazip1/;
-is_bad = .depends ~ /libquazip0|libquazip0-dbg|libquazip0-dev/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

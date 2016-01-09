@@ -1,8 +1,0 @@
-title = "miniupnpc (auto)";
-is_affected = .depends ~ /libminiupnpc10|libminiupnpc8/;
-is_good = .depends ~ /libminiupnpc10/;
-is_bad = .depends ~ /libminiupnpc8/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libminiupnpc8 is not in libs or oldlibs";

@@ -1,8 +1,0 @@
-title = "libinfinity (auto)";
-is_affected = .depends ~ /libinfgtk3-0.6-0|libinfinity-0.6-0|libinfinity-0.6-dbg|libinfinity-0.6-dev|libinfinity-0.6-doc|infinoted-0.5|libinfgtk3-0.5-0|libinfinity-0.5-0|libinfinity-0.5-dbg|libinfinity-0.5-dev|libinfinity-0.5-doc/;
-is_good = .depends ~ /libinfgtk3-0.6-0|libinfinity-0.6-0|libinfinity-0.6-dbg|libinfinity-0.6-dev|libinfinity-0.6-doc/;
-is_bad = .depends ~ /infinoted-0.5|libinfgtk3-0.5-0|libinfinity-0.5-0|libinfinity-0.5-dbg|libinfinity-0.5-dev|libinfinity-0.5-doc/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

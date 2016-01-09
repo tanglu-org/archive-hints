@@ -1,8 +1,0 @@
-title = "wxsqlite3 (auto)";
-is_affected = .depends ~ /libwxsqlite3-3.0-0|libwxsqlite3-3.0-dev|wxsqlite3-3.0-dbg|libwxsqlite3-2.8-0|libwxsqlite3-2.8-dev|wxsqlite3-2.8-dbg/;
-is_good = .depends ~ /libwxsqlite3-3.0-0|libwxsqlite3-3.0-dev|wxsqlite3-3.0-dbg/;
-is_bad = .depends ~ /libwxsqlite3-2.8-0|libwxsqlite3-2.8-dev|wxsqlite3-2.8-dbg/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

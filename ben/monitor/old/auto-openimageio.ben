@@ -1,8 +1,0 @@
-title = "openimageio (auto)";
-is_affected = .depends ~ /libopenimageio1.4|libopenimageio1.3/;
-is_good = .depends ~ /libopenimageio1.4/;
-is_bad = .depends ~ /libopenimageio1.3/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

@@ -1,8 +1,0 @@
-title = "dotconf (auto)";
-is_affected = .depends ~ /libdotconf0|libdotconf0-dbg|libdotconf1.0/;
-is_good = .depends ~ /libdotconf0|libdotconf0-dbg/;
-is_bad = .depends ~ /libdotconf1.0/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

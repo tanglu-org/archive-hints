@@ -1,8 +1,0 @@
-title = "graphviz (auto)";
-is_affected = .depends ~ /libcdt5|libcgraph6|libgvc6|libgvc6-plugins-gtk|libgvpr2|libcdt4|libcgraph5|libgraph4|libgvc5|libgvc5-plugins-gtk|libgvpr1/;
-is_good = .depends ~ /libcdt5|libcgraph6|libgvc6|libgvc6-plugins-gtk|libgvpr2/;
-is_bad = .depends ~ /libcdt4|libcgraph5|libgraph4|libgvc5|libgvc5-plugins-gtk|libgvpr1/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

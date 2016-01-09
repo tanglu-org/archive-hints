@@ -1,8 +1,0 @@
-title = "librime (auto)";
-is_affected = .depends ~ /librime1|librime1-dbg|librime0|librime0-dbg/;
-is_good = .depends ~ /librime1|librime1-dbg/;
-is_bad = .depends ~ /librime0|librime0-dbg/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

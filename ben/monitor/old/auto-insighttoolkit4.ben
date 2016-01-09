@@ -1,8 +1,0 @@
-title = "insighttoolkit4 (auto)";
-is_affected = .depends ~ /libinsighttoolkit4-dbg|libinsighttoolkit4.6|libinsighttoolkit4.5/;
-is_good = .depends ~ /libinsighttoolkit4-dbg|libinsighttoolkit4.6/;
-is_bad = .depends ~ /libinsighttoolkit4.5/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

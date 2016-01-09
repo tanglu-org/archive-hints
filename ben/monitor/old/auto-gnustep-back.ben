@@ -1,8 +1,0 @@
-title = "gnustep-back (auto)";
-is_affected = .depends ~ /gnustep-back0.24|gnustep-back0.24-art|gnustep-back0.24-cairo|gnustep-back0.20|gnustep-back0.20-art|gnustep-back0.20-cairo|gnustep-gpbs/;
-is_good = .depends ~ /gnustep-back0.24|gnustep-back0.24-art|gnustep-back0.24-cairo/;
-is_bad = .depends ~ /gnustep-back0.20|gnustep-back0.20-art|gnustep-back0.20-cairo|gnustep-gpbs/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - gnustep-gpbs is not in libs or oldlibs";

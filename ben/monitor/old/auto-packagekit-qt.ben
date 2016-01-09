@@ -1,8 +1,0 @@
-title = "packagekit-qt (auto)";
-is_affected = .depends ~ /libpackagekitqt4-0|libpackagekitqt4-dev|libpackagekit-qt2-6|libpackagekit-qt2-dev/;
-is_good = .depends ~ /libpackagekitqt4-0|libpackagekitqt4-dev/;
-is_bad = .depends ~ /libpackagekit-qt2-6|libpackagekit-qt2-dev/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries)";

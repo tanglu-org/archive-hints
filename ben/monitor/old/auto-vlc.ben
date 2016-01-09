@@ -1,8 +1,0 @@
-title = "vlc (auto)";
-is_affected = .depends ~ /libvlccore8|vlc-plugin-samba|libvlccore7/;
-is_good = .depends ~ /libvlccore8|vlc-plugin-samba/;
-is_bad = .depends ~ /libvlccore7/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

@@ -1,8 +1,0 @@
-title = "upower (auto)";
-is_affected = .depends ~ /libupower-glib3|libupower-glib2/;
-is_good = .depends ~ /libupower-glib3/;
-is_bad = .depends ~ /libupower-glib2/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";
