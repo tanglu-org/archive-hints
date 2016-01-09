@@ -6,25 +6,6 @@
 #
 
 # Temporary blocks for KDE5 transition
-meta-kde
-kde-workspace
-apper
-cantata
-kcometen4
-bespin
-kdeartwork
-kdenetwork-filesharing
-kdenetwork-strigi-analyzers
-kdm-gdmcompat
-knemo
-ktux
-kwin-style-crystal
-kwin-style-dekorator
-kwin-style-qtcurve
-plasma-widget-yawp
-plasma-widget-adjustableclock
-plasma-widget-fastuserswitch
-kde-baseapps
 kde-l10n
 
 # mak: 2015-08-10
