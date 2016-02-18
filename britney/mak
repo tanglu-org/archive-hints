@@ -12,6 +12,3 @@ urgent ifupdown/0.8.6
 
 # Perl 5.22
 force-hint perl/5.22.1-3
-
-# Removes /lib64 on amd64, so don't let it migrate to the release suite yet
-block glibc
