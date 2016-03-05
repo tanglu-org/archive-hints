@@ -1,0 +1,5 @@
+title = "python3.4 removal";
+is_affected = .build-depends ~ /python3(-all)?-dev/;
+is_good = .depends ~ /python3 \(>= 3\.5~?\)/ | .depends ~ /libpython3\.5/;
+is_bad = .depends ~ /python3 \(>= 3\.4~?\)/ | .depends ~ /libpython3\.4/;
+notes = "Debian #815720";
