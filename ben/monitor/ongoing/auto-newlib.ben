@@ -1,0 +1,8 @@
+title = "newlib (auto)";
+is_affected = .depends ~ /\b(libnewlib\-arm\-none\-eabi|libnewlib\-doc|libnewlib0|newlib\-m68hc1x|newlib\-spu)\b/;
+is_good = .depends ~ /\b(libnewlib\-arm\-none\-eabi|libnewlib\-doc)\b/;
+is_bad = .depends ~ /\b(libnewlib0|newlib\-m68hc1x|newlib\-spu)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

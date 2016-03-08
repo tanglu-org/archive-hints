@@ -1,0 +1,8 @@
+title = "fonts-android (auto)";
+is_affected = .depends ~ /\b(fonts\-droid\-fallback|fonts\-droid|fonts\-roboto)\b/;
+is_good = .depends ~ /\b(fonts\-droid\-fallback)\b/;
+is_bad = .depends ~ /\b(fonts\-droid|fonts\-roboto)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - fonts-roboto is not in libs or oldlibs";

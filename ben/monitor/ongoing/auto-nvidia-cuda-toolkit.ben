@@ -1,8 +1,8 @@
 title = "nvidia-cuda-toolkit (auto)";
-is_affected = .depends ~ /\b(libcublas6\.5|libcudart6\.5|libcufft6\.5|libcufftw6\.5|libcuinj32\-6\.5|libcuinj64\-6\.5|libcupti6\.5|libcurand6\.5|libcusparse6\.5|libnppc6\.5|libnppi6\.5|libnpps6\.5|libnvblas6\.5|libcublas6\.0|libcudart6\.0|libcufft6\.0|libcufftw6\.0|libcuinj32\-6\.0|libcuinj64\-6\.0|libcupti6\.0|libcurand6\.0|libcusparse6\.0|libnppc6\.0|libnppi6\.0|libnpps6\.0|libnvblas6\.0)\b/;
-is_good = .depends ~ /\b(libcublas6\.5|libcudart6\.5|libcufft6\.5|libcufftw6\.5|libcuinj32\-6\.5|libcuinj64\-6\.5|libcupti6\.5|libcurand6\.5|libcusparse6\.5|libnppc6\.5|libnppi6\.5|libnpps6\.5|libnvblas6\.5)\b/;
-is_bad = .depends ~ /\b(libcublas6\.0|libcudart6\.0|libcufft6\.0|libcufftw6\.0|libcuinj32\-6\.0|libcuinj64\-6\.0|libcupti6\.0|libcurand6\.0|libcusparse6\.0|libnppc6\.0|libnppi6\.0|libnpps6\.0|libnvblas6\.0)\b/;
+is_affected = .depends ~ /\b(libcublas7\.0|libcudart7\.0|libcufft7\.0|libcufftw7\.0|libcuinj64\-7\.0|libcupti7\.0|libcurand7\.0|libcusolver7\.0|libcusparse7\.0|libnppc7\.0|libnppi7\.0|libnpps7\.0|libnvblas7\.0|libnvrtc7\.0|libnvvm3|libcublas6\.5|libcudart6\.5|libcufft6\.5|libcufftw6\.5|libcuinj32\-6\.5|libcuinj64\-6\.5|libcupti6\.5|libcurand6\.5|libcusparse6\.5|libnppc6\.5|libnppi6\.5|libnpps6\.5|libnvblas6\.5|libnvvm2)\b/;
+is_good = .depends ~ /\b(libcublas7\.0|libcudart7\.0|libcufft7\.0|libcufftw7\.0|libcuinj64\-7\.0|libcupti7\.0|libcurand7\.0|libcusolver7\.0|libcusparse7\.0|libnppc7\.0|libnppi7\.0|libnpps7\.0|libnvblas7\.0|libnvrtc7\.0|libnvvm3)\b/;
+is_bad = .depends ~ /\b(libcublas6\.5|libcudart6\.5|libcufft6\.5|libcufftw6\.5|libcuinj32\-6\.5|libcuinj64\-6\.5|libcupti6\.5|libcurand6\.5|libcusparse6\.5|libnppc6\.5|libnppi6\.5|libnpps6\.5|libnvblas6\.5|libnvvm2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
- * can-smooth-update: no - libnpps6.0 is not in libs or oldlibs";
+ * can-smooth-update: no - libnvvm2 is not in libs or oldlibs";

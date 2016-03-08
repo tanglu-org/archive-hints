@@ -1,7 +1,7 @@
-title = "clamav (auto)";
-is_affected = .depends ~ /\b(libclamav7|clamav\-dbg|libclamav6)\b/;
-is_good = .depends ~ /\b(libclamav7)\b/;
-is_bad = .depends ~ /\b(clamav\-dbg|libclamav6)\b/;
+title = "papi (auto)";
+is_affected = .depends ~ /\b(libpapi5\.4\.3|libpapi5\.4\.1|papi\-dbg)\b/;
+is_good = .depends ~ /\b(libpapi5\.4\.3)\b/;
+is_bad = .depends ~ /\b(libpapi5\.4\.1|papi\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

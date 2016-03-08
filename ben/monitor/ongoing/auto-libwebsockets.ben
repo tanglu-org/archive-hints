@@ -1,7 +1,7 @@
-title = "clamav (auto)";
-is_affected = .depends ~ /\b(libclamav7|clamav\-dbg|libclamav6)\b/;
-is_good = .depends ~ /\b(libclamav7)\b/;
-is_bad = .depends ~ /\b(clamav\-dbg|libclamav6)\b/;
+title = "libwebsockets (auto)";
+is_affected = .depends ~ /\b(libwebsockets7|libwebsockets6|libwebsockets6\-dbg)\b/;
+is_good = .depends ~ /\b(libwebsockets7)\b/;
+is_bad = .depends ~ /\b(libwebsockets6|libwebsockets6\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

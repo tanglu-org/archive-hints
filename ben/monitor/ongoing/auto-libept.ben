@@ -1,0 +1,8 @@
+title = "libept (auto)";
+is_affected = .depends ~ /\b(libept1\.5\.0|libept1\.4\.16)\b/;
+is_good = .depends ~ /\b(libept1\.5\.0)\b/;
+is_bad = .depends ~ /\b(libept1\.4\.16)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
