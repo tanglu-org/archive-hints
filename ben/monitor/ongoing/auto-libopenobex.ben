@@ -1,8 +1,0 @@
-title = "libopenobex (auto)";
-is_affected = .depends ~ /\b(libopenobex2|libopenobex2\-dev|libopenobex1|libopenobex1\-dev)\b/;
-is_good = .depends ~ /\b(libopenobex2|libopenobex2\-dev)\b/;
-is_bad = .depends ~ /\b(libopenobex1|libopenobex1\-dev)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libopenobex1-dev is not in libs or oldlibs";

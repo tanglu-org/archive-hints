@@ -1,8 +1,0 @@
-title = "gsl (auto)";
-is_affected = .depends ~ /\b(libgsl\-dbg|libgsl\-dev|libgsl\-prof|libgsl2|libgsl0\-dbg|libgsl0\-dev|libgsl0\-prof|libgsl0ldbl)\b/;
-is_good = .depends ~ /\b(libgsl\-dbg|libgsl\-dev|libgsl\-prof|libgsl2)\b/;
-is_bad = .depends ~ /\b(libgsl0\-dbg|libgsl0\-dev|libgsl0\-prof|libgsl0ldbl)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - libgsl0-dev is not in libs or oldlibs";

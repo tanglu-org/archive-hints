@@ -1,8 +1,0 @@
-title = "suitesparse (auto)";
-is_affected = .depends ~ /\b(libamd2\.4\.1|libbtf1\.2\.1|libcamd2\.4\.1|libccolamd2\.9\.1|libcholmod3\.0\.6|libcolamd2\.9\.1|libcsparse3\.1\.4|libcxsparse3\.1\.4|libklu1\.3\.3|libldl2\.2\.1|libspqr2\.0\.2|libsuitesparseconfig4\.4\.6|libumfpack5\.7\.1|libamd2\.3\.1|libbtf1\.2\.0|libcamd2\.3\.1|libccolamd2\.8\.0|libcholmod2\.1\.2|libcolamd2\.8\.0|libcsparse3\.1\.2|libcxsparse3\.1\.2|libklu1\.2\.1|libldl2\.1\.0|libspqr1\.3\.1|libsuitesparse\-dbg|libumfpack5\.6\.2)\b/;
-is_good = .depends ~ /\b(libamd2\.4\.1|libbtf1\.2\.1|libcamd2\.4\.1|libccolamd2\.9\.1|libcholmod3\.0\.6|libcolamd2\.9\.1|libcsparse3\.1\.4|libcxsparse3\.1\.4|libklu1\.3\.3|libldl2\.2\.1|libspqr2\.0\.2|libsuitesparseconfig4\.4\.6|libumfpack5\.7\.1)\b/;
-is_bad = .depends ~ /\b(libamd2\.3\.1|libbtf1\.2\.0|libcamd2\.3\.1|libccolamd2\.8\.0|libcholmod2\.1\.2|libcolamd2\.8\.0|libcsparse3\.1\.2|libcxsparse3\.1\.2|libklu1\.2\.1|libldl2\.1\.0|libspqr1\.3\.1|libsuitesparse\-dbg|libumfpack5\.6\.2)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

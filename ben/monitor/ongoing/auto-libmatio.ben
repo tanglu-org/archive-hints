@@ -1,8 +1,0 @@
-title = "libmatio (auto)";
-is_affected = .depends ~ /\b(libmatio4|libmatio2|libmatio2\-dbg)\b/;
-is_good = .depends ~ /\b(libmatio4)\b/;
-is_bad = .depends ~ /\b(libmatio2|libmatio2\-dbg)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

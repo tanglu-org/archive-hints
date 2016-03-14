@@ -1,8 +1,0 @@
-title = "timblserver (auto)";
-is_affected = .depends ~ /\b(libtimblserver4|libtimblserver4\-dev|libtimblserver3|libtimblserver3\-dev)\b/;
-is_good = .depends ~ /\b(libtimblserver4|libtimblserver4\-dev)\b/;
-is_bad = .depends ~ /\b(libtimblserver3|libtimblserver3\-dev)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

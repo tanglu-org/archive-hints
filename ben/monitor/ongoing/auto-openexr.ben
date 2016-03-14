@@ -1,8 +1,0 @@
-title = "openexr (auto)";
-is_affected = .depends ~ /\b(libopenexr22|openexr\-doc|libopenexr6v5)\b/;
-is_good = .depends ~ /\b(libopenexr22|openexr\-doc)\b/;
-is_bad = .depends ~ /\b(libopenexr6v5)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

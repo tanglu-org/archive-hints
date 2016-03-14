@@ -1,8 +1,0 @@
-title = "analitza (auto)";
-is_affected = .depends ~ /\b(libanalitza7|libanalitzagui7|libanalitzaplot7|libanalitzawidgets7|libanalitza\-dbg|libanalitza6|libanalitzagui6|libanalitzaplot6|libanalitzawidgets6)\b/;
-is_good = .depends ~ /\b(libanalitza7|libanalitzagui7|libanalitzaplot7|libanalitzawidgets7)\b/;
-is_bad = .depends ~ /\b(libanalitza\-dbg|libanalitza6|libanalitzagui6|libanalitzaplot6|libanalitzawidgets6)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";
