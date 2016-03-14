@@ -1,0 +1,8 @@
+title = "openmpi (auto)";
+is_affected = .depends ~ /\b(libopenmpi1\.10|libopenmpi1\.6|libopenmpi1\.6\-dbg|openmpi\-checkpoint)\b/;
+is_good = .depends ~ /\b(libopenmpi1\.10)\b/;
+is_bad = .depends ~ /\b(libopenmpi1\.6|libopenmpi1\.6\-dbg|openmpi\-checkpoint)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

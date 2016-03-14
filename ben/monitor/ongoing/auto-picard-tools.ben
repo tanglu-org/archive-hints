@@ -1,0 +1,8 @@
+title = "picard-tools (auto)";
+is_affected = .depends ~ /\b(libpicard\-java|libpicard\-java\-doc|libsam\-java)\b/;
+is_good = .depends ~ /\b(libpicard\-java|libpicard\-java\-doc)\b/;
+is_bad = .depends ~ /\b(libsam\-java)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libsam-java is not in libs or oldlibs";

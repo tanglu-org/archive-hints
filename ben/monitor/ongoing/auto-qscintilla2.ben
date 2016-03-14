@@ -1,0 +1,8 @@
+title = "qscintilla2 (auto)";
+is_affected = .depends ~ /\b(libqscintilla2\-12v5|libqscintilla2\-12v5\-dbg|libqt5scintilla2\-12v5|libqt5scintilla2\-12v5\-dbg|python\-pyqt5\.qsci|python\-pyqt5\.qsci\-dbg|libqscintilla2\-11|libqscintilla2\-11\-dbg|libqt5scintilla2\-11|libqt5scintilla2\-11\-dbg)\b/;
+is_good = .depends ~ /\b(libqscintilla2\-12v5|libqscintilla2\-12v5\-dbg|libqt5scintilla2\-12v5|libqt5scintilla2\-12v5\-dbg|python\-pyqt5\.qsci|python\-pyqt5\.qsci\-dbg)\b/;
+is_bad = .depends ~ /\b(libqscintilla2\-11|libqscintilla2\-11\-dbg|libqt5scintilla2\-11|libqt5scintilla2\-11\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

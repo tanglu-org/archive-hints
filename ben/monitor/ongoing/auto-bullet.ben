@@ -1,0 +1,8 @@
+title = "bullet (auto)";
+is_affected = .depends ~ /\b(libbulletcollision2\.83\.6|libbulletdynamics2\.83\.6|libbulletfileloader2\.83\.6|libbulletsoftbody2\.83\.6|libbulletworldimporter2\.83\.6|libbulletxmlworldimporter2\.83\.6|libconvexdecomposition2\.83\.6|libgimpactutils2\.83\.6|libhacd2\.83\.6|liblinearmath2\.83\.6|libbulletcollision2\.83v5|libbulletdynamics2\.83v5|libbulletfileloader2\.83v5|libbulletsoftbody2\.83v5|libbulletworldimporter2\.83v5|libbulletxmlworldimporter2\.83v5|libconvexdecomposition2\.83v5|libgimpactutils2\.83v5|libhacd2\.83v5|liblinearmath2\.83v5)\b/;
+is_good = .depends ~ /\b(libbulletcollision2\.83\.6|libbulletdynamics2\.83\.6|libbulletfileloader2\.83\.6|libbulletsoftbody2\.83\.6|libbulletworldimporter2\.83\.6|libbulletxmlworldimporter2\.83\.6|libconvexdecomposition2\.83\.6|libgimpactutils2\.83\.6|libhacd2\.83\.6|liblinearmath2\.83\.6)\b/;
+is_bad = .depends ~ /\b(libbulletcollision2\.83v5|libbulletdynamics2\.83v5|libbulletfileloader2\.83v5|libbulletsoftbody2\.83v5|libbulletworldimporter2\.83v5|libbulletxmlworldimporter2\.83v5|libconvexdecomposition2\.83v5|libgimpactutils2\.83v5|libhacd2\.83v5|liblinearmath2\.83v5)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

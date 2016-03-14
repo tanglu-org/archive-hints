@@ -1,0 +1,8 @@
+title = "qwt (auto)";
+is_affected = .depends ~ /\b(libqwt\-headers|libqwt\-qt5\-6|libqwt\-qt5\-dev|libqwt6abi1|libqwtmathml\-dev|libqwtmathml\-qt5\-6|libqwtmathml\-qt5\-dev|libqwtmathml6abi1|libqwt6)\b/;
+is_good = .depends ~ /\b(libqwt\-headers|libqwt\-qt5\-6|libqwt\-qt5\-dev|libqwt6abi1|libqwtmathml\-dev|libqwtmathml\-qt5\-6|libqwtmathml\-qt5\-dev|libqwtmathml6abi1)\b/;
+is_bad = .depends ~ /\b(libqwt6)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
