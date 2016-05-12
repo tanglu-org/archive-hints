@@ -1,0 +1,8 @@
+title = "ruby2.2-rm (auto)";
+is_affected = .depends ~ /\b(libruby2\.2|libruby2\.2\-dbg|ruby2\.2|ruby2\.2\-dev|ruby2\.2\-doc|ruby2\.2\-tcltk)\b/;
+is_good = false;
+is_bad = .depends ~ /\b(libruby2\.2|libruby2\.2\-dbg|ruby2\.2|ruby2\.2\-dev|ruby2\.2\-doc|ruby2\.2\-tcltk)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

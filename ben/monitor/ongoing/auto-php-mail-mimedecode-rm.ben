@@ -1,0 +1,8 @@
+title = "php-mail-mimedecode-rm (auto)";
+is_affected = .depends ~ /\b(php\-mail\-mimedecode)\b/;
+is_good = false;
+is_bad = .depends ~ /\b(php\-mail\-mimedecode)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - php-mail-mimedecode is not in libs or oldlibs";

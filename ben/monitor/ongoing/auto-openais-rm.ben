@@ -1,0 +1,8 @@
+title = "openais-rm (auto)";
+is_affected = .depends ~ /\b(libopenais\-dev|libopenais3|libsaamf3|libsaamf3\-dev|libsackpt3|libsackpt3\-dev|libsaclm3|libsaclm3\-dev|libsaevt3|libsaevt3\-dev|libsalck3|libsalck3\-dev|libsamsg4|libsamsg4\-dev|libsatmr3|libsatmr3\-dev|openais|openais\-dbg|openais\-dev)\b/;
+is_good = false;
+is_bad = .depends ~ /\b(libopenais\-dev|libopenais3|libsaamf3|libsaamf3\-dev|libsackpt3|libsackpt3\-dev|libsaclm3|libsaclm3\-dev|libsaevt3|libsaevt3\-dev|libsalck3|libsalck3\-dev|libsamsg4|libsamsg4\-dev|libsatmr3|libsatmr3\-dev|openais|openais\-dbg|openais\-dev)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - openais-dev is not in libs or oldlibs";

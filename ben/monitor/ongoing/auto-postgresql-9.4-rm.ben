@@ -1,0 +1,8 @@
+title = "postgresql-9.4-rm (auto)";
+is_affected = .depends ~ /\b(libecpg\-compat3|libecpg\-dev|libecpg6|libpgtypes3|libpq\-dev|libpq5|postgresql\-9\.4|postgresql\-9\.4\-dbg|postgresql\-client\-9\.4|postgresql\-contrib\-9\.4|postgresql\-doc\-9\.4|postgresql\-plperl\-9\.4|postgresql\-plpython\-9\.4|postgresql\-plpython3\-9\.4|postgresql\-pltcl\-9\.4|postgresql\-server\-dev\-9\.4)\b/;
+is_good = false;
+is_bad = .depends ~ /\b(libecpg\-compat3|libecpg\-dev|libecpg6|libpgtypes3|libpq\-dev|libpq5|postgresql\-9\.4|postgresql\-9\.4\-dbg|postgresql\-client\-9\.4|postgresql\-contrib\-9\.4|postgresql\-doc\-9\.4|postgresql\-plperl\-9\.4|postgresql\-plpython\-9\.4|postgresql\-plpython3\-9\.4|postgresql\-pltcl\-9\.4|postgresql\-server\-dev\-9\.4)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - postgresql-server-dev-9.4 is not in libs or oldlibs";

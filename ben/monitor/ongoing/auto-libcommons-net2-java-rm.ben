@@ -1,0 +1,8 @@
+title = "libcommons-net2-java-rm (auto)";
+is_affected = .depends ~ /\b(libcommons\-net2\-java|libcommons\-net2\-java\-doc)\b/;
+is_good = false;
+is_bad = .depends ~ /\b(libcommons\-net2\-java|libcommons\-net2\-java\-doc)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libcommons-net2-java-doc is not in libs or oldlibs";

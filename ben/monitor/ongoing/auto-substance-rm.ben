@@ -1,0 +1,8 @@
+title = "substance-rm (auto)";
+is_affected = .depends ~ /\b(substance|substance\-doc)\b/;
+is_good = false;
+is_bad = .depends ~ /\b(substance|substance\-doc)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - substance is not in libs or oldlibs";
