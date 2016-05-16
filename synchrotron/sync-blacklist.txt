@@ -5,9 +5,6 @@
 # architecture-specific.
 #
 
-# Temporary blocks for KDE5 transition
-kde-l10n
-
 # mak: 2015-08-10
 # Block packages which break migrations due to conflicting binary versions
 # Synchrotron needs to be adjusted to never sync sources without or with obsolete binaries.
