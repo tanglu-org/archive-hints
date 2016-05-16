@@ -35,13 +35,8 @@ debian-installer
 scsh-install-lib # crashes dak, missing checksums
 
 # Mozilla stuff
-# FIXME: Right now, we want icedove/iceowl in Tanglu
-#icedove
-#icedove-l10n
-#iceowl
-#iceowl-l10n
-iceweasel # We package Firefox separately (as Firefox)
-firefox # Debian will probably make this transitional to iceweasel
+iceweasel # We have Firefox
+firefox-esr # We use the non-ESR version in Tanglu.
 
 # unsupportable Mozilla extensions, see https://wiki.ubuntu.com/DesktopTeam/Specs/Lucid/FirefoxNewSupportModel/extension-list
 adblock-plus
