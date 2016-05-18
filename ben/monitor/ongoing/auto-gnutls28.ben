@@ -1,7 +1,7 @@
 title = "gnutls28 (auto)";
-is_affected = .depends ~ /\b(libgnutls30|libgnutls\-deb0\-28|libgnutls28\-dbg)\b/;
+is_affected = .depends ~ /\b(libgnutls30|guile\-gnutls|libgnutls\-deb0\-28|libgnutls28\-dbg)\b/;
 is_good = .depends ~ /\b(libgnutls30)\b/;
-is_bad = .depends ~ /\b(libgnutls\-deb0\-28|libgnutls28\-dbg)\b/;
+is_bad = .depends ~ /\b(guile\-gnutls|libgnutls\-deb0\-28|libgnutls28\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

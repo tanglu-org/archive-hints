@@ -1,0 +1,8 @@
+title = "grilo (auto)";
+is_affected = .depends ~ /\b(gir1\.2\-grilo\-0\.3|libgrilo\-0\.3\-0|libgrilo\-0\.3\-bin|libgrilo\-0\.3\-dev|libgrilo\-0\.3\-doc|gir1\.2\-grilo\-0\.2|libgrilo\-0\.2\-1|libgrilo\-0\.2\-bin|libgrilo\-0\.2\-dev|libgrilo\-0\.2\-doc)\b/;
+is_good = .depends ~ /\b(gir1\.2\-grilo\-0\.3|libgrilo\-0\.3\-0|libgrilo\-0\.3\-bin|libgrilo\-0\.3\-dev|libgrilo\-0\.3\-doc)\b/;
+is_bad = .depends ~ /\b(gir1\.2\-grilo\-0\.2|libgrilo\-0\.2\-1|libgrilo\-0\.2\-bin|libgrilo\-0\.2\-dev|libgrilo\-0\.2\-doc)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - gir1.2-grilo-0.2 is not in libs or oldlibs";

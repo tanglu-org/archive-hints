@@ -1,6 +1,6 @@
 title = "nvidia-cuda-toolkit (auto)";
-is_affected = .depends ~ /\b(libcublas7\.0|libcudart7\.0|libcufft7\.0|libcufftw7\.0|libcuinj64\-7\.0|libcupti7\.0|libcurand7\.0|libcusolver7\.0|libcusparse7\.0|libnppc7\.0|libnppi7\.0|libnpps7\.0|libnvblas7\.0|libnvrtc7\.0|libnvvm3|libcublas6\.5|libcudart6\.5|libcufft6\.5|libcufftw6\.5|libcuinj32\-6\.5|libcuinj64\-6\.5|libcupti6\.5|libcurand6\.5|libcusparse6\.5|libnppc6\.5|libnppi6\.5|libnpps6\.5|libnvblas6\.5|libnvvm2)\b/;
-is_good = .depends ~ /\b(libcublas7\.0|libcudart7\.0|libcufft7\.0|libcufftw7\.0|libcuinj64\-7\.0|libcupti7\.0|libcurand7\.0|libcusolver7\.0|libcusparse7\.0|libnppc7\.0|libnppi7\.0|libnpps7\.0|libnvblas7\.0|libnvrtc7\.0|libnvvm3)\b/;
+is_affected = .depends ~ /\b(libcublas7\.5|libcudart7\.5|libcufft7\.5|libcufftw7\.5|libcuinj64\-7\.5|libcupti7\.5|libcurand7\.5|libcusolver7\.5|libcusparse7\.5|libnppc7\.5|libnppi7\.5|libnpps7\.5|libnvblas7\.5|libnvrtc7\.5|libnvvm3|libcublas6\.5|libcudart6\.5|libcufft6\.5|libcufftw6\.5|libcuinj32\-6\.5|libcuinj64\-6\.5|libcupti6\.5|libcurand6\.5|libcusparse6\.5|libnppc6\.5|libnppi6\.5|libnpps6\.5|libnvblas6\.5|libnvvm2)\b/;
+is_good = .depends ~ /\b(libcublas7\.5|libcudart7\.5|libcufft7\.5|libcufftw7\.5|libcuinj64\-7\.5|libcupti7\.5|libcurand7\.5|libcusolver7\.5|libcusparse7\.5|libnppc7\.5|libnppi7\.5|libnpps7\.5|libnvblas7\.5|libnvrtc7\.5|libnvvm3)\b/;
 is_bad = .depends ~ /\b(libcublas6\.5|libcudart6\.5|libcufft6\.5|libcufftw6\.5|libcuinj32\-6\.5|libcuinj64\-6\.5|libcupti6\.5|libcurand6\.5|libcusparse6\.5|libnppc6\.5|libnppi6\.5|libnpps6\.5|libnvblas6\.5|libnvvm2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 

@@ -1,0 +1,8 @@
+title = "urdfdom (auto)";
+is_affected = .depends ~ /\b(liburdfdom\-model\-state0\.4|liburdfdom\-model0\.4|liburdfdom\-sensor0\.4|liburdfdom\-world0\.4|liburdfdom0\.4\-dbg|liburdfdom\-model\-state0\.3v5|liburdfdom\-model0\.3v5|liburdfdom\-sensor0\.3v5|liburdfdom\-world0\.3v5|liburdfdom0\.3\-dbg)\b/;
+is_good = .depends ~ /\b(liburdfdom\-model\-state0\.4|liburdfdom\-model0\.4|liburdfdom\-sensor0\.4|liburdfdom\-world0\.4|liburdfdom0\.4\-dbg)\b/;
+is_bad = .depends ~ /\b(liburdfdom\-model\-state0\.3v5|liburdfdom\-model0\.3v5|liburdfdom\-sensor0\.3v5|liburdfdom\-world0\.3v5|liburdfdom0\.3\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

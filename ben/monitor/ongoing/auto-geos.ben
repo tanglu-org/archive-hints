@@ -1,0 +1,8 @@
+title = "geos (auto)";
+is_affected = .depends ~ /\b(libgeos\-3\.5\.0|libgeos\-c1v5|libgeos\-3\.4\.2|libgeos\-c1|libgeos\-ruby1\.8|php5\-geos)\b/;
+is_good = .depends ~ /\b(libgeos\-3\.5\.0|libgeos\-c1v5)\b/;
+is_bad = .depends ~ /\b(libgeos\-3\.4\.2|libgeos\-c1|libgeos\-ruby1\.8|php5\-geos)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

@@ -1,6 +1,6 @@
 title = "liblivemedia (auto)";
-is_affected = .depends ~ /\b(libbasicusageenvironment1|libgroupsock8|liblivemedia50|libusageenvironment3|libbasicusageenvironment0|libgroupsock1|liblivemedia23|libusageenvironment1)\b/;
-is_good = .depends ~ /\b(libbasicusageenvironment1|libgroupsock8|liblivemedia50|libusageenvironment3)\b/;
+is_affected = .depends ~ /\b(libbasicusageenvironment1|libgroupsock8|liblivemedia52|libusageenvironment3|libbasicusageenvironment0|libgroupsock1|liblivemedia23|libusageenvironment1)\b/;
+is_good = .depends ~ /\b(libbasicusageenvironment1|libgroupsock8|liblivemedia52|libusageenvironment3)\b/;
 is_bad = .depends ~ /\b(libbasicusageenvironment0|libgroupsock1|liblivemedia23|libusageenvironment1)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 

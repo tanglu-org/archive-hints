@@ -1,8 +1,0 @@
-title = "gstreamer0.10-rm (auto)";
-is_affected = .depends ~ /\b(gir1\.2\-gstreamer\-0\.10|gstreamer\-tools|gstreamer0\.10\-doc|gstreamer0\.10\-tools|libgstreamer0\.10\-0|libgstreamer0\.10\-0\-dbg|libgstreamer0\.10\-dev)\b/;
-is_good = false;
-is_bad = .depends ~ /\b(gir1\.2\-gstreamer\-0\.10|gstreamer\-tools|gstreamer0\.10\-doc|gstreamer0\.10\-tools|libgstreamer0\.10\-0|libgstreamer0\.10\-0\-dbg|libgstreamer0\.10\-dev)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - gstreamer0.10-tools is not in libs or oldlibs";

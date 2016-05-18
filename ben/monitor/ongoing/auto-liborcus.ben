@@ -1,0 +1,8 @@
+title = "liborcus (auto)";
+is_affected = .depends ~ /\b(liborcus\-0\.11\-0|liborcus\-spreadsheet\-model\-0\.11\-0|python3\-orcus|liborcus\-0\.10\-0v5|liborcus\-spreadsheet\-model\-0\.10\-0v5)\b/;
+is_good = .depends ~ /\b(liborcus\-0\.11\-0|liborcus\-spreadsheet\-model\-0\.11\-0|python3\-orcus)\b/;
+is_bad = .depends ~ /\b(liborcus\-0\.10\-0v5|liborcus\-spreadsheet\-model\-0\.10\-0v5)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

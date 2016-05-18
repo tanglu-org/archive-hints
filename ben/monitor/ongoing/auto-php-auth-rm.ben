@@ -1,8 +1,0 @@
-title = "php-auth-rm (auto)";
-is_affected = .depends ~ /\b(php\-auth)\b/;
-is_good = false;
-is_bad = .depends ~ /\b(php\-auth)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - php-auth is not in libs or oldlibs";

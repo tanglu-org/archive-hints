@@ -1,7 +1,7 @@
-title = "gsoap (auto)";
-is_affected = .depends ~ /\b(libgsoap9|libgsoap7)\b/;
-is_good = .depends ~ /\b(libgsoap9)\b/;
-is_bad = .depends ~ /\b(libgsoap7)\b/;
+title = "elpa (auto)";
+is_affected = .depends ~ /\b(libelpa3|libelpa0)\b/;
+is_good = .depends ~ /\b(libelpa3)\b/;
+is_bad = .depends ~ /\b(libelpa0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

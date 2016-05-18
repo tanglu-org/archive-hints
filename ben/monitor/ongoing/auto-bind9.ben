@@ -1,0 +1,8 @@
+title = "bind9 (auto)";
+is_affected = .depends ~ /\b(libbind9\-140|libdns\-export162|libdns\-export162\-udeb|libdns162|libirs\-export141|libirs\-export141\-udeb|libirs141|libisc\-export160|libisc\-export160\-udeb|libisc160|libisccc\-export140|libisccc\-export140\-udeb|libisccc140|libisccfg\-export140|libisccfg\-export140\-udeb|libisccfg140|liblwres141|libbind9\-90|libdns\-export100|libdns\-export100\-udeb|libdns100|libirs\-export91|libirs\-export91\-udeb|libisc\-export95|libisc\-export95\-udeb|libisc95|libisccc90|libisccfg\-export90|libisccfg\-export90\-udeb|libisccfg90|liblwres90)\b/;
+is_good = .depends ~ /\b(libbind9\-140|libdns\-export162|libdns\-export162\-udeb|libdns162|libirs\-export141|libirs\-export141\-udeb|libirs141|libisc\-export160|libisc\-export160\-udeb|libisc160|libisccc\-export140|libisccc\-export140\-udeb|libisccc140|libisccfg\-export140|libisccfg\-export140\-udeb|libisccfg140|liblwres141)\b/;
+is_bad = .depends ~ /\b(libbind9\-90|libdns\-export100|libdns\-export100\-udeb|libdns100|libirs\-export91|libirs\-export91\-udeb|libisc\-export95|libisc\-export95\-udeb|libisc95|libisccc90|libisccfg\-export90|libisccfg\-export90\-udeb|libisccfg90|liblwres90)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

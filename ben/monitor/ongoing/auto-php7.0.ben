@@ -1,0 +1,8 @@
+title = "php7.0 (auto)";
+is_affected = .depends ~ /\b(php7\.0\-bcmath|php7\.0\-mbstring|php7\.0\-soap|php7\.0\-xml|php7\.0\-zip|php7\.0\-dbg)\b/;
+is_good = .depends ~ /\b(php7\.0\-bcmath|php7\.0\-mbstring|php7\.0\-soap|php7\.0\-xml|php7\.0\-zip)\b/;
+is_bad = .depends ~ /\b(php7\.0\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - php7.0-dbg is not in libs or oldlibs";

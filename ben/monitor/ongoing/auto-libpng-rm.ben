@@ -1,0 +1,8 @@
+title = "libpng-rm (auto)";
+is_affected = .depends ~ /\b(libpng12\-0|libpng12\-0\-udeb|libpng12\-dev|libpng3)\b/;
+is_good = false;
+is_bad = .depends ~ /\b(libpng12\-0|libpng12\-0\-udeb|libpng12\-dev|libpng3)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - libpng12-dev is not in libs or oldlibs";

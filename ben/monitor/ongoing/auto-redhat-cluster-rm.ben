@@ -1,8 +1,0 @@
-title = "redhat-cluster-rm (auto)";
-is_affected = .depends ~ /\b(cman|libccs\-dev|libccs\-perl|libccs3|libcman\-dev|libcman3|libdlm\-dev|libdlm3|libdlmcontrol\-dev|libdlmcontrol3|libfence\-dev|libfence4|liblogthread\-dev|liblogthread3|redhat\-cluster\-suite|rgmanager)\b/;
-is_good = false;
-is_bad = .depends ~ /\b(cman|libccs\-dev|libccs\-perl|libccs3|libcman\-dev|libcman3|libdlm\-dev|libdlm3|libdlmcontrol\-dev|libdlmcontrol3|libfence\-dev|libfence4|liblogthread\-dev|liblogthread3|redhat\-cluster\-suite|rgmanager)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - rgmanager is not in libs or oldlibs";

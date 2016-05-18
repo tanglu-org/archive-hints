@@ -1,7 +1,7 @@
-title = "beecrypt-rm (auto)";
-is_affected = .depends ~ /\b(libbeecrypt\-dev|libbeecrypt7)\b/;
-is_good = false;
-is_bad = .depends ~ /\b(libbeecrypt\-dev|libbeecrypt7)\b/;
+title = "dnsval (auto)";
+is_affected = .depends ~ /\b(libval15|libval\-dbg|libval14)\b/;
+is_good = .depends ~ /\b(libval15)\b/;
+is_bad = .depends ~ /\b(libval\-dbg|libval14)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

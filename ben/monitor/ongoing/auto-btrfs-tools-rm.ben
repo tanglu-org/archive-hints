@@ -1,0 +1,8 @@
+title = "btrfs-tools-rm (auto)";
+is_affected = .depends ~ /\b(btrfs\-tools|btrfs\-tools\-dbg|btrfs\-tools\-udeb)\b/;
+is_good = false;
+is_bad = .depends ~ /\b(btrfs\-tools|btrfs\-tools\-dbg|btrfs\-tools\-udeb)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: no - btrfs-tools is not in libs or oldlibs";

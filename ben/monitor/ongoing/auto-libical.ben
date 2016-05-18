@@ -1,7 +1,7 @@
-title = "zeromq3 (auto)";
-is_affected = .depends ~ /\b(libzmq5|libzmq5\-dbg|libzmq3|libzmq3\-dbg)\b/;
-is_good = .depends ~ /\b(libzmq5|libzmq5\-dbg)\b/;
-is_bad = .depends ~ /\b(libzmq3|libzmq3\-dbg)\b/;
+title = "libical (auto)";
+is_affected = .depends ~ /\b(libical2|libical\-dbg|libical1a)\b/;
+is_good = .depends ~ /\b(libical2)\b/;
+is_bad = .depends ~ /\b(libical\-dbg|libical1a)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

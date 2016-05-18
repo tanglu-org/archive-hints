@@ -1,0 +1,8 @@
+title = "openhpi (auto)";
+is_affected = .depends ~ /\b(libopenhpi3|libopenhpi3\-dbgsym|openhpi\-clients\-dbgsym|openhpi\-plugin\-dynamic\-simulator|openhpi\-plugin\-dynamic\-simulator\-dbgsym|openhpi\-plugin\-ilo2\-ribcl\-dbgsym|openhpi\-plugin\-ipmi\-dbgsym|openhpi\-plugin\-ipmidirect\-dbgsym|openhpi\-plugin\-oa\-soap\-dbgsym|openhpi\-plugin\-simulator|openhpi\-plugin\-simulator\-dbgsym|openhpi\-plugin\-slave|openhpi\-plugin\-slave\-dbgsym|openhpi\-plugin\-snmp\-bc\-dbgsym|openhpi\-plugin\-sysfs\-dbgsym|openhpi\-plugin\-test\-agent|openhpi\-plugin\-test\-agent\-dbgsym|openhpi\-plugin\-watchdog\-dbgsym|openhpid\-dbgsym|libopenhpi2)\b/;
+is_good = .depends ~ /\b(libopenhpi3|libopenhpi3\-dbgsym|openhpi\-clients\-dbgsym|openhpi\-plugin\-dynamic\-simulator|openhpi\-plugin\-dynamic\-simulator\-dbgsym|openhpi\-plugin\-ilo2\-ribcl\-dbgsym|openhpi\-plugin\-ipmi\-dbgsym|openhpi\-plugin\-ipmidirect\-dbgsym|openhpi\-plugin\-oa\-soap\-dbgsym|openhpi\-plugin\-simulator|openhpi\-plugin\-simulator\-dbgsym|openhpi\-plugin\-slave|openhpi\-plugin\-slave\-dbgsym|openhpi\-plugin\-snmp\-bc\-dbgsym|openhpi\-plugin\-sysfs\-dbgsym|openhpi\-plugin\-test\-agent|openhpi\-plugin\-test\-agent\-dbgsym|openhpi\-plugin\-watchdog\-dbgsym|openhpid\-dbgsym)\b/;
+is_bad = .depends ~ /\b(libopenhpi2)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";
