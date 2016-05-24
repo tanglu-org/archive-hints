@@ -27,6 +27,7 @@ unstable/kdeedu-data       # http://edu.kde.org/
 unstable/kdenlive          # https://kdenlive.org/
 unstable/kdeplasma-addons  # http://kde.org/
 unstable/kfilemetadata-kf5 # https://projects.kde.org/projects/kde/workspace/kfilemetadata
+unstable/kgamma5           # https://quickgit.kde.org/?p=kgamma5.git
 unstable/khelpcenter       # https://projects.kde.org/projects/kde/workspace/khelpcenter
 unstable/khotkeys          # https://projects.kde.org/projects/kde/workspace/khotkeys
 unstable/kinfocenter       # https://projects.kde.org/projects/playground/libs/libkscreen
@@ -36,6 +37,7 @@ unstable/kscreen           # https://projects.kde.org/projects/extragear/base/ks
 unstable/ksshaskpass       # https://projects.kde.org/projects/kde/workspace/ksshaskpass
 unstable/ksysguard         # https://projects.kde.org/unstable/plasma/ksysguard
 unstable/kwayland          # https://projects.kde.org/projects/kde/workspace/kwayland
+unstable/kwayland-integration # https://quickgit.kde.org/?p=kwayland-integration.git
 unstable/kwin              # https://projects.kde.org/projects/kde/unstable/plasma/kwin
 unstable/kwrited           # https://projects.kde.org/projects/kde/workspace/kwrited
 unstable/libbluedevil       # https://projects.kde.org/projects/playground/libs/libbluedevil
@@ -52,6 +54,7 @@ unstable/parley             # https://projects.kde.org/projects/kde/kdeedu/parle
 unstable/plasma-desktop     # https://projects.kde.org/projects/kde/workspace/plasma-desktop
 unstable/plasma-mediacenter # https://projects.kde.org/projects/extragear/multimedia/plasma-mediacenter
 unstable/plasma-nm          # https://projects.kde.org/projects/kde/workspace/plasma-nm
+unstable/plasma-pa          # https://quickgit.kde.org/?p=plasma-pa.git
 unstable/plasma-workspace
 unstable/plasma-workspace-wallpapers
 unstable/polkit-kde-agent-1
