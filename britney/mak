@@ -1,9 +1,3 @@
 ##
 # Britney hints file for Matthias Klumpp
 ##
-
-# Perl 5.22
-force-hint perl/5.22.2-1
-
-force-hint firefox/46.0.1-1tanglu1
-force-hint linux/4.6-0tanglu1
