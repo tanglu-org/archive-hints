@@ -30,3 +30,4 @@ libtimezonemap
 # Misc
 fedmsg-meta-tanglu
 apturl
+firefox
