@@ -1,0 +1,8 @@
+title = "okteta (auto)";
+is_affected = .depends ~ /\b(libkasten3controllers3|libkasten3core3|libkasten3gui3|libkasten3okteta1controllers1|libkasten3okteta1core1|libkasten3okteta1gui1|libokteta2core2|libokteta2gui2|libkasten2controllers2|libkasten2core2|libkasten2gui2|libkasten2okteta1controllers1abi1|libkasten2okteta1core1|libkasten2okteta1gui1|libokteta1core1|libokteta1gui1)\b/;
+is_good = .depends ~ /\b(libkasten3controllers3|libkasten3core3|libkasten3gui3|libkasten3okteta1controllers1|libkasten3okteta1core1|libkasten3okteta1gui1|libokteta2core2|libokteta2gui2)\b/;
+is_bad = .depends ~ /\b(libkasten2controllers2|libkasten2core2|libkasten2gui2|libkasten2okteta1controllers1abi1|libkasten2okteta1core1|libkasten2okteta1gui1|libokteta1core1|libokteta1gui1)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe";

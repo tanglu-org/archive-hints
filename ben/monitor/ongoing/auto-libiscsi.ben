@@ -1,7 +1,7 @@
-title = "gloox (auto)";
-is_affected = .depends ~ /\b(libgloox14|libgloox13v5)\b/;
-is_good = .depends ~ /\b(libgloox14)\b/;
-is_bad = .depends ~ /\b(libgloox13v5)\b/;
+title = "libiscsi (auto)";
+is_affected = .depends ~ /\b(libiscsi7|libiscsi2)\b/;
+is_good = .depends ~ /\b(libiscsi7)\b/;
+is_bad = .depends ~ /\b(libiscsi2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

@@ -1,8 +1,0 @@
-title = "libechonest (auto)";
-is_affected = .depends ~ /\b(libechonest2\.3|libechonest5\-2\.3|libechonest5\-dbg|libechonest5\-dev|libechonest2\.1)\b/;
-is_good = .depends ~ /\b(libechonest2\.3|libechonest5\-2\.3|libechonest5\-dbg|libechonest5\-dev)\b/;
-is_bad = .depends ~ /\b(libechonest2\.1)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe";

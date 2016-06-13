@@ -1,6 +1,6 @@
 title = "poppler (auto)";
-is_affected = .depends ~ /\b(libpoppler57|libpoppler46)\b/;
-is_good = .depends ~ /\b(libpoppler57)\b/;
+is_affected = .depends ~ /\b(libpoppler61|libpoppler46)\b/;
+is_good = .depends ~ /\b(libpoppler61)\b/;
 is_bad = .depends ~ /\b(libpoppler46)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 

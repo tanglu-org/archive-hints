@@ -1,7 +1,7 @@
-title = "qhull (auto)";
-is_affected = .depends ~ /\b(libqhull7|libqhull6)\b/;
-is_good = .depends ~ /\b(libqhull7)\b/;
-is_bad = .depends ~ /\b(libqhull6)\b/;
+title = "libfm-qt (auto)";
+is_affected = .depends ~ /\b(libfm\-qt3|libfm\-qt2)\b/;
+is_good = .depends ~ /\b(libfm\-qt3)\b/;
+is_bad = .depends ~ /\b(libfm\-qt2)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

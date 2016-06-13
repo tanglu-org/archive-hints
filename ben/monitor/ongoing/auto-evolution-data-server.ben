@@ -1,0 +1,8 @@
+title = "evolution-data-server (auto)";
+is_affected = .depends ~ /\b(libcamel\-1\.2\-57|evolution\-data\-server\-dbg|libcamel\-1\.2\-54)\b/;
+is_good = .depends ~ /\b(libcamel\-1\.2\-57)\b/;
+is_bad = .depends ~ /\b(evolution\-data\-server\-dbg|libcamel\-1\.2\-54)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

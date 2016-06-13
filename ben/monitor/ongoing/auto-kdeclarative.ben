@@ -1,7 +1,7 @@
-title = "libvpx (auto)";
-is_affected = .depends ~ /\b(libvpx3|libvpx3\-dbg|libvpx2|libvpx2\-dbg)\b/;
-is_good = .depends ~ /\b(libvpx3|libvpx3\-dbg)\b/;
-is_bad = .depends ~ /\b(libvpx2|libvpx2\-dbg)\b/;
+title = "kdeclarative (auto)";
+is_affected = .depends ~ /\b(libkf5calendarevents5|libkf5declarative5\-dbg)\b/;
+is_good = .depends ~ /\b(libkf5calendarevents5)\b/;
+is_bad = .depends ~ /\b(libkf5declarative5\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

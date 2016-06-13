@@ -1,7 +1,7 @@
-title = "librep (auto)";
-is_affected = .depends ~ /\b(librep16|librep9)\b/;
-is_good = .depends ~ /\b(librep16)\b/;
-is_bad = .depends ~ /\b(librep9)\b/;
+title = "confuse (auto)";
+is_affected = .depends ~ /\b(libconfuse1|libconfuse0)\b/;
+is_good = .depends ~ /\b(libconfuse1)\b/;
+is_bad = .depends ~ /\b(libconfuse0)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

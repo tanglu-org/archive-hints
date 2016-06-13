@@ -1,7 +1,7 @@
-title = "libzip (auto)";
-is_affected = .depends ~ /\b(libzip4|ziptool|libzip2|ziptorrent)\b/;
-is_good = .depends ~ /\b(libzip4|ziptool)\b/;
-is_bad = .depends ~ /\b(libzip2|ziptorrent)\b/;
+title = "gl2ps (auto)";
+is_affected = .depends ~ /\b(libgl2ps1|libgl2ps0|libgl2ps0\-dbg)\b/;
+is_good = .depends ~ /\b(libgl2ps1)\b/;
+is_bad = .depends ~ /\b(libgl2ps0|libgl2ps0\-dbg)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):

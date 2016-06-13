@@ -1,0 +1,8 @@
+title = "libqglviewer (auto)";
+is_affected = .depends ~ /\b(libqglviewer\-dev\-qt5|libqglviewer\-headers|libqglviewer2\-qt5|libqglviewer\-dev|libqglviewer2)\b/;
+is_good = .depends ~ /\b(libqglviewer\-dev\-qt5|libqglviewer\-headers|libqglviewer2\-qt5)\b/;
+is_bad = .depends ~ /\b(libqglviewer\-dev|libqglviewer2)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

@@ -1,0 +1,8 @@
+title = "libkscreen (auto)";
+is_affected = .depends ~ /\b(libkf5screen\-bin|libkf5screen7|libkf5screen6|libkscreen\-dbg)\b/;
+is_good = .depends ~ /\b(libkf5screen\-bin|libkf5screen7)\b/;
+is_bad = .depends ~ /\b(libkf5screen6|libkscreen\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

@@ -1,8 +1,0 @@
-title = "openjdk-7-rm (auto)";
-is_affected = .depends ~ /\b(icedtea\-7\-jre\-jamvm|openjdk\-7\-dbg|openjdk\-7\-demo|openjdk\-7\-doc|openjdk\-7\-jdk|openjdk\-7\-jre|openjdk\-7\-jre\-headless|openjdk\-7\-jre\-lib|openjdk\-7\-jre\-zero|openjdk\-7\-source)\b/;
-is_good = false;
-is_bad = .depends ~ /\b(icedtea\-7\-jre\-jamvm|openjdk\-7\-dbg|openjdk\-7\-demo|openjdk\-7\-doc|openjdk\-7\-jdk|openjdk\-7\-jre|openjdk\-7\-jre\-headless|openjdk\-7\-jre\-lib|openjdk\-7\-jre\-zero|openjdk\-7\-source)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - openjdk-7-jre-headless is not in libs or oldlibs";

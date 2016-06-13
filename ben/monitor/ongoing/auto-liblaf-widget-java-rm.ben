@@ -1,8 +1,0 @@
-title = "liblaf-widget-java-rm (auto)";
-is_affected = .depends ~ /\b(liblaf\-widget\-java|liblaf\-widget\-java\-doc)\b/;
-is_good = false;
-is_bad = .depends ~ /\b(liblaf\-widget\-java|liblaf\-widget\-java\-doc)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: no - liblaf-widget-java is not in libs or oldlibs";

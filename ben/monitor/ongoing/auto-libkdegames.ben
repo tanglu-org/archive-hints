@@ -1,7 +1,7 @@
-title = "mutter (auto)";
-is_affected = .depends ~ /\b(libmutter0h|libmutter0g|mutter\-dbg)\b/;
-is_good = .depends ~ /\b(libmutter0h)\b/;
-is_bad = .depends ~ /\b(libmutter0g|mutter\-dbg)\b/;
+title = "libkdegames (auto)";
+is_affected = .depends ~ /\b(libkf5kdegames7|libkf5kdegames\-dbg|libkf5kdegames6)\b/;
+is_good = .depends ~ /\b(libkf5kdegames7)\b/;
+is_bad = .depends ~ /\b(libkf5kdegames\-dbg|libkf5kdegames6)\b/;
 notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
 
 Extra information (collected entirely from testing!):
