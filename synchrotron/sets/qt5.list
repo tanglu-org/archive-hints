@@ -3,12 +3,10 @@
 unstable/qtbase-opensource-src
 unstable/qtdeclarative-opensource-src
 unstable/qtdoc-opensource-src
-unstable/qtenginio-opensource-src
 unstable/qtgraphicaleffects-opensource-src
 unstable/qtimageformats-opensource-src
 unstable/qtlocation-opensource-src
 unstable/qtmultimedia-opensource-src
-unstable/qtquick1-opensource-src
 unstable/qtquickcontrols-opensource-src
 unstable/qtscript-opensource-src
 unstable/qtsensors-opensource-src
@@ -22,4 +20,5 @@ unstable/qtwebkit-opensource-src
 unstable/qtwebsockets-opensource-src
 unstable/qtx11extras-opensource-src
 unstable/qtxmlpatterns-opensource-src
+unstable/qt3d-opensource-src
 unstable/pyqt5
