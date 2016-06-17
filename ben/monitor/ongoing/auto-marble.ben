@@ -1,0 +1,8 @@
+title = "marble (auto)";
+is_affected = .depends ~ /\b(libmarblewidget\-qt5\-24|marble\-maps|libmarblewidget\-qt5\-22|marble\-dbg|marble\-mobile|marble\-touch)\b/;
+is_good = .depends ~ /\b(libmarblewidget\-qt5\-24|marble\-maps)\b/;
+is_bad = .depends ~ /\b(libmarblewidget\-qt5\-22|marble\-dbg|marble\-mobile|marble\-touch)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

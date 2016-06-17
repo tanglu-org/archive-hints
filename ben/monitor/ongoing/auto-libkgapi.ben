@@ -1,0 +1,8 @@
+title = "libkgapi (auto)";
+is_affected = .depends ~ /\b(libkf5gapi\-data|libkf5gapi\-dev|libkf5gapiblogger5|libkf5gapicalendar5|libkf5gapicontacts5|libkf5gapicore5|libkf5gapidrive5|libkf5gapilatitude5|libkf5gapimaps5|libkf5gapitasks5|libkgapi\-dev|libkgapi2\-2|libkgapi2\-2\-dbg)\b/;
+is_good = .depends ~ /\b(libkf5gapi\-data|libkf5gapi\-dev|libkf5gapiblogger5|libkf5gapicalendar5|libkf5gapicontacts5|libkf5gapicore5|libkf5gapidrive5|libkf5gapilatitude5|libkf5gapimaps5|libkf5gapitasks5)\b/;
+is_bad = .depends ~ /\b(libkgapi\-dev|libkgapi2\-2|libkgapi2\-2\-dbg)\b/;
+notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
+
+Extra information (collected entirely from testing!):
+ * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";

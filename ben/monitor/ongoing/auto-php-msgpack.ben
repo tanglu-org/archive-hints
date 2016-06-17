@@ -1,8 +1,0 @@
-title = "php-msgpack (auto)";
-is_affected = .depends ~ /\b(php\-msgpack|php5\-msgpack)\b/;
-is_good = .depends ~ /\b(php\-msgpack)\b/;
-is_bad = .depends ~ /\b(php5\-msgpack)\b/;
-notes = "This tracker was setup by a very simple automated tool.  The tool may not be very smart...
-
-Extra information (collected entirely from testing!):
- * can-smooth-update: maybe (ignoring rdep-less binaries or/and intra-source-rdeps)";
