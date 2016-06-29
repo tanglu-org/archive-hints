@@ -18,7 +18,7 @@ Synchrotron:
     sync_source:
         suite: testing
         archs: amd64 armel armhf i386 ia64 mips mipsel powerpc s390 s390x sparc kfreebsd-amd64 kfreebsd-i386 m68k
-    sync_enabled: true
+    sync_enabled: false
     synchints_root: /srv/dak/archive-hints/synchrotron/
     debian_mirror: /srv/debian-src/
 
