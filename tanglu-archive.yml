@@ -21,6 +21,7 @@ Synchrotron:
     sync_enabled: false
     synchints_root: /srv/dak/archive-hints/synchrotron/
     debian_mirror: /srv/debian-src/
+    debcheck_before_sync: true
 
 Janitor:
     hints_file: /srv/dak/archive-hints/britney/janitor
