@@ -1,0 +1,39 @@
+Constraint: present-and-installable
+Comment: (Meta)packages for minimal Tanglu base system
+Fake-Package-Name: tg-core-is-installable-faux
+Package-List:
+ # Some of these could probably do with more architectures
+ busybox [amd64]
+ console-common [amd64]
+ tanglu-minimal
+ tanglu-standard
+
+Constraint: present-and-installable
+Comment: GRUB UEFI
+Fake-Package-Name: tg-core-grub-efi-is-installable-faux
+Package-List:
+ # conflicts with grub-{legacy,pc}
+ grub-efi [i386 amd64]
+
+Constraint: present-and-installable
+Comment: GRUB Legacy
+Fake-Package-Name: tg-core-grub-legacy-is-installable-faux
+Package-List:
+ # conflicted with by grub-{pc,ieee1275,efi}
+ grub-legacy [i386 amd64]
+
+Constraint: present-and-installable
+Comment: Tanglu KDE Plasma Flavor
+Fake-Package-Name: tg-kde-is-installable-faux
+Package-List:
+ tanglu-kde
+ calamares
+ calamares-branding-tanglu-kde
+
+Constraint: present-and-installable
+Comment: Tanglu GNOME Flavor
+Fake-Package-Name: tg-gnome-is-installable-faux
+Package-List:
+ tanglu-gnome
+ calamares
+ calamares-branding-tanglu-gnome
