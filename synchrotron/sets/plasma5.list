@@ -38,8 +38,9 @@ unstable/ksshaskpass       # https://projects.kde.org/projects/kde/workspace/kss
 unstable/ksysguard         # https://projects.kde.org/unstable/plasma/ksysguard
 unstable/kwayland          # https://projects.kde.org/projects/kde/workspace/kwayland
 unstable/kwayland-integration # https://quickgit.kde.org/?p=kwayland-integration.git
-unstable/kwin              # https://projects.kde.org/projects/kde/unstable/plasma/kwin
-unstable/kwrited           # https://projects.kde.org/projects/kde/workspace/kwrited
+unstable/kwin               # https://projects.kde.org/projects/kde/unstable/plasma/kwin
+unstable/kscreenlocker
+unstable/kwrited            # https://projects.kde.org/projects/kde/workspace/kwrited
 unstable/libbluedevil       # https://projects.kde.org/projects/playground/libs/libbluedevil
 unstable/libkeduvocdocument # http://edu.kde.org/
 unstable/libkscreen         # https://projects.kde.org/projects/playground/libs/libkscreen
