@@ -24,7 +24,7 @@ Synchrotron:
     debcheck_before_sync: true
 
 Janitor:
-    hints_file: /srv/dak/archive-hints/britney/janitor
+    hints_file: /srv/dak/archive-hints/britney/hints/janitor
 
 Suites:
     - name: staging
