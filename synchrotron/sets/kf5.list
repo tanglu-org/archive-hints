@@ -2,75 +2,14 @@
 # KDE Frameworks 5
 #
 
-# https://projects.kde.org/projects/kdesupport/attica
-# https://projects.kde.org/projects/kdesupport/extra-cmake-modules
-# https://projects.kde.org/projects/frameworks/frameworkintegration
-# https://projects.kde.org/projects/kde/kdelibs/kactivities
-# https://projects.kde.org/projects/frameworks/kapidox
-# https://projects.kde.org/projects/frameworks/karchive
-# https://projects.kde.org/projects/frameworks/kauth
-# https://projects.kde.org/projects/frameworks/kbookmarks
-# https://projects.kde.org/projects/frameworks/kcmutils
-# https://projects.kde.org/projects/frameworks/kcodecs
-# https://projects.kde.org/projects/frameworks/kcompletion
-# https://projects.kde.org/projects/frameworks/kconfig
-# https://projects.kde.org/projects/frameworks/kconfigwidgets
-# http://projects.kde.org/kcoreaddons
-# https://projects.kde.org/projects/frameworks/kcrash
-# https://projects.kde.org/projects/frameworks/kdbusaddons
-# https://projects.kde.org/projects/frameworks/kdeclarative
-# https://projects.kde.org/projects/frameworks/kded
-# https://projects.kde.org/projects/frameworks/portingAids/kdelibs4support
-# https://projects.kde.org/projects/frameworks/kdesignerplugin
-# https://projects.kde.org/projects/frameworks/kdesu
-# https://projects.kde.org/projects/frameworks/kdewebkit
-# https://projects.kde.org/projects/frameworks/kdnssd
-# https://projects.kde.org/projects/frameworks/kdoctools
-# https://projects.kde.org/projects/frameworks/kemoticons
-# https://projects.kde.org/projects/frameworks/kglobalaccel
-# http://projects.kde.org/kguiaddons
-# https://projects.kde.org/projects/frameworks/khtml
-# https://projects.kde.org/projects/frameworks/ki18n
-# https://projects.kde.org/projects/frameworks/kiconthemes
-# https://projects.kde.org/kidletime
-# https://projects.kde.org/projects/frameworks/kimageformats
-# https://projects.kde.org/projects/frameworks/kinit
-# https://projects.kde.org/projects/frameworks/kio
-# https://projects.kde.org/projects/frameworks/kitemmodels
-# https://projects.kde.org/projects/frameworks/kitemviews
-# https://projects.kde.org/projects/frameworks/kjobwidgets
-# https://projects.kde.org/projects/frameworks/kjs
-# https://projects.kde.org/projects/frameworks/kjsembed
-# https://projects.kde.org/projects/frameworks/kmediaplayer
-# https://projects.kde.org/projects/frameworks/knewstuff
-# https://projects.kde.org/projects/frameworks/knotifications
-# https://projects.kde.org/projects/frameworks/knotifyconfig
-# https://projects.kde.org/projects/frameworks/kpackage
-# https://projects.kde.org/projects/frameworks/kparts
-# https://projects.kde.org/projects/frameworks/kplotting
-# https://projects.kde.org/projects/frameworks/kpty
-# https://projects.kde.org/projects/frameworks/kross
-# https://projects.kde.org/projects/frameworks/krunner
-# https://projects.kde.org/projects/frameworks/kservice
-# https://projects.kde.org/projects/frameworks/ktexteditor
-# https://projects.kde.org/projects/frameworks/ktextwidgets
-# https://projects.kde.org/projects/frameworks/kunitconversion
-# https://projects.kde.org/projects/frameworks/kwallet
-# https://projects.kde.org/projects/frameworks/kwidgetsaddons
-# https://projects.kde.org/projects/frameworks/kwindowsystem
-# https://projects.kde.org/projects/frameworks/kxmlgui
-# https://projects.kde.org/projects/frameworks/kxmlrpcclient
-# https://projects.kde.org/projects/kde/frameworks/libnm-qt
-# https://projects.kde.org/projects/frameworks/plasma-framework
-# https://projects.kde.org/projects/kdesupport/prison
-# https://projects.kde.org/projects/frameworks/solid
-# http://projects.kde.org/sonnet
-# https://projects.kde.org/projects/frameworks/threadweaver
-
-unstable/attica-kf5
+unstable/attica
+unstable/baloo
+unstable/bluez-qt
+unstable/breeze-icons
 unstable/extra-cmake-modules
 unstable/frameworkintegration
-unstable/kactivities-kf5
+unstable/kactivities
+unstable/kactivities-stats
 unstable/kapidox
 unstable/karchive
 unstable/kauth
@@ -89,9 +28,9 @@ unstable/kdelibs4support
 unstable/kdesignerplugin
 unstable/kdesu
 unstable/kdewebkit
-unstable/kdnssd-kf5
 unstable/kdoctools
 unstable/kemoticons
+unstable/kfilemetadata
 unstable/kglobalaccel
 unstable/kguiaddons
 unstable/khtml
@@ -112,6 +51,7 @@ unstable/knotifications
 unstable/knotifyconfig
 unstable/kpackage
 unstable/kparts
+unstable/kpeople
 unstable/kplotting
 unstable/kpty
 unstable/kross
@@ -121,13 +61,17 @@ unstable/ktexteditor
 unstable/ktextwidgets
 unstable/kunitconversion
 unstable/kwallet-kf5
+unstable/kwayland
 unstable/kwidgetsaddons
 unstable/kwindowsystem
 unstable/kxmlgui
 unstable/kxmlrpcclient
+unstable/modemmanager-qt
 unstable/networkmanager-qt
+unstable/oxygen-icons5
 unstable/plasma-framework
-unstable/prison-kf5
+unstable/prison
+unstable/purpose
 unstable/solid
 unstable/sonnet
 unstable/threadweaver
