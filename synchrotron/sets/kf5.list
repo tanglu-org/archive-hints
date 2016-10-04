@@ -9,6 +9,7 @@ unstable/breeze-icons
 unstable/extra-cmake-modules
 unstable/frameworkintegration
 unstable/kactivities
+unstable/kactivities-kf5
 unstable/kactivities-stats
 unstable/kapidox
 unstable/karchive
