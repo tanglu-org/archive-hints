@@ -2,13 +2,12 @@
 # KDE Frameworks 5
 #
 
-unstable/attica
+unstable/attica-kf5
 unstable/baloo
 unstable/bluez-qt
 unstable/breeze-icons
 unstable/extra-cmake-modules
 unstable/frameworkintegration
-unstable/kactivities
 unstable/kactivities-kf5
 unstable/kactivities-stats
 unstable/kapidox
